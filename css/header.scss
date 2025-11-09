@@ -18,22 +18,32 @@
 img {
   max-width: 100%;
 }
+/* Full-width black header, centered inner content */
 .container {
   position: fixed;
-  font-family: $sans;
-  background: $dark-gray;
-  width: 100%;
+  top: 0;
+  left: 0;
+  width: 100%;                 /* keep black background full width */
+  background: #404040;         /* dark header color */
+  box-shadow: 0 0 10px 0 #00000040;
+  z-index: 10;
   height: 73px;
-  margin: 0 auto;
-  padding: 0 15px;
+
+  display: flex;
+  justify-content: center;     /* center the inner wrapper */
+  align-items: center;
+  font-family: "Poppins", sans-serif;
+  opacity: 0.95;
+}
+
+/* Inner wrapper that aligns with hero width */
+.container .inner {
+  max-width: 1100px;           /* same as .wrap */
+  width: 100%;
+  padding: 0 16px;
   display: flex;
   align-items: center;
   justify-content: space-between;
-
-  box-shadow: $shadow;
-  text-align: center;
-  z-index: 1;
-  opacity: .90;
 }
 
 #header {
