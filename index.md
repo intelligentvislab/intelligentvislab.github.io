@@ -2,26 +2,25 @@
 title: Home
 ---
 
-<!-- Local page styles (kept inline so you don't have to hunt for files) -->
 <style>
   /* ===== Theme: Blue + Near-Black ===== */
   :root{
-    --ink:#1c1f23;           /* near-black text */
-    --muted:#5f6b76;         /* secondary text */
-    --brand:#2b6cb0;         /* primary blue */
-    --brand-ink:#1f4e84;     /* darker blue for hover */
-    --bg:#f7f9fc;            /* page section background */
-    --card:#ffffff;          /* cards */
-    --line:#e6e8eb;          /* borders/separators */
-    --tint:#edf2fa;          /* pale blue for news cards */
-    --nav-h:78px;            /* header height */
+    --ink:#1c1f23;
+    --muted:#5f6b76;
+    --brand:#2b6cb0;
+    --brand-ink:#1f4e84;
+    --bg:#f7f9fc;
+    --card:#ffffff;
+    --line:#e6e8eb;
+    --tint:#f1f6ff;  /* very soft blue tint for news items */
+    --nav-h:78px;
   }
+  @media (max-width:980px){ :root{ --nav-h:64px; } }
 
-  body main { padding-top: 0 !important; }
+  /* Containers */
+  .wrap{ max-width:1100px; margin:0 auto; padding:0 16px; }
 
-  .wrap{max-width:1100px;margin:0 auto;padding:0 16px}
-
-  /* ===== Hero ===== */
+  /* HERO */
   .hero{
     background:var(--bg);
     margin-top:var(--nav-h);
@@ -30,15 +29,20 @@ title: Home
   }
   .hero h1{
     font:600 1.9rem/1.25 Poppins,system-ui,sans-serif;
-    color:var(--ink); text-align:center; margin:0 0 10px;
+    color:var(--ink);
+    text-align:center;
+    margin:0 0 10px;
     letter-spacing:.02em;
   }
   .hero p{
     font:400 1.05rem/1.6 Lora,Georgia,serif;
-    color:var(--muted); max-width:840px; margin:0 auto; text-align:center;
+    color:var(--muted);
+    max-width:840px;
+    margin:0 auto;
+    text-align:center;
   }
 
-  /* ===== Two-column layout aligned at the top ===== */
+  /* Two-column layout */
   .grid{
     display:grid;
     grid-template-columns:1fr 300px;
@@ -46,17 +50,20 @@ title: Home
     margin:20px 0 28px;
     align-items:start;
   }
-  @media (max-width:980px){ .grid{grid-template-columns:1fr} }
+  @media (max-width:980px){ .grid{ grid-template-columns:1fr; } }
 
-  .section-title{
+  /* Section titles (left aligned accent) */
+  .section-title,
+  .side-title{
     font:700 1.35rem/1.25 Poppins,system-ui,sans-serif;
     color:var(--ink);
     margin:10px 0 16px;
+    text-align:left;
     border-left:4px solid var(--brand);
     padding-left:10px;
   }
 
-  /* ===== Theme cards ===== */
+  /* Themes (left column cards) */
   .theme{
     background:var(--card);
     border:1px solid var(--line);
@@ -70,75 +77,66 @@ title: Home
     color:var(--brand);
     margin:0 0 6px;
   }
-  .theme p{margin:0 0 10px;color:var(--ink)}
-  .theme img{width:100%;border-radius:10px;display:block;margin:8px 0 10px}
-  .theme a{color:var(--brand)} .theme a:hover{color:var(--brand-ink)}
+  .theme p{ margin:0 0 10px; color:var(--ink); }
+  .theme img{ width:100%; border-radius:10px; display:block; margin:8px 0 10px; }
+  .theme a{ color:var(--brand); }
+  .theme a:hover{ color:var(--brand-ink); }
 
-  /* ===== Sidebar ===== */
-  .card{
-    background:var(--card);
-    border:1px solid var(--line);
-    border-radius:12px;
-    padding:12px;
-    box-shadow:0 1px 0 rgba(0,0,0,.03);
-  }
-  .sidebar h3{
-    font:800 1rem/1.2 Poppins,system-ui,sans-serif;
-    margin:2px 0 10px;
-    color:var(--brand);
-    letter-spacing:.02em;
-  }
-
-  /* --- NEWS cards: soft blue, linked text, date footer --- */
+  /* ===== NEWS ===== */
+  .news-wrap{ padding:0; background:transparent; border:none; box-shadow:none; }
   .news-list{ list-style:none; margin:0; padding:0; }
-
   .news-list li{
-    background: var(--tint);
-    border: 1px solid #dfe7f7;
-    padding: 12px 14px 10px;
-    border-radius: 10px;
-    margin: 0 0 10px;
-    display: flex;
-    flex-direction: column;
-    min-height: 72px;
+    background:var(--tint);
+    border:1px solid #e7eefc;
+    padding:12px 12px 10px;
+    border-radius:10px;
+    margin:0 0 10px;
   }
-
   .news-link{
-    display:block;
-    text-decoration:none;
-    color:var(--ink);
-  }
-  .news-link:hover .news-text{
-    color:var(--brand-ink);
-    text-decoration:underline;
-  }
-
-  .news-text{
+    display:inline-block;
     font-size:.95rem;
     line-height:1.45;
     color:var(--ink);
+    text-decoration:none;
   }
-
+  .news-link:hover{ color:var(--brand-ink); text-decoration:underline; }
   .news-date{
-    margin-top:auto;
-    font-size:.85rem;
+    display:block;
+    margin-top:8px;
+    font-size:.9rem;
     color:#9aa3ad;
     letter-spacing:.01em;
   }
 
-  /* ===== PEOPLE grid ===== */
+  /* ===== PEOPLE ===== */
+  .people-wrap{ padding:0; background:transparent; border:none; box-shadow:none; }
   .person-grid{
     display:grid;
     grid-template-columns:repeat(2,1fr);
     gap:8px;
+    margin-bottom:8px;
   }
   .person-grid img{
     width:100%;
     border-radius:10px;
     display:block;
   }
-</style>
+  .people-footer{
+    text-align:right;
+    font-size:.9rem;
+    margin-top:4px;
+  }
+  .people-footer a{
+    color:var(--brand);
+    text-decoration:none;
+  }
+  .people-footer a:hover{
+    color:var(--brand-ink);
+    text-decoration:underline;
+  }
 
+  body main{ padding-top:0 !important; }
+</style>
 
 <!-- HERO -->
 <section class="hero">
@@ -152,9 +150,8 @@ title: Home
   <div class="grid">
     <!-- LEFT COLUMN -->
     <main>
-      <h2 class="section-title">Research Themes</h2>
+      <h2 class="section-title">RESEARCH THEMES</h2>
 
-      <!-- THEME 1 -->
       <article class="theme">
         <h3>LLMs for Visualization Understanding</h3>
         <p>Benchmarks and models for chart comprehension and visual data communication—e.g., ChartQA, Chart-to-Text, and ChartGemma—shaping how multimodal LLMs interpret and explain charts.</p>
@@ -167,7 +164,6 @@ title: Home
         </ul>
       </article>
 
-      <!-- THEME 2 -->
       <article class="theme">
         <h3>Accessible & Inclusive Data Interaction</h3>
         <p>Human-centered, responsible visualization—bias/fairness, deception, and accessibility—to ensure diverse users can explore and communicate data effectively.</p>
@@ -178,7 +174,6 @@ title: Home
         </ul>
       </article>
 
-      <!-- THEME 3 -->
       <article class="theme">
         <h3>Human–AI Interaction for Data Analysis</h3>
         <p>Agentic and interactive AI systems that collaborate with analysts: natural-language interfaces, dashboard QA, and user-adaptive visualizations for real analytical workflows.</p>
@@ -189,8 +184,7 @@ title: Home
         </ul>
       </article>
 
-      <!-- ABOUT -->
-      <section class="card">
+      <section class="theme">
         The Intelligent Visualization Lab was created in 2019 when
         <a href="https://www.yorku.ca/enamulh/">Dr. Enamul Hoque Prince</a> joined York University.
         Our work sits at the intersection of NLP, visualization, and HCI; we design intelligent tools that make data analysis more natural, accessible, and responsible.
@@ -200,44 +194,40 @@ title: Home
     <!-- RIGHT COLUMN -->
     <aside class="sidebar">
       <!-- NEWS -->
-      <section class="card">
-        <h3>NEWS</h3>
+      <section class="news-wrap">
+        <h3 class="side-title">NEWS</h3>
         <ul class="news-list">
           {% assign items = site.data.news | default: empty %}
           {% if items and items.size > 0 %}
             {% for n in items limit:6 %}
               <li>
                 {% if n.link %}
-                  <a class="news-link" href="{{ n.link }}">
-                    <div class="news-text">{{ n.text }}</div>
-                  </a>
+                  <a class="news-link" href="{{ n.link }}">{{ n.text }}</a>
                 {% else %}
-                  <div class="news-text">{{ n.text }}</div>
+                  <span class="news-link">{{ n.text }}</span>
                 {% endif %}
-                {% if n.date %}
-                  <div class="news-date">{{ n.date | date: "%b %Y" }}</div>
-                {% endif %}
+                {% if n.date %}<span class="news-date">{{ n.date | date: "%b %Y" }}</span>{% endif %}
               </li>
             {% endfor %}
           {% else %}
             <li>
-              <div class="news-text">New site launched — more updates soon.</div>
-              <div class="news-date">{{ "now" | date: "%b %Y" }}</div>
+              <span class="news-link">New site launched — more updates soon.</span>
+              <span class="news-date">{{ "now" | date: "%b %Y" }}</span>
             </li>
           {% endif %}
         </ul>
       </section>
 
       <!-- PEOPLE -->
-      <section class="card" style="margin-top:12px">
-        <h3>PEOPLE</h3>
+      <section class="people-wrap" style="margin-top:12px">
+        <h3 class="side-title" style="border-left-color:#0b7a75;">PEOPLE</h3>
         <div class="person-grid">
           <a href="/team"><img src="/images/people/sample1.jpg" alt="Team member"></a>
           <a href="/team"><img src="/images/people/sample2.jpg" alt="Team member"></a>
           <a href="/team"><img src="/images/people/sample3.jpg" alt="Team member"></a>
           <a href="/team"><img src="/images/people/sample4.jpg" alt="Team member"></a>
         </div>
-        <div style="text-align:right;margin-top:8px"><a href="/team">See all →</a></div>
+        <div class="people-footer"><a href="/team">See all →</a></div>
       </section>
     </aside>
   </div>
