@@ -1,0 +1,6 @@
+ul { margin: 20px 0; padding-left: 20px; list-style-type: square; }
+ul:first-child { margin-top: 0; }
+ul:last-child { margin-bottom: 0; }
+ul li { margin: 10px 0; }
+ul li:first-child { margin-top: 0; }
+ul li:last-child { margin-bottom: 0; }

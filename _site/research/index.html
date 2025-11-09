@@ -1,0 +1,691 @@
+<html>
+  <head>
+  <title>
+    Intelligent Visualization Lab - Research
+  </title>
+<!--  <meta name="viewport" content="width=device-width, initial-scale=1" />-->
+  <meta name="viewport" content="width=device-width,height=device-height,initial-scale=1.0"/>
+
+  
+
+<!-- https://metatags.io/ -->
+<meta name="title" content="
+Intelligent Visualization Lab - Research
+" />
+<meta name="description" content="An easy-to-use, flexible website template for labs, with automatic citations, GitHub tag imports, pre-built components, and more." />
+<meta property="og:type" content="website" />
+<meta property="og:url" content="" />
+<meta property="og:title" content="
+Intelligent Visualization Lab - Research
+" />
+<meta property="og:description" content="An easy-to-use, flexible website template for labs, with automatic citations, GitHub tag imports, pre-built components, and more." />
+<meta property="twitter:card" content="summary_large_image" />
+<meta property="twitter:url" content="" />
+<meta property="twitter:title" content="
+Intelligent Visualization Lab - Research
+" />
+<meta property="twitter:description" content="An easy-to-use, flexible website template for labs, with automatic citations, GitHub tag imports, pre-built components, and more." />
+
+<!-- RSS -->
+<link
+  rel="alternate"
+  type="application/rss+xml"
+  href="http://localhost:4000/feed.xml"
+/>
+
+<!-- https://developers.google.com/web/fundamentals/native-hardware/click-to-call#disable_auto-detection_when_necessary -->
+<meta name="format-detection" content="telephone=no" />
+
+  <!-- https://realfavicongenerator.net/ -->
+<link
+  rel="apple-touch-icon"
+  sizes="180x180"
+  href="/icons/ios.png"
+/>
+<link
+  rel="icon"
+  type="image/png"
+  sizes="512x512"
+  href="/icons/favicon.png"
+/>
+<link rel="manifest" href="/icons/site.webmanifest" />
+
+<!-- https://metatags.io/ -->
+<meta
+  property="og:image"
+  content="/icons/share-thumbnail.jpg"
+/>
+<meta
+  property="twitter:image"
+  content="/icons/share-thumbnail.jpg"
+/>
+
+  <!-- Google Fonts -->
+<link
+  href="https://fonts.googleapis.com/css2?family=Lora&display=swap"
+  rel="stylesheet"
+/>
+<link
+  href="https://fonts.googleapis.com/css2?family=Poppins&display=swap"
+  rel="stylesheet"
+/>
+<link
+  href="https://fonts.googleapis.com/css2?family=Cousine&display=swap"
+  rel="stylesheet"
+/>
+<!-- Font Awesome (icons) -->
+<link
+  href="https://use.fontawesome.com/releases/v5.13.1/css/all.css"
+  rel="stylesheet"
+/>
+
+  <!-- site-wide css styles -->
+<link href="/css/all.css" rel="stylesheet" />
+<link href="/css/anchor.css" rel="stylesheet" />
+<link href="/css/background.css" rel="stylesheet" />
+<link href="/css/big-link.css" rel="stylesheet" />
+<link href="/css/card.css" rel="stylesheet" />
+<link href="/css/card-search.css" rel="stylesheet" />
+<link href="/css/centerer.css" rel="stylesheet" />
+<link href="/css/code.css" rel="stylesheet" />
+<link href="/css/feature.css" rel="stylesheet" />
+<link href="/css/figure.css" rel="stylesheet" />
+<link href="/css/footer.css" rel="stylesheet" />
+<link href="/css/header.css" rel="stylesheet" />
+<link href="/css/heading.css" rel="stylesheet" />
+<link href="/css/highlight.css" rel="stylesheet" />
+<link href="/css/icon.css" rel="stylesheet" />
+<link href="/css/image.css" rel="stylesheet" />
+<link href="/css/gallery.css" rel="stylesheet" />
+<link href="/css/link.css" rel="stylesheet" />
+<link href="/css/list.css" rel="stylesheet" />
+<link href="/css/paragraph.css" rel="stylesheet" />
+<link href="/css/paper-link.css" rel="stylesheet" />
+<link href="/css/portrait.css" rel="stylesheet" />
+<link href="/css/post-info.css" rel="stylesheet" />
+<link href="/css/post-nav.css" rel="stylesheet" />
+<link href="/css/role.css" rel="stylesheet" />
+<link href="/css/rule.css" rel="stylesheet" />
+<link href="/css/section.css" rel="stylesheet" />
+<link href="/css/social-link.css" rel="stylesheet" />
+<link href="/css/table.css" rel="stylesheet" />
+<link href="/css/tags.css" rel="stylesheet" />
+<link href="/css/tooltip.css" rel="stylesheet" />
+<link href="/css/util.css" rel="stylesheet" />
+
+<!-- styles based on page variables -->
+<style>
+  :root {
+    --background: url("/images/test-tube.jpg");
+  }
+</style>
+
+  <!-- third party scripts -->
+<script src="https://unpkg.com/@popperjs/core@2"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/mark.js/8.11.1/mark.min.js"></script>
+
+<!-- set dummy functions in case third party scripts cant load to avoid errors -->
+<script>
+  if (typeof Popper === "undefined") {
+    Popper = {
+      createPopper: () => {
+        destroy: () => null;
+      },
+    };
+  }
+  if (typeof Mark === "undefined")
+    Mark = {
+      unmark: () => null,
+      mark: () => null,
+    };
+</script>
+
+<!-- site-wide javascript scripts -->
+<script src="/js/anchors.js"></script>
+<script src="/js/fetch-tags.js"></script>
+<script src="/js/card-search.js"></script>
+<script src="/js/tooltips.js"></script>
+
+</head>
+
+  <body>
+    <header>
+  <div class="container">
+    <div class="header_left">
+      <a
+              href="/"
+              class="logo_row"
+      >
+      <span class="logo">
+  <!--
+
+<svg
+  xmlns="http://www.w3.org/2000/svg"
+  viewBox="-25 -25 150 150"
+  style="overflow: visible;"
+>
+  <style>
+    .experiment_liquid {
+      animation: experiment_liquid 2s ease-in-out forwards infinite;
+    }
+    @keyframes experiment_liquid {
+      0% {
+        transform: translateY(100px) scaleY(1) translateY(-100px);
+      }
+      20% {
+        transform: translateY(100px) scaleY(0.7) translateY(-100px);
+      }
+      80% {
+        transform: translateY(100px) scaleY(1.3) translateY(-100px);
+      }
+      100% {
+        transform: translateY(100px) scaleY(1) translateY(-100px);
+      }
+    }
+    .experiment_liquid[data-number="1"] {
+      animation-delay: 0s;
+    }
+    .experiment_liquid[data-number="2"] {
+      animation-delay: 0.5s;
+    }
+    .experiment_bubble {
+      animation: experiment_bubble 2s ease forwards infinite;
+    }
+    @keyframes experiment_bubble {
+      0% {
+        transform: translateY(0px);
+      }
+      50% {
+        transform: translateY(-110px);
+      }
+    }
+    .experiment_bubble[data-number="1"] {
+      animation-delay: 0s;
+    }
+    .experiment_bubble[data-number="2"] {
+      animation-delay: 0.5s;
+    }
+    .experiment_bubble[data-number="3"] {
+      animation-delay: 1s;
+    }
+  </style>
+  <path
+    fill="none"
+    stroke="currentColor"
+    stroke-width="7.5"
+    d="
+      M 10 5
+      L 10 80
+      A 12 12 0 0 0 34 80
+      L 34 5
+      z
+      M 0 5
+      L 45 5
+    "
+  />
+  <path
+    class="experiment_liquid"
+    data-number="1"
+    fill="currentColor"
+    d="
+      M 10 45
+      L 10 80
+      A 12 12 0 0 0 34 80
+      L 34 45
+      z
+    "
+  />
+  <path
+    fill="none"
+    stroke="currentColor"
+    stroke-width="7.5"
+    d="
+      M 65 5
+      L 65 80
+      A 12 12 0 0 0 89 80
+      L 89 5
+      z
+      M 55 5
+      L 100 5
+    "
+  />
+  <path
+    class="experiment_liquid"
+    data-number="2"
+    fill="currentColor"
+    d="
+      M 65 65
+      L 65 80
+      A 12 12 0 0 0 89 80
+      L 89 65
+      z
+    "
+  />
+  <circle
+    class="experiment_bubble"
+    data-number="1"
+    fill="currentColor"
+    cx="22"
+    cy="80"
+    r="5"
+    transform="scale(0)"
+  />
+  <circle
+    class="experiment_bubble"
+    data-number="2"
+    fill="currentColor"
+    cx="77"
+    cy="80"
+    r="5"
+    transform="scale(0)"
+  />
+  <circle
+    class="experiment_bubble"
+    data-number="3"
+    fill="currentColor"
+    cx="77"
+    cy="80"
+    r="5"
+    transform="scale(0)"
+  />
+</svg>
+-->
+         <img src="/images/logo.png"/>
+      </span>
+<!--      <span class="logo_text">Intelligent Visualization Lab</span>-->
+      </a>
+    </div>
+    <div class="header_right">
+      <a href="#!" class="nav_ico"><img src="/images/nav-icon.png" alt="nav icon"></a>
+      <nav class="main_nav">
+        <ul>
+          <li><a href="/"
+                class="nav_link"
+                data-tooltip="Homepage"
+                data-placement="bottom"
+                data-delay="400"
+          >Home</a></li>
+          <li><a href="/research"
+                class="nav_link"
+                data-tooltip="Published works"
+                data-placement="bottom"
+                data-delay="400"
+          >Publications</a></li>
+<!--          <li><a href="/resources"-->
+<!--                 class="nav_link"-->
+<!--                 data-tooltip="Tools, datasets, and more"-->
+<!--                 data-placement="bottom"-->
+<!--                 data-delay="400"-->
+
+<!--          >Resources</a></li>-->
+          <li><a href="/team"
+                 class="nav_link"
+                 data-tooltip="About our team"
+                 data-placement="bottom"
+                 data-delay="400"
+
+          >Team</a></li>
+          <li><a href="/projects"
+                 class="nav_link"
+                 data-tooltip="Ongoing projects"
+                 data-placement="bottom"
+                 data-delay="400"
+
+          >Projects</a></li>
+          <li><a href="/contact"
+                 class="nav_link"
+                 data-tooltip="Email, mailing address, and location"
+                 data-placement="bottom"
+                 data-delay="400"
+
+          >Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+
+  </div>
+
+</header>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script type="text/javascript" src="/js/custom.js"></script>
+
+
+    <main>
+      <section>
+  <div class='section'>
+    <h1 id="publication-list"><i class="fas fa-microscope"></i>Publication List</h1>
+
+<div class="card_search">
+  <div class="card_search_box">
+    <input class="card_search_input" />
+    <i class="fas fa-search"></i>
+  </div>
+  <div class="card_search_info">
+    Showing <span class="card_search_count">all</span> papers
+  </div>
+</div>
+
+</div></section><section><div class='section'>
+
+<h3 class="card_search_hide" id="2021">2021</h3>
+
+<div class="card" data-size="small">
+  
+  <a href="https://doi.org/gj7645" class="card_image"><img src="https://ieeexplore.ieee.org/mediastore_new/IEEE/content/media/6287639/9312710/9303381/hoque2-3046623-small.gif" onerror="this.src = '/images/placeholder.svg'; this.onerror = null;" /></a>
+  <div class="card_text">
+    
+    <a href="https://doi.org/gj7645" class="card_title">Designing and Evaluating Multimodal Interactions for Facilitating Visual Analysis With Dashboards</a>
+    <p class="truncate" tabindex="0">Imran Chowdhury, Abdul Moeid, Enamul Hoque, Muhammad Ashad Kabir, Md. Sabir Hossain, Mohammad Mainul Islam
+</p><p class="truncate" tabindex="0">IEEE Access  ·  01 Jan 2021
+</p><div class="tags">
+  
+  <span class="tag">Data visualization</span>
+  
+  <span class="tag">Visualization</span>
+  
+  <span class="tag">Natural languages</span>
+  
+  <span class="tag">Task analysis</span>
+  
+  <span class="tag">Mice</span>
+  
+  <span class="tag">COVID-19</span>
+  
+  <span class="tag">Tools</span>
+  
+</div>
+</div>
+</div>
+
+<h3 class="card_search_hide" id="2020">2020</h3>
+
+<div class="card" data-size="small">
+  
+  <a href="https://arxiv.org/abs/2010.09142" class="card_image"><img src="/images/placeholder.svg" /></a>
+  <div class="card_text">
+    
+    <a href="https://arxiv.org/abs/2010.09142" class="card_title">Chart-to-Text: Generating Natural Language Descriptions for Charts by Adapting the Transformer Model</a>
+    <p class="truncate" tabindex="0">Jason Obeid, Enamul Hoque
+</p><p class="truncate" tabindex="0">arXiv  ·  01 Dec 2020
+</p><div class="tags" data-repo="https://github.com/JasonObeid/Chart2Text">
+  
+  <span class="tag">Chart Summarization</span>
+  
+  <span class="tag">NLP</span>
+  
+</div>
+<div><a href="https://github.com/JasonObeid/Chart2Text" class="paper_link"><i class="fas fa-code"></i>Source</a>
+</div>
+</div>
+</div>
+
+<div class="card" data-size="small">
+  
+  <a href="http://arxiv.org/abs/2011.01421" class="card_image"><img src="/images/placeholder.svg" /></a>
+  <div class="card_text">
+    
+    <a href="http://arxiv.org/abs/2011.01421" class="card_title">WSL-DS: Weakly Supervised Learning with Distant Supervision for Query Focused Multi-Document Abstractive Summarization</a>
+    <p class="truncate" tabindex="0">Md Tahmid Rahman Laskar, Enamul Hoque, Jimmy Xiangji Huang
+</p><p class="truncate" tabindex="0">arXiv:2011.01421 [cs]  ·  02 Nov 2020
+</p><div class="tags">
+  
+  <span class="tag">Computation and Language (cs.CL);</span>
+  
+  <span class="tag">Information Retrieval (cs.IR)</span>
+  
+</div>
+<div><a href="https://github.com/tahmedge/WSL-DS-COLING-2020" class="paper_link"><i class="fas fa-code"></i>Source</a>
+</div>
+</div>
+</div>
+
+<div class="card" data-size="small">
+  
+  <a href="https://doi.org/gj9db3" class="card_image"><img src="https://dl.acm.org/cms/asset/d3dbbc65-153c-4f4f-a615-37f87e8e2d4b/3379337.3415813.key.jpg" onerror="this.src = '/images/placeholder.svg'; this.onerror = null;" /></a>
+  <div class="card_text">
+    
+    <a href="https://doi.org/gj9db3" class="card_title">Sneak Pique</a>
+    <p class="truncate" tabindex="0">Vidya Setlur, Enamul Hoque, Dae Hyun Kim, Angel X. Chang
+</p><p class="truncate" tabindex="0">Association for Computing Machinery (ACM)  ·  20 Oct 2020
+</p><div class="tags">
+  
+  <span class="tag">autocompletion</span>
+  
+  <span class="tag">data preview</span>
+  
+  <span class="tag">natural language interaction</span>
+  
+  <span class="tag">visual analysis.</span>
+  
+</div>
+<div><a href="https://dl.acm.org/action/downloadSupplement?doi=10.1145%2F3379337.3415813&amp;file=ufp1378aux.zip" class="paper_link"><i class="fas fa-code"></i>Source</a>
+</div>
+</div>
+</div>
+
+<div class="card" data-size="small">
+  
+  <a href="https://doi.org/gj9db2" class="card_image"><img src="https://ieeexplore.ieee.org/mediastore_new/IEEE/content/media/9329359/9331017/9331280/uddin1-p5-uddin-small.gif" onerror="this.src = '/images/placeholder.svg'; this.onerror = null;" /></a>
+  <div class="card_text">
+    
+    <a href="https://doi.org/gj9db2" class="card_title">ClaimViz: Visual Analytics for Identifying and Verifying Factual Claims</a>
+    <p class="truncate" tabindex="0">Md Main Uddin Rony, Enamul Hoque, Naeemul Hassan
+</p><p class="truncate" tabindex="0">Institute of Electrical and Electronics Engineers (IEEE)  ·  01 Oct 2020
+</p><div class="tags">
+  
+  <span class="tag">Human-centered computing</span>
+  
+  <span class="tag">Visualization</span>
+  
+  <span class="tag">Visualization design and evaluation methods</span>
+  
+</div>
+</div>
+</div>
+
+<div class="card" data-size="small">
+  
+  <a href="https://www.aclweb.org/anthology/2020.lrec-1.676" class="card_image"><img src="/images/placeholder.svg" /></a>
+  <div class="card_text">
+    
+    <a href="https://www.aclweb.org/anthology/2020.lrec-1.676" class="card_title">Contextualized Embeddings based Transformer Encoder for Sentence Similarity Modeling in Answer Selection Task</a>
+    <p class="truncate" tabindex="0">Md Tahmid Rahman Laskar, Jimmy Xiangji Huang, Enamul Hoque
+</p><p class="truncate" tabindex="0">Proceedings of the 12th Language Resources and Evaluation Conference  ·  01 May 2020
+</p><div class="tags">
+  
+  <span class="tag">Answer Selection</span>
+  
+  <span class="tag">Transformer Encoder</span>
+  
+  <span class="tag">Contextualized Embeddings</span>
+  
+  <span class="tag">ELMo</span>
+  
+  <span class="tag">BERT</span>
+  
+  <span class="tag">RoBERTa</span>
+  
+  <span class="tag">Deep Learning</span>
+  
+</div>
+</div>
+</div>
+
+<div class="card" data-size="small">
+  
+  <a href="https://doi.org/gj9db4" class="card_image"><img src="https://dhkim16.github.io/vis-qa/img/qa-examples.png" onerror="this.src = '/images/placeholder.svg'; this.onerror = null;" /></a>
+  <div class="card_text">
+    
+    <a href="https://doi.org/gj9db4" class="card_title">Answering Questions about Charts and Generating Visual Explanations</a>
+    <p class="truncate" tabindex="0">Dae Hyun Kim, Enamul Hoque, Maneesh Agrawala
+</p><p class="truncate" tabindex="0">Association for Computing Machinery (ACM)  ·  21 Apr 2020
+</p><div class="tags" data-repo="https://github.com/dhkim16/VisQA-release">
+  
+  <span class="tag">Question answering</span>
+  
+  <span class="tag">Visualization</span>
+  
+  <span class="tag">Explainable AI</span>
+  
+</div>
+</div>
+</div>
+
+<div class="card" data-size="small">
+  
+  <a href="https://link.springer.com/chapter/10.1007/978-3-030-47358-7_35" class="card_image"><img src="/images/placeholder.svg" /></a>
+  <div class="card_text">
+    
+    <a href="https://link.springer.com/chapter/10.1007/978-3-030-47358-7_35" class="card_title">Query Focused Abstractive Summarization via Incorporating Query Relevance and Transfer Learning with Transformer Models</a>
+    <p class="truncate" tabindex="0">Md Tahmid Rahman Laskar, Enamul Hoque, Jimmy Huang
+</p><p class="truncate" tabindex="0">Advances in Artificial Intelligence  ·  01 Jan 2020
+</p><div class="tags">
+  
+  <span class="tag">Query</span>
+  
+  <span class="tag">Abtractive summarization</span>
+  
+  <span class="tag">Transformer</span>
+  
+  <span class="tag">BERT</span>
+  
+</div>
+</div>
+</div>
+
+<h3 class="card_search_hide" id="2019">2019</h3>
+
+<div class="card" data-size="small">
+  
+  <a href="https://doi.org/gh525d" class="card_image"><img src="https://www.yorku.ca/enamulh/vis-search/img/teaser_scatter_plot_contrast.png" onerror="this.src = '/images/placeholder.svg'; this.onerror = null;" /></a>
+  <div class="card_text">
+    
+    <a href="https://doi.org/gh525d" class="card_title">Searching the Visual Style and Structure of D3 Visualizations</a>
+    <p class="truncate" tabindex="0">Enamul Hoque, Maneesh Agrawala
+</p><p class="truncate" tabindex="0">IEEE Transactions on Visualization and Computer Graphics  ·  01 Jan 2019
+</p><div class="tags">
+  
+  <span class="tag">Visualization search engine</span>
+  
+  <span class="tag">Visualization design</span>
+  
+  <span class="tag">Vearch user interfaces</span>
+  
+</div>
+</div>
+</div>
+
+<h3 class="card_search_hide" id="2018">2018</h3>
+
+<div class="card" data-size="small">
+  
+  <a href="https://doi.org/gj9dbx" class="card_image"><img src="/images/placeholder.svg" /></a>
+  <div class="card_text">
+    
+    <a href="https://doi.org/gj9dbx" class="card_title">Interactive topic hierarchy revision for exploring a collection of online conversations</a>
+    <p class="truncate" tabindex="0">Enamul Hoque, Giuseppe Carenini
+</p><p class="truncate" tabindex="0">Information Visualization  ·  23 Feb 2018
+</p><div class="tags">
+  
+  <span class="tag">Visual text analytics</span>
+  
+  <span class="tag">Text visualization</span>
+  
+  <span class="tag">Interactive topic modeling</span>
+  
+  <span class="tag">Asynchronous conversations</span>
+  
+  <span class="tag">Computer-mediated communication</span>
+  
+</div>
+</div>
+</div>
+
+<div class="card" data-size="small">
+  
+  <a href="https://doi.org/gcp7wd" class="card_image"><img src="https://ieeexplore.ieee.org/mediastore_new/IEEE/content/media/2945/8165924/8019833/24tvcg01-setlur-2744684-fig-1-source-small.gif" onerror="this.src = '/images/placeholder.svg'; this.onerror = null;" /></a>
+  <div class="card_text">
+    
+    <a href="https://doi.org/gcp7wd" class="card_title">Applying Pragmatics Principles for Interaction with Visual Analytics</a>
+    <p class="truncate" tabindex="0">Enamul Hoque, Vidya Setlur, Melanie Tory, Isaac Dykeman
+</p><p class="truncate" tabindex="0">IEEE Transactions on Visualization and Computer Graphics  ·  01 Jan 2018
+</p><div class="tags">
+  
+  <span class="tag">natural language</span>
+  
+  <span class="tag">interaction</span>
+  
+  <span class="tag">language pragmatics</span>
+  
+  <span class="tag">visual analytics</span>
+  
+  <span class="tag">ambiguity</span>
+  
+  <span class="tag">feedback</span>
+  
+</div>
+</div>
+</div>
+
+<h3 class="card_search_hide" id="2016">2016</h3>
+
+<div class="card" data-size="small">
+  
+  <a href="https://doi.org/ggfbbw" class="card_image"><img src="/images/placeholder.svg" /></a>
+  <div class="card_text">
+    
+    <a href="https://doi.org/ggfbbw" class="card_title">Interactive Topic Modeling for Exploring Asynchronous Online Conversations</a>
+    <p class="truncate" tabindex="0">Enamul Hoque, Giuseppe Carenini
+</p><p class="truncate" tabindex="0">ACM Transactions on Interactive Intelligent Systems  ·  05 May 2016
+</p><div><a href="https://dl.acm.org/action/downloadSupplement?doi=10.1145%2F2854158&amp;file=hoque.zip" class="paper_link"><i class="fas fa-code"></i>Source</a>
+</div>
+</div>
+</div>
+
+<h3 class="card_search_hide" id="2015">2015</h3>
+
+<div class="card" data-size="small">
+  
+  <a href="https://doi.org/gj9dbz" class="card_image"><img src="https://www.cs.ubc.ca/cs-research/lci/research-groups/natural-language-processing/image/convis/3.jpg" onerror="this.src = '/images/placeholder.svg'; this.onerror = null;" /></a>
+  <div class="card_text">
+    
+    <a href="https://doi.org/gj9dbz" class="card_title">ConVisIT</a>
+    <p class="truncate" tabindex="0">Enamul Hoque, Giuseppe Carenini
+</p><p class="truncate" tabindex="0">Association for Computing Machinery (ACM)  ·  18 Mar 2015
+</p><div><a href="https://github.com/enamulubc/ConVis" class="paper_link"><i class="fas fa-code"></i>Source</a>
+</div>
+</div>
+</div>
+
+
+  </div>
+</section>
+
+    </main>
+    <footer>
+  <div class="footer_row"><a href="/contact" class="social_link" data-tooltip="Contact" aria-label="Contact">
+  <i class="fas fa-envelope fa-lg"></i>
+</a>
+<a href="https://github.com/enamulh" class="social_link" data-tooltip="GitHub" aria-label="GitHub">
+  <i class="fab fa-github fa-lg"></i>
+</a>
+<a href="https://twitter.com/Enamul_Hoque" class="social_link" data-tooltip="Twitter" aria-label="Twitter">
+  <i class="fab fa-twitter fa-lg"></i>
+</a>
+<a href="https://scholar.google.com/citations?hl=en&user=NySeLFcAAAAJ" class="social_link" data-tooltip="Google Scholar" aria-label="Google Scholar">
+  <i class="fab fa-google fa-lg"></i>
+</a>
+<!--<a href="https://instagram.com/" class="social_link" data-tooltip="Instagram" aria-label="Instagram">
+  <i class="fab fa-instagram fa-lg"></i>
+</a>
+--></div>
+  <br/>
+  <div class="copyright">
+    &copy; <script>document.write(new Date().getFullYear())</script> Intelligent Visualization Lab
+
+  </div>
+</footer>
+
+  </body>
+</html>

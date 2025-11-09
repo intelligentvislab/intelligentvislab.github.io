@@ -1,0 +1,5 @@
+.centerer { display: flex; justify-content: center; align-items: flex-start; flex-wrap: wrap; margin: 20px 0; }
+.centerer:first-child { margin-top: 0; }
+.centerer:last-child { margin-bottom: 0; }
+.centerer > * { text-align: center; }
+.centerer[data-spaced="true"] > * { margin: 10px; }

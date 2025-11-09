@@ -1,0 +1,2 @@
+.paper_link { display: inline-flex; justify-content: center; align-items: center; padding: 5px 10px; max-width: 100%; text-decoration: none; }
+.paper_link > i, .paper_link > svg { margin-right: 8px; }
