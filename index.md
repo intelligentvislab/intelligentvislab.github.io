@@ -24,7 +24,7 @@ title: Home
   .hero{
     background:var(--bg);
     margin-top:var(--nav-h);
-    padding:40px 0 28px;
+    padding:5px 0 10px;
     border-radius:12px;
   }
   .hero h1{
@@ -33,6 +33,7 @@ title: Home
     text-align:center;
     margin:0 0 10px;
     letter-spacing:.02em;
+    text-transform:none;          /* disables all-caps to soften tone */
   }
   .hero p{
     font:400 1.05rem/1.6 Lora,Georgia,serif;
@@ -142,7 +143,10 @@ title: Home
 <section class="hero">
   <div class="wrap">
     <h1>Connecting language, visualization, and intelligence to help humans see and think with data.</h1>
-    <p>Our lab bridges <b>Natural Language Processing (NLP)</b> and <b>Information Visualization (Vis)</b>—two domains that have historically evolved separately—to advance language-based data interaction and reasoning that is more accessible, inclusive, and intelligent.</p>
+<p>
+             Established in <b>2019</b> at <a href="https://www.yorku.ca/" target="_blank" rel="noopener noreferrer"><b>York University</b></a>, our lab bridges <b>Natural Language Processing (NLP)</b> and <b>Information Visualization (Vis)</b>—two domains that have historically evolved separately—to advance language-based data interaction and reasoning that is more accessible, inclusive, and intelligent.
+
+</p>
   </div>
 </section>
 
@@ -183,17 +187,10 @@ title: Home
           <li><a href="/research/?search=NL%20Interaction">Natural-Language Interaction with Data &amp; Visualizations</a></li>
         </ul>
       </article>
-
-      <section class="theme">
-        The Intelligent Visualization Lab was created in 2019 when
-        <a href="https://www.yorku.ca/enamulh/">Dr. Enamul Hoque Prince</a> joined York University.
-        Our work sits at the intersection of NLP, visualization, and HCI; we design intelligent tools that make data analysis more natural, accessible, and responsible.
-      </section>
     </main>
 
     <!-- RIGHT COLUMN -->
     <aside class="sidebar">
-      <!-- NEWS -->
       <section class="news-wrap">
         <h3 class="side-title">NEWS</h3>
         <ul class="news-list">
@@ -218,7 +215,6 @@ title: Home
         </ul>
       </section>
 
-      <!-- PEOPLE -->
       <section class="people-wrap" style="margin-top:12px">
         <h3 class="side-title" style="border-left-color:#0b7a75;">PEOPLE</h3>
         <div class="person-grid">
