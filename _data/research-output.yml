@@ -1,19 +1,669 @@
-- title: 'WSL-DS: Weakly Supervised Learning with Distant Supervision for Query Focused
-    Multi-Document Abstractive Summarization'
+- title: Large Language Models for Information Visualization
+  authors:
+  - Enamul Hoque
+  publisher: Springer
+  date: '2025-01-01'
+  tags:
+  - large language models
+  - information visualization
+  - data storytelling
+  - human-AI collaboration
+
+- title: 'AuthorNet: Leveraging Attention-Based Early Fusion of Transformers for Low-Resource
+    Authorship Attribution'
+  authors:
+  - Md. Rajib Hossain
+  - Mohammed Moshiul Hoque
+  - M. Ali Akber Dewan
+  - Enamul Hoque
+  - Nazmul Siddique
+  publisher: Expert Systems with Applications
+  date: '2025-01-01'
+  link: https://doi.org/10.1016/j.eswa.2024.125643
+  id: https://doi.org/10.1016/j.eswa.2024.125643
+  tags:
+  - authorship attribution
+  - transformers
+  - low-resource languages
+  - attention mechanisms
+  - text classification
+
+- title: 'AFuNet: An Attention-Based Fusion Network to Classify Texts in a Resource-Constrained
+    Language'
+  authors:
+  - Md. Rajib Hossain
+  - Mohammed Moshiul Hoque
+  - M. Ali Akber Dewan
+  - Enamul Hoque
+  - Nazmul Siddique
+  publisher: Neural Computing and Applications
+  date: '2025-01-01'
+  link: https://doi.org/10.1007/s00521-024-10953-1
+  id: https://doi.org/10.1007/s00521-024-10953-1
+  tags:
+  - text classification
+  - fusion networks
+  - attention
+  - Bengali NLP
+  - low-resource NLP
+
+- title: 'Deploying Tiny LVLM Judges for Real-World Evaluation of Chart Models: Lessons
+    Learned and Best Practices'
+  authors:
+  - Md Tahmid Rahman Laskar
+  - Mohammed Saidul Islam
+  - Ridwan Mahbub
+  - Mizanur Rahman
+  - Amran Bhuiyan
+  - Israt Jahan
+  - Mir Tafseer Nayeem
+  - Shafiq Joty
+  - Enamul Hoque
+  - Jimmy Huang
+  publisher: EMNLP 2025 (Industry Track)
+  date: '2025-01-01'
+  link: https://arxiv.org/abs/2510.07545
+  id: https://arxiv.org/abs/2510.07545
+  tags:
+  - vision-language models
+  - chart evaluation
+  - LLM-as-a-judge
+  - model evaluation
+  - efficiency
+
+- title: 'ColMate: Contrastive Late Interaction and Masked Text for Multimodal Document
+    Retrieval'
+  authors:
+  - Ahmed Masry
+  - Megh Thakkar
+  - Patrice Bechard
+  - Sathwik Tejaswi Madhusudhan
+  - Rabiul Awal
+  - Shambhavi Mishra
+  - Akshay Kalkunte Suresh
+  - Srivatsava Daruru
+  - Enamul Hoque
+  - Spandana Gella
+  - Torsten Scholak
+  - Sai Rajeswar
+  publisher: EMNLP 2025 (Industry Track)
+  date: '2025-01-01'
+  tags:
+  - responsible visualization
+  - chart generation
+  - narrative generation
+  - human-AI collaboration
+
+- title: 'Text2Vis: A Challenging and Diverse Benchmark for Generating Multimodal
+    Visualizations from Text'
+  authors:
+  - Mizanur Rahman
+  - Md Tahmid Rahman Laskar
+  - Shafiq Joty
+  - Enamul Hoque
+  publisher: EMNLP 2025
+  date: '2025-01-01'
+  link: https://aclanthology.org/2025.emnlp-main.1622.pdf
+  id: https://aclanthology.org/2025.emnlp-main.1622.pdf
+  tags:
+  - text-to-visualization
+  - large language models
+  - chart generation
+  - data visualization
+
+- title: 'AlignVLM: Rethinking LLM-as-a-Judge for Fair Evaluation of Chart Reasoning'
+  authors:
+  - Ahmed Masry
+  - Juan A. Rodriguez
+  - Tianyu Zhang
+  - Suyuchen Wang
+  - Chao Wang
+  - Aarash Feizi
+  - Akshay Kalkunte Suresh
+  - Abhay Puri
+  - Xiangru Jian
+  - Pierre-André Noël
+  - Sathwik Tejaswi Madhusudhan
+  - Marco Pedersoli
+  - Bang Liu
+  - Nicolas Chapados
+  - Yoshua Bengio
+  - Enamul Hoque
+  - Christopher Pal
+  - Issam H. Laradji
+  - David Vazquez
+  - Perouz Taslakian
+  - Spandana Gella
+  - Sai Rajeswar
+  publisher: NeurIPS 2025
+  date: '2025-01-01'
+  link: https://arxiv.org/abs/2502.01341
+  id: https://arxiv.org/abs/2502.01341
+  tags:
+  - vision-language models
+  - fair evaluation
+  - chart reasoning
+  - LLM-as-a-judge
+
+- title: 'The Perils of Chart Deception: How Misleading Visualizations Affect Vision-Language
+    Models'
+  authors:
+  - Ridwan Mahbub
+  - Mohammed Saidul Islam
+  - Md Tahmid Rahman Laskar
+  - Mizanur Rahman
+  - Mir Tafseer Nayeem
+  - Enamul Hoque
+  publisher: IEEE VIS 2025 (Short Paper)
+  date: '2025-01-01'
+  link: https://ieeevis.org/year/2025/program/paper_1628b4eb-473e-4157-9d19-44990b75efc7.html
+  id: https://ieeevis.org/year/2025/program/paper_1628b4eb-473e-4157-9d19-44990b75efc7.html
+  tags:
+  - misleading visualizations
+  - chart deception
+  - vision-language models
+  - robustness
+  - ethics
+
+- title: 'From Charts to Fair Narratives: Uncovering and Mitigating Geo-Economic Biases
+    in Chart-to-Text'
+  authors:
+  - Ridwan Mahbub
+  - Mohammed Saidul Islam
+  - Mir Tafseer Nayeem
+  - Md Tahmid Rahman Laskar
+  - Mizanur Rahman
+  - Shafiq Joty
+  - Enamul Hoque
+  publisher: EMNLP 2025
+  date: '2025-01-01'
+  link: https://aclanthology.org/2025.emnlp-main.1472/
+  id: https://aclanthology.org/2025.emnlp-main.1472/
+  tags:
+  - chart-to-text
+  - bias mitigation
+  - fairness
+  - geo-economic bias
+  - narrative generation
+
+- title: 'BigCharts-R1: Enhanced Chart Reasoning with Visual Reinforcement Fine-Tuning'
+  authors:
+  - Ahmed Masry
+  - Abhay Puri
+  - Masoud Hashemi
+  - Juan A. Rodriguez
+  - Megh Thakkar
+  - Khyati Mahajan
+  - Vikas Yadav
+  - Sathwik Tejaswi Madhusudhan
+  - Alexandre Piché
+  - Dzmitry Bahdanau
+  - Christopher Pal
+  - David Vazquez
+  - Enamul Hoque
+  - Perouz Taslakian
+  - Sai Rajeswar
+  - Spandana Gella
+  publisher: COLM 2025
+  date: '2025-01-01'
+  link: https://arxiv.org/pdf/2508.09804
+  id: https://arxiv.org/pdf/2508.09804
+  tags:
+  - chart reasoning
+  - reinforcement learning
+  - vision-language models
+  - evaluation
+
+- title: 'ChartQAPro: A More Diverse and Challenging Benchmark for Chart Question Answering'
+  authors:
+  - Ahmed Masry
+  - Mohammed Saidul Islam
+  - Mahir Ahmed
+  - Aayush Bajaj
+  - Firoz Kabir
+  - Aaryaman Kartha
+  - Md Tahmid Rahman Laskar
+  - Mizanur Rahman
+  - Shadikur Rahman
+  - Mehrad Shahmohammadi
+  - Megh Thakkar
+  - Md Rizwan Parvez
+  - Enamul Hoque
+  - Shafiq Joty
+  publisher: ACL 2025 (Findings)
+  date: '2025-01-01'
+  link: https://aclanthology.org/2025.findings-acl.978/
+  id: https://aclanthology.org/2025.findings-acl.978/
+  tags:
+  - chart question answering
+  - benchmark dataset
+  - evaluation
+  - vision-language
+
+- title: 'Improving Automatic Evaluation of Large Language Models (LLMs) in Biomedical
+    Relation Extraction via LLMs-as-the-Judge'
+  authors:
+  - Md Tahmid Rahman Laskar
+  - Israt Jahan
+  - Elham Dolatabadi
+  - Chun Peng
+  - Enamul Hoque
+  - Jimmy Huang
+  publisher: ACL 2025
+  date: '2025-01-01'
+  link: https://arxiv.org/abs/2506.00777
+  id: https://arxiv.org/abs/2506.00777
+  tags:
+  - biomedical NLP
+  - relation extraction
+  - LLM evaluation
+  - LLM-as-a-judge
+
+- title: 'Judging the Judges: Can Large Vision-Language Models Fairly Evaluate Chart
+    Comprehension and Reasoning?'
+  authors:
+  - Md Tahmid Rahman Laskar
+  - Mohammed Saidul Islam
+  - Ridwan Mahbub
+  - Ahmed Masry
+  - Mizanur Rahman
+  - Amran Bhuiyan
+  - Mir Tafseer Nayeem
+  - Shafiq Joty
+  - Enamul Hoque
+  - Jimmy Huang
+  publisher: ACL 2025 (Industry Track)
+  date: '2025-01-01'
+  link: https://aclanthology.org/2025.acl-industry.83/
+  id: https://aclanthology.org/2025.acl-industry.83/
+  tags:
+  - chart comprehension
+  - evaluation
+  - vision-language models
+  - fairness
+
+- title: 'ColFlor: Towards BERT-Size Vision-Language Document Retrieval Models'
+  authors:
+  - Ahmed Masry
+  - Enamul Hoque
+  publisher: IEEE MLSP 2025 Workshop
+  date: '2025-01-01'
+  link: https://doi.org/10.1109/MLSP62443.2025.11204231
+  id: https://doi.org/10.1109/MLSP62443.2025.11204231
+  tags:
+  - vision-language retrieval
+  - document retrieval
+  - BERT-size models
+  - efficient LVLMs
+
+- title: 'Natural Language Generation for Visualizations: State of the Art, Challenges
+    and Future Directions'
+  authors:
+  - Enamul Hoque
+  - Mohammed Saidul Islam
+  publisher: Computer Graphics Forum (CGF) 44(1): 1–23
+  date: '2024-01-01'
+  link: https://onlinelibrary.wiley.com/doi/epdf/10.1111/cgf.15266
+  id: https://onlinelibrary.wiley.com/doi/epdf/10.1111/cgf.15266
+  tags:
+  - natural language generation
+  - data visualization
+  - survey
+  - multimodal communication
+
+- title: 'Open-RAG: Enhanced Retrieval Augmented Reasoning with Open-Source Large
+    Language Models'
+  authors:
+  - Shayekh Bin Islam
+  - Md Asib Rahman
+  - K S M Tozammel Hossain
+  - Enamul Hoque
+  - Shafiq Joty
+  - Md Rizwan Parvez
+  publisher: EMNLP 2024 (Findings)
+  date: '2024-01-01'
+  link: https://aclanthology.org/2024.findings-emnlp.831/
+  id: https://aclanthology.org/2024.findings-emnlp.831/
+  tags:
+  - retrieval-augmented generation
+  - benchmarks
+  - large language models
+  - open-world QA
+
+- title: 'Automated Data-Driven Storytelling with Visualizations and Texts'
+  authors:
+  - Mohammed Saidul Islam
+  - Md Tahmid Rahman Laskar
+  - Md Rizwan Parvez
+  - Enamul Hoque
+  - Shafiq Joty
+  publisher: EMNLP 2024
+  date: '2024-01-01'
+  link: https://aclanthology.org/2024.emnlp-main.1073/
+  id: https://aclanthology.org/2024.emnlp-main.1073/
+  tags:
+  - data storytelling
+  - visualization
+  - natural language generation
+  - multimodal narrative
+
+- title: 'Are Large Vision Language Models up to the Challenge of Chart Comprehension
+    and Reasoning?'
+  authors:
+  - Mohammed Saidul Islam
+  - Raian Rahman
+  - Ahmed Masry
+  - Md Tahmid Rahman Laskar
+  - Mir Tafseer Nayeem
+  - Enamul Hoque
+  publisher: EMNLP 2024 (Findings)
+  date: '2024-01-01'
+  link: https://aclanthology.org/2024.findings-emnlp.191/
+  id: https://aclanthology.org/2024.findings-emnlp.191/
+  tags:
+  - chart comprehension
+  - vision-language models
+  - reasoning
+  - evaluation
+
+- title: 'A Systematic Survey and Critical Review on Evaluating Large Language Models:
+    Challenges, Limitations, and Recommendations'
+  authors:
+  - Md Tahmid Rahman Laskar
+  - Sawsan Alqahtani
+  - M Saiful Bari
+  - Mizanur Rahman
+  - Mohammad Abdullah Matin Khan
+  - Haidar Khan
+  - Israt Jahan
+  - Amran Bhuiyan
+  - Chee Wei Tan
+  - Md Rizwan Parvez
+  - Enamul Hoque
+  - Shafiq Joty
+  - Jimmy Huang
+  publisher: EMNLP 2024
+  date: '2024-01-01'
+  link: https://arxiv.org/pdf/2407.04069
+  id: https://arxiv.org/pdf/2407.04069
+  tags:
+  - large language models
+  - evaluation
+  - survey
+  - benchmarks
+
+- title: 'ChartInstruct: Instruction Tuning for Chart Comprehension and Reasoning'
+  authors:
+  - Ahmed Masry
+  - Mehrad Shahmohammadi
+  - Md Rizwan Parvez
+  - Enamul Hoque
+  - Shafiq Joty
+  publisher: ACL 2024 (Findings)
+  date: '2024-01-01'
+  link: https://aclanthology.org/2024.findings-acl.619.pdf
+  id: https://aclanthology.org/2024.findings-acl.619.pdf
+  tags:
+  - instruction tuning
+  - chart reasoning
+  - vision-language models
+  - multimodal tasks
+
+- title: 'BenLLMEval: A Comprehensive Evaluation into the Potentials and Pitfalls
+    of Large Language Models on Bengali NLP'
+  authors:
+  - Md Tahmid Rahman Laskar
+  - Mizanur Rahman
+  - Israt Jahan
+  - Enamul Hoque
+  - Jimmy Xiangji Huang
+  publisher: LREC-COLING 2024
+  date: '2024-01-01'
+  link: https://aclanthology.org/2024.lrec-main.201/
+  id: https://aclanthology.org/2024.lrec-main.201/
+  tags:
+  - Bengali NLP
+  - large language models
+  - benchmarking
+  - evaluation
+  - low-resource languages
+
+- title: 'Towards a Holistic Evaluation of LLM Generated Code for Exploratory Visual
+    Analysis'
+  authors:
+  - Anamaria Crisan
+  - Enamul Hoque
+  publisher: HEAL@CHI 2024 Workshop
+  date: '2024-01-01'
+  link: https://www.uw-insight-lab.com/assets/papers/HEAL24-HolisticEval.pdf
+  id: https://www.uw-insight-lab.com/assets/papers/HEAL24-HolisticEval.pdf
+  tags:
+  - code generation
+  - visual analytics
+  - LLM evaluation
+  - human-centered evaluation
+
+- title: 'UniChart: A Universal Vision-Language Pretrained Model for Chart Comprehension
+    and Reasoning'
+  authors:
+  - Ahmed Masry
+  - Parsa Kavehzadeh
+  - Xuan Long Do
+  - Enamul Hoque
+  - Shafiq Joty
+  publisher: EMNLP 2023
+  date: '2023-01-01'
+  link: https://aclanthology.org/2023.emnlp-main.906.pdf
+  id: https://aclanthology.org/2023.emnlp-main.906.pdf
+  tags:
+  - vision-language models
+  - chart comprehension
+  - pretraining
+  - multimodal reasoning
+
+- title: 'Can Large Language Models Fix Data Annotation Errors? An Empirical Study
+    Using Debatepedia for Query-Focused Text Summarization'
+  authors:
+  - Md Tahmid Rahman Laskar
+  - Mizanur Rahman
+  - Israt Jahan
+  - Enamul Hoque
+  - Jimmy Xiangji Huang
+  publisher: EMNLP 2023
+  date: '2023-01-01'
+  link: https://aclanthology.org/2023.findings-emnlp.686.pdf
+  id: https://aclanthology.org/2023.findings-emnlp.686.pdf
+  tags:
+  - data annotation
+  - large language models
+  - summarization
+
+- title: 'SeeChart: Enabling Accessible Visualizations Through Interactive Natural
+    Language Interface For People with Visual Impairments'
+  authors:
+  - Md Zubair Ibne Alam
+  - Shehnaz Islam
+  - Enamul Hoque
+  publisher: IUI 2023
+  date: '2023-01-01'
+  link: https://arxiv.org/pdf/2302.07742
+  id: https://arxiv.org/pdf/2302.07742
+  tags:
+  - accessibility
+  - low vision
+  - information visualization
+
+- title: 'Do LLMs Work on Charts? Designing Few-Shot Prompts for Chart Question Answering
+    and Summarization'
+  authors:
+  - Xuan Long Do
+  - Mohammad Hassanpour
+  - Ahmed Masry
+  - Parsa Kavehzadeh
+  - Enamul Hoque
+  - Shafiq Joty
+  publisher: arXiv preprint
+  date: '2023-01-01'
+  link: https://arxiv.org/abs/2312.10610
+  id: https://arxiv.org/abs/2312.10610
+  tags:
+  - chart question answering
+  - summarization
+  - prompt engineering
+  - large language models
+
+- title: 'Chart Question Answering: State of the Art and Future Directions'
+  authors:
+  - Enamul Hoque
+  - Parsa Kavehzadeh
+  - Ahmed Masry
+  publisher: Computer Graphics Forum 41(3): 555–572
+  date: '2022-01-01'
+  link: https://doi.org/10.1111/cgf.14573
+  id: https://doi.org/10.1111/cgf.14573
+  tags:
+  - chart question answering
+  - survey
+  - visual reasoning
+  - multimodal NLP
+
+- title: 'A Deep Attentive Multimodal Learning Approach for Disaster Identification
+    from Social Media Posts'
+  authors:
+  - Eftekhar Hossain
+  - Mohammed Moshiul Hoque
+  - Enamul Hoque
+  - Md Saiful Islam
+  publisher: IEEE Access 10: 46538–46551
+  date: '2022-01-01'
+  link: https://doi.org/10.1109/ACCESS.2022.3170897
+  id: https://doi.org/10.1109/ACCESS.2022.3170897
+  tags:
+  - disaster identification
+  - social media
+  - multimodal learning
+  - attention
+  - crisis informatics
+
+- title: 'Domain Adaptation with Pre-Trained Transformers for Query-Focused Abstractive
+    Text Summarization'
   authors:
   - Md Tahmid Rahman Laskar
   - Enamul Hoque
   - Jimmy Xiangji Huang
-  publisher: arXiv:2011.01421 [cs]
-  date: '2020-11-02'
-  link: http://arxiv.org/abs/2011.01421
-  id: https://arxiv.org/abs/2011.01421
+  publisher: Computational Linguistics 48(2): 279–320
+  date: '2022-01-01'
+  link: https://aclanthology.org/2022.cl-2.2/
+  id: https://aclanthology.org/2022.cl-2.2/
   tags:
-  - Computation and Language (cs.CL);
-  - Information Retrieval (cs.IR)
-  extra-links:
-  - type: source
-    link: https://github.com/tahmedge/WSL-DS-COLING-2020
+  - query-focused summarization
+  - transformers
+  - domain adaptation
+  - abstractive summarization
+
+- title: 'OpenCQA: Open-ended Question Answering with Charts'
+  authors:
+  - Shankar Kantharaj
+  - Xuan Long Do
+  - Rixie Tiffany Leong
+  - Jia Qing Tan
+  - Enamul Hoque
+  - Shafiq Joty
+  publisher: EMNLP 2022
+  date: '2022-01-01'
+  link: https://aclanthology.org/2022.emnlp-main.811/
+  id: https://aclanthology.org/2022.emnlp-main.811/
+  tags:
+  - chart QA
+  - open-domain QA
+  - vision-language
+  - datasets
+
+- title: 'Chart-to-Text: A Large-Scale Benchmark for Chart Summarization'
+  authors:
+  - Shankar Kantharaj
+  - Rixie Tiffany Leong
+  - Xiang Lin
+  - Ahmed Masry
+  - Megh Thakkar
+  - Enamul Hoque
+  - Shafiq Joty
+  publisher: ACL 2022
+  date: '2022-01-01'
+  link: https://aclanthology.org/2022.acl-long.277/
+  id: https://aclanthology.org/2022.acl-long.277/
+  tags:
+  - chart-to-text
+  - benchmark
+  - natural language generation
+  - evaluation
+
+- title: 'ChartQA: A Benchmark for Question Answering about Charts with Visual and
+    Logical Reasoning'
+  authors:
+  - Ahmed Masry
+  - Do Xuan Long
+  - Jia Qing Tan
+  - Shafiq Joty
+  - Enamul Hoque
+  publisher: In Proceedings of the Annual Meeting of the Association for Computational
+    Linguistics (ACL), pp. 4005–4023, 2022.
+  date: '2022-01-01'
+  link: https://aclanthology.org/2022.findings-acl.177/
+  id: https://aclanthology.org/2022.findings-acl.177/
+  tags:
+  - chart question answering
+  - numeric reasoning
+  - datasets
+  - multimodal QA
+
+- title: 'ConVIScope: Visual Analytics for Exploring Patient Conversations'
+  authors:
+  - Raymond Li
+  - Enamul Hoque
+  - Giuseppe Carenini
+  - Richard Lester
+  - Raymond Chau
+  publisher: IEEE VIS 2021 (Short Paper)
+  date: '2021-01-01'
+  link: https://arxiv.org/abs/2108.13514
+  id: https://arxiv.org/abs/2108.13514
+  tags:
+  - visual analytics
+  - healthcare
+  - patient conversations
+  - text visualization
+
+- title: 'CommunityPulse: Facilitating Community Input Analysis by Surfacing Hidden
+    Insights, Reflections, and Priorities'
+  authors:
+  - Mahmood Jasim
+  - Enamul Hoque
+  - Narges Mahyar
+  - Ali Sarvghad
+  publisher: DIS 2021 (Best Paper Honorable Mention)
+  date: '2021-01-01'
+  link: https://dl.acm.org/doi/10.1145/3461778.3462103
+  id: https://dl.acm.org/doi/10.1145/3461778.3462103
+  tags:
+  - community engagement
+  - visual analytics
+  - participatory design
+  - civic technology
+
+- title: 'Integrating Image Data Extraction and Table Parsing Methods for Chart Question
+    Answering'
+  authors:
+  - Ahmed Masry
+  - Enamul Hoque
+  publisher: CVPR 2021 – Chart Question Answering Workshop
+  date: '2021-01-01'
+  tags:
+  - chart question answering
+  - image extraction
+  - table parsing
+  - computer vision
+
 - title: Designing and Evaluating Multimodal Interactions for Facilitating Visual
     Analysis With Dashboards
   authors:
@@ -26,7 +676,7 @@
   publisher: IEEE Access
   date: '2021-01-01'
   link: https://doi.org/gj7645
-  id: 10.1109/ACCESS.2020.3046623
+  id: https://doi.org/gj7645
   image: https://ieeexplore.ieee.org/mediastore_new/IEEE/content/media/6287639/9312710/9303381/hoque2-3046623-small.gif
   tags:
   - Data visualization
@@ -36,76 +686,7 @@
   - Mice
   - COVID-19
   - Tools
-- title: Searching the Visual Style and Structure of D3 Visualizations
-  authors:
-  - Enamul Hoque
-  - Maneesh Agrawala
-  publisher: IEEE Transactions on Visualization and Computer Graphics
-  date: '2019-01-01'
-  link: https://doi.org/gh525d
-  id: 10.1109/TVCG.2019.2934431
-  image: https://www.yorku.ca/enamulh/vis-search/img/teaser_scatter_plot_contrast.png
-  tags:
-  - Visualization search engine
-  - Visualization design
-  - Vearch user interfaces
-- title: Interactive topic hierarchy revision for exploring a collection of online
-    conversations
-  authors:
-  - Enamul Hoque
-  - Giuseppe Carenini
-  publisher: Information Visualization
-  date: '2018-02-23'
-  link: https://doi.org/gj9dbx
-  id: 10.1177/1473871618757228
-  thumbnail: https://journals.sagepub.com/na101/home/literatum/publisher/sage/journals/content/ivia/2019/ivia_18_3/1473871618757228/20190607/images/medium/10.1177_1473871618757228-fig1.gif
-  tags:
-  - Visual text analytics
-  - Text visualization
-  - Interactive topic modeling
-  - Asynchronous conversations
-  - Computer-mediated communication
-- title: Applying Pragmatics Principles for Interaction with Visual Analytics
-  authors:
-  - Enamul Hoque
-  - Vidya Setlur
-  - Melanie Tory
-  - Isaac Dykeman
-  publisher: IEEE Transactions on Visualization and Computer Graphics
-  date: '2018-01-01'
-  link: https://doi.org/gcp7wd
-  id: 10.1109/TVCG.2017.2744684
-  image: https://ieeexplore.ieee.org/mediastore_new/IEEE/content/media/2945/8165924/8019833/24tvcg01-setlur-2744684-fig-1-source-small.gif
-  tags:
-  - natural language
-  - interaction
-  - language pragmatics
-  - visual analytics
-  - ambiguity
-  - feedback
-- title: Interactive Topic Modeling for Exploring Asynchronous Online Conversations
-  authors:
-  - Enamul Hoque
-  - Giuseppe Carenini
-  publisher: ACM Transactions on Interactive Intelligent Systems
-  date: '2016-05-05'
-  link: https://doi.org/ggfbbw
-  id: 10.1145/2854158
-  extra-links:
-  - type: source
-    link: https://dl.acm.org/action/downloadSupplement?doi=10.1145%2F2854158&file=hoque.zip
-- title: ConVisIT
-  authors:
-  - Enamul Hoque
-  - Giuseppe Carenini
-  publisher: Association for Computing Machinery (ACM)
-  date: '2015-03-18'
-  link: https://doi.org/gj9dbz
-  id: 10.1145/2678025.2701370
-  image: https://www.cs.ubc.ca/cs-research/lci/research-groups/natural-language-processing/image/convis/3.jpg
-  extra-links:
-  - type: source
-    link: https://github.com/enamulubc/ConVis
+
 - title: 'Chart-to-Text: Generating Natural Language Descriptions for Charts by Adapting
     the Transformer Model'
   authors:
@@ -114,28 +695,33 @@
   publisher: arXiv
   date: '2020-12-01'
   link: https://arxiv.org/abs/2010.09142
-  id: arXiv:2010.09142
+  id: https://arxiv.org/abs/2010.09142
+  tags:
+  - Chart Summarization
+  - NLP
   repo: https://github.com/JasonObeid/Chart2Text
   extra-links:
   - type: source
     link: https://github.com/JasonObeid/Chart2Text
-  tags:
-  - Chart Summarization
-  - NLP
-- title: 'ClaimViz: Visual Analytics for Identifying and Verifying Factual Claims'
+
+- title: 'WSL-DS: Weakly Supervised Learning with Distant Supervision for Query Focused
+    Multi-Document Abstractive Summarization'
   authors:
-  - Md Main Uddin Rony
+  - Md Tahmid Rahman Laskar
   - Enamul Hoque
-  - Naeemul Hassan
-  publisher: Institute of Electrical and Electronics Engineers (IEEE)
-  date: '2020-10-01'
-  link: https://doi.org/gj9db2
-  id: 10.1109/VIS47514.2020.00056
-  image: https://ieeexplore.ieee.org/mediastore_new/IEEE/content/media/9329359/9331017/9331280/uddin1-p5-uddin-small.gif
+  - Jimmy Xiangji Huang
+  publisher: arXiv:2011.01421 [cs]
+  date: '2020-11-02'
+  link: http://arxiv.org/abs/2011.01421
+  id: http://arxiv.org/abs/2011.01421
   tags:
-  - Human-centered computing
-  - Visualization
-  - Visualization design and evaluation methods
+  - Computation and Language (cs.CL);
+  - Information Retrieval (cs.IR)
+  repo: https://github.com/tahmedge/WSL-DS-COLING-2020
+  extra-links:
+  - type: source
+    link: https://github.com/tahmedge/WSL-DS-COLING-2020
+
 - title: Sneak Pique
   authors:
   - Vidya Setlur
@@ -145,7 +731,7 @@
   publisher: Association for Computing Machinery (ACM)
   date: '2020-10-20'
   link: https://doi.org/gj9db3
-  id: 10.1145/3379337.3415813
+  id: https://doi.org/gj9db3
   image: https://dl.acm.org/cms/asset/d3dbbc65-153c-4f4f-a615-37f87e8e2d4b/3379337.3415813.key.jpg
   tags:
   - autocompletion
@@ -155,23 +741,24 @@
   extra-links:
   - type: source
     link: https://dl.acm.org/action/downloadSupplement?doi=10.1145%2F3379337.3415813&file=ufp1378aux.zip
-- title: Query Focused Abstractive Summarization via Incorporating Query Relevance
-    and Transfer Learning with Transformer Models
+
+- title: 'ClaimViz: Visual Analytics for Identifying and Verifying Factual Claims'
   authors:
-  - Md Tahmid Rahman Laskar
+  - Md Main Uddin Rony
   - Enamul Hoque
-  - Jimmy Huang
-  publisher: Advances in Artificial Intelligence
-  date: '2020-01-01'
-  link: https://link.springer.com/chapter/10.1007/978-3-030-47358-7_35
-  id: https://link.springer.com/chapter/10.1007/978-3-030-47358-7_35
+  - Naeemul Hassan
+  publisher: Institute of Electrical and Electronics Engineers (IEEE)
+  date: '2020-10-01'
+  link: https://doi.org/gj9db2
+  id: https://doi.org/gj9db2
+  image: https://ieeexplore.ieee.org/mediastore_new/IEEE/content/media/9329359/9331017/9331280/uddin1-p5-uddin-small.gif
   tags:
-  - Query
-  - Abtractive summarization
-  - Transformer
-  - BERT
-- title: Contextualized Embeddings based Transformer Encoder for Sentence Similarity
-    Modeling in Answer Selection Task
+  - Human-centered computing
+  - Visualization
+  - Visualization design and evaluation methods
+
+- title: 'Contextualized Embeddings based Transformer Encoder for Sentence Similarity
+    Modeling in Answer Selection Task'
   authors:
   - Md Tahmid Rahman Laskar
   - Jimmy Xiangji Huang
@@ -188,6 +775,7 @@
   - BERT
   - RoBERTa
   - Deep Learning
+
 - title: Answering Questions about Charts and Generating Visual Explanations
   authors:
   - Dae Hyun Kim
@@ -196,10 +784,104 @@
   publisher: Association for Computing Machinery (ACM)
   date: '2020-04-21'
   link: https://doi.org/gj9db4
-  id: 10.1145/3313831.3376467
+  id: https://doi.org/gj9db4
   image: https://dhkim16.github.io/vis-qa/img/qa-examples.png
-  repo: https://github.com/dhkim16/VisQA-release
   tags:
   - Question answering
   - Visualization
   - Explainable AI
+  repo: https://github.com/dhkim16/VisQA-release
+  extra-links:
+  - type: source
+    link: https://github.com/dhkim16/VisQA-release
+
+- title: 'Query Focused Abstractive Summarization via Incorporating Query Relevance
+    and Transfer Learning with Transformer Models'
+  authors:
+  - Md Tahmid Rahman Laskar
+  - Enamul Hoque
+  - Jimmy Huang
+  publisher: Advances in Artificial Intelligence
+  date: '2020-01-01'
+  link: https://link.springer.com/chapter/10.1007/978-3-030-47358-7_35
+  id: https://link.springer.com/chapter/10.1007/978-3-030-47358-7_35
+  tags:
+  - Query
+  - Abtractive summarization
+  - Transformer
+  - BERT
+
+- title: 'Searching the Visual Style and Structure of D3 Visualizations'
+  authors:
+  - Enamul Hoque
+  - Maneesh Agrawala
+  publisher: IEEE Transactions on Visualization and Computer Graphics
+  date: '2019-01-01'
+  link: https://doi.org/gh525d
+  id: https://doi.org/gh525d
+  image: https://www.yorku.ca/enamulh/vis-search/img/teaser_scatter_plot_contrast.png
+  tags:
+  - Visualization search engine
+  - Visualization design
+  - Vearch user interfaces
+
+- title: Interactive topic hierarchy revision for exploring a collection of online
+    conversations
+  authors:
+  - Enamul Hoque
+  - Giuseppe Carenini
+  publisher: Information Visualization
+  date: '2018-02-23'
+  link: https://doi.org/gj9dbx
+  id: https://doi.org/gj9dbx
+  tags:
+  - Visual text analytics
+  - Text visualization
+  - Interactive topic modeling
+  - Asynchronous conversations
+  - Computer-mediated communication
+
+- title: Applying Pragmatics Principles for Interaction with Visual Analytics
+  authors:
+  - Enamul Hoque
+  - Vidya Setlur
+  - Melanie Tory
+  - Isaac Dykeman
+  publisher: IEEE Transactions on Visualization and Computer Graphics
+  date: '2018-01-01'
+  link: https://doi.org/gcp7wd
+  id: https://doi.org/gcp7wd
+  image: https://ieeexplore.ieee.org/mediastore_new/IEEE/content/media/2945/8165924/8019833/24tvcg01-setlur-2744684-fig-1-source-small.gif
+  tags:
+  - natural language
+  - interaction
+  - language pragmatics
+  - visual analytics
+  - ambiguity
+  - feedback
+
+- title: 'Interactive Topic Modeling for Exploring Asynchronous Online Conversations'
+  authors:
+  - Enamul Hoque
+  - Giuseppe Carenini
+  publisher: ACM Transactions on Interactive Intelligent Systems
+  date: '2016-05-05'
+  link: https://doi.org/ggfbbw
+  id: https://doi.org/ggfbbw
+  extra-links:
+  - type: source
+    link: https://dl.acm.org/action/downloadSupplement?doi=10.1145%2F2854158&file=hoque.zip
+
+- title: ConVisIT
+  authors:
+  - Enamul Hoque
+  - Giuseppe Carenini
+  publisher: Association for Computing Machinery (ACM)
+  date: '2015-03-18'
+  link: https://doi.org/gj9dbz
+  id: https://doi.org/gj9dbz
+  image: https://www.cs.ubc.ca/cs-research/lci/research-groups/natural-language-processing/image/convis/3.jpg
+  repo: https://github.com/enamulubc/ConVis
+  extra-links:
+  - type: source
+    link: https://github.com/enamulubc/ConVis
