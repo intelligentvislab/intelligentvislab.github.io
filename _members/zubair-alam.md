@@ -3,7 +3,7 @@ title: Md Zubair Ibne Alam
 search:
   - Zubair
 role: msc
-group: current
+group: alum
 image: images/zubair.jpg
 email: zalam48@yorku.ca
 github: ZubairShovan

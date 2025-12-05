@@ -2,11 +2,11 @@
 title: Ahmed Gamal Masry
 search:
   - Ahmed
-role: msc
+role: phd
 group: current
 image: images/person-placeholder.jpg
-email: asd@yorku.ca
-github: asd
+email: 
+github: 
 ---
 
-Ahmed Gamal Masry is from Egypt. He is working as a Graduate Research Assistant at IVL. 
+

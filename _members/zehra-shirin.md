@@ -3,7 +3,7 @@ title: Zehra Shirin
 search:
   - Zehra
 role: msc
-group: current
+group: alum
 image: images/person-placeholder.jpg
 email: asd@yorku.ca
 github: asd

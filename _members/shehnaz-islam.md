@@ -3,7 +3,7 @@ title: Shehnaz Islam
 search:
   - Shehnaz
 role: undergrad
-group: current
+group: alum
 image: images/person-placeholder.jpg
 email: npsingh@umd.edu
 twitter: PratapNoor
