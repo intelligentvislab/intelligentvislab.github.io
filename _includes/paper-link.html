@@ -15,7 +15,7 @@
 {%- assign text = include.text | default: "Manubot" -%}
 {%- endif -%}
 
-{%- if include.type == "source" -%}
+{%- if include.type == "Source" -%}
 {%- assign icon = "fas fa-code" -%}
 {%- assign text = include.text | default: "Source" -%}
 {%- endif -%}
@@ -49,6 +49,26 @@
 To add more options for icons, see:
 https://fontawesome.com/icons?d=gallery&q=icon&m=free
 {%- endcomment -%}
+
+{%- if include.type == "PDF" -%}
+{%- assign icon = "fas fa-code" -%}
+{%- assign text = include.text | default: "PDF" -%}
+{%- endif -%}
+
+{%- if include.type == "Video" -%}
+{%- assign icon = "fas fa-code" -%}
+{%- assign text = include.text | default: "Video" -%}
+{%- endif -%}
+
+{%- if include.type == "Blog Post" -%}
+{%- assign icon = "fas fa-code" -%}
+{%- assign text = include.text | default: "Blog Post" -%}
+{%- endif -%}
+
+{%- if include.type == "Dataset" -%}
+{%- assign icon = "fas fa-code" -%}
+{%- assign text = include.text | default: "Dataset" -%}
+{%- endif -%}
 
 <a
   href="{{ include.link }}"
