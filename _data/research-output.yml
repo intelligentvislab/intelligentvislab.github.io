@@ -3,14 +3,18 @@
   - Enamul Hoque
   publisher: Springer
   date: '2025-01-01'
-  tags:
-  - large language models
-  - information visualization
-  - data storytelling
-  - human-AI collaboration
+  extra-links:
+  - type: PDF
+    link: 
+  - type: Source  
+    link: 
+  - type: Video
+    link: 
+  - type: Blog Post 
+    link: 
 
-- title: 'AuthorNet: Leveraging Attention-Based Early Fusion of Transformers for Low-Resource
-    Authorship Attribution'
+
+- title: 'AuthorNet: Leveraging attention-based early fusion of transformers for low-resource authorship attribution'
   authors:
   - Md. Rajib Hossain
   - Mohammed Moshiul Hoque
@@ -19,14 +23,18 @@
   - Nazmul Siddique
   publisher: Expert Systems with Applications
   date: '2025-01-01'
-  link: https://doi.org/10.1016/j.eswa.2024.125643
-  id: https://doi.org/10.1016/j.eswa.2024.125643
-  tags:
-  - authorship attribution
-  - transformers
-  - low-resource languages
-  - attention mechanisms
-  - text classification
+  link: https://www.sciencedirect.com/science/article/abs/pii/S0957417424025107?via%3Dihub
+  id: https://www.sciencedirect.com/science/article/abs/pii/S0957417424025107?via%3Dihub
+  extra-links:
+  - type: PDF
+    link: https://doi.org/10.1016/j.eswa.2024.125643
+  - type: Source  
+    link: 
+  - type: Video
+    link: 
+  - type: Blog Post 
+    link: 
+
 
 - title: 'AFuNet: An Attention-Based Fusion Network to Classify Texts in a Resource-Constrained
     Language'
@@ -38,14 +46,18 @@
   - Nazmul Siddique
   publisher: Neural Computing and Applications
   date: '2025-01-01'
-  link: https://doi.org/10.1007/s00521-024-10953-1
-  id: https://doi.org/10.1007/s00521-024-10953-1
-  tags:
-  - text classification
-  - fusion networks
-  - attention
-  - Bengali NLP
-  - low-resource NLP
+  link: https://link.springer.com/article/10.1007/s00521-024-10953-1
+  id: https://link.springer.com/article/10.1007/s00521-024-10953-1
+  extra-links:
+  - type: PDF
+    link: https://doi.org/10.1007/s00521-024-10953-1
+  - type: Source  
+    link: 
+  - type: Video
+    link: 
+  - type: Blog Post 
+    link: 
+
 
 - title: 'Deploying Tiny LVLM Judges for Real-World Evaluation of Chart Models: Lessons
     Learned and Best Practices'
@@ -62,14 +74,18 @@
   - Jimmy Huang
   publisher: EMNLP 2025 (Industry Track)
   date: '2025-01-01'
-  link: https://arxiv.org/abs/2510.07545
-  id: https://arxiv.org/abs/2510.07545
-  tags:
-  - vision-language models
-  - chart evaluation
-  - LLM-as-a-judge
-  - model evaluation
-  - efficiency
+  link: https://aclanthology.org/2025.emnlp-industry.134/
+  id: https://aclanthology.org/2025.emnlp-industry.134/
+  extra-links:
+  - type: PDF
+    link: https://aclanthology.org/2025.emnlp-industry.134.pdf
+  - type: Source  
+    link: 
+  - type: Video
+    link: 
+  - type: Blog Post 
+    link: 
+
 
 - title: 'ColMate: Contrastive Late Interaction and Masked Text for Multimodal Document
     Retrieval'
@@ -88,11 +104,18 @@
   - Sai Rajeswar
   publisher: EMNLP 2025 (Industry Track)
   date: '2025-01-01'
-  tags:
-  - responsible visualization
-  - chart generation
-  - narrative generation
-  - human-AI collaboration
+  link: https://aclanthology.org/2025.emnlp-industry.145/
+  id: https://aclanthology.org/2025.emnlp-industry.145/
+  extra-links:
+  - type: PDF
+    link: https://aclanthology.org/2025.emnlp-industry.145.pdf
+  - type: Source  
+    link: 
+  - type: Video
+    link: 
+  - type: Blog Post 
+    link: https://huggingface.co/papers/2511.00903
+
 
 - title: 'Text2Vis: A Challenging and Diverse Benchmark for Generating Multimodal
     Visualizations from Text'
@@ -103,13 +126,18 @@
   - Enamul Hoque
   publisher: EMNLP 2025
   date: '2025-01-01'
-  link: https://aclanthology.org/2025.emnlp-main.1622.pdf
-  id: https://aclanthology.org/2025.emnlp-main.1622.pdf
-  tags:
-  - text-to-visualization
-  - large language models
-  - chart generation
-  - data visualization
+  link: https://aclanthology.org/2025.emnlp-main.1622
+  id: https://aclanthology.org/2025.emnlp-main.1622
+  extra-links:
+  - type: PDF
+    link: https://aclanthology.org/2025.emnlp-main.1622.pdf
+  - type: Source  
+    link: https://github.com/vis-nlp/Text2Vis
+  - type: Video
+    link: 
+  - type: Blog Post 
+    link: https://huggingface.co/papers/2507.19969
+
 
 - title: 'AlignVLM: Rethinking LLM-as-a-Judge for Fair Evaluation of Chart Reasoning'
   authors:
@@ -139,11 +167,16 @@
   date: '2025-01-01'
   link: https://arxiv.org/abs/2502.01341
   id: https://arxiv.org/abs/2502.01341
-  tags:
-  - vision-language models
-  - fair evaluation
-  - chart reasoning
-  - LLM-as-a-judge
+  extra-links:
+  - type: PDF
+    link: https://arxiv.org/pdf/2502.01341
+  - type: Source  
+    link: 
+  - type: Video
+    link: 
+  - type: Blog Post 
+    link: https://huggingface.co/papers/2502.01341
+
 
 - title: 'The Perils of Chart Deception: How Misleading Visualizations Affect Vision-Language
     Models'
@@ -158,12 +191,16 @@
   date: '2025-01-01'
   link: https://ieeevis.org/year/2025/program/paper_1628b4eb-473e-4157-9d19-44990b75efc7.html
   id: https://ieeevis.org/year/2025/program/paper_1628b4eb-473e-4157-9d19-44990b75efc7.html
-  tags:
-  - misleading visualizations
-  - chart deception
-  - vision-language models
-  - robustness
-  - ethics
+  extra-links:
+  - type: PDF
+    link: https://arxiv.org/pdf/2508.09716
+  - type: Source  
+    link: https://github.com/vis-nlp/visDeception
+  - type: Video
+    link: https://www.youtube.com/watch?v=VdSWiJuX_x8
+  - type: Blog Post 
+    link: 
+
 
 - title: 'From Charts to Fair Narratives: Uncovering and Mitigating Geo-Economic Biases
     in Chart-to-Text'
@@ -179,12 +216,16 @@
   date: '2025-01-01'
   link: https://aclanthology.org/2025.emnlp-main.1472/
   id: https://aclanthology.org/2025.emnlp-main.1472/
-  tags:
-  - chart-to-text
-  - bias mitigation
-  - fairness
-  - geo-economic bias
-  - narrative generation
+  extra-links:
+  - type: PDF
+    link: https://aclanthology.org/2025.emnlp-main.1472.pdf
+  - type: Source  
+    link: 
+  - type: Video
+    link: 
+  - type: Blog Post 
+    link: 
+
 
 - title: 'BigCharts-R1: Enhanced Chart Reasoning with Visual Reinforcement Fine-Tuning'
   authors:
@@ -206,13 +247,18 @@
   - Spandana Gella
   publisher: COLM 2025
   date: '2025-01-01'
-  link: https://arxiv.org/pdf/2508.09804
-  id: https://arxiv.org/pdf/2508.09804
-  tags:
-  - chart reasoning
-  - reinforcement learning
-  - vision-language models
-  - evaluation
+  link: https://bigcharts.github.io/
+  id: https://bigcharts.github.io/
+  extra-links:
+  - type: PDF
+    link: https://arxiv.org/pdf/2508.09804
+  - type: Source  
+    link: https://github.com/ServiceNow/BigCharts-R1
+  - type: Video
+    link: https://www.youtube.com/watch?v=vN_KsGTzh4E
+  - type: Blog Post 
+    link: 
+
 
 - title: 'ChartQAPro: A More Diverse and Challenging Benchmark for Chart Question Answering'
   authors:
@@ -234,11 +280,18 @@
   date: '2025-01-01'
   link: https://aclanthology.org/2025.findings-acl.978/
   id: https://aclanthology.org/2025.findings-acl.978/
-  tags:
-  - chart question answering
-  - benchmark dataset
-  - evaluation
-  - vision-language
+  extra-links:
+  - type: PDF
+    link: 
+  - type: Source  
+    link: https://github.com/vis-nlp/ChartQAPro
+  - type: Video
+    link: 
+  - type: Blog Post 
+    link: https://huggingface.co/papers/2504.05506   
+  - type: Dataset
+    link: https://huggingface.co/datasets/ahmed-masry/ChartQAPro
+
 
 - title: 'Improving Automatic Evaluation of Large Language Models (LLMs) in Biomedical
     Relation Extraction via LLMs-as-the-Judge'
@@ -251,13 +304,18 @@
   - Jimmy Huang
   publisher: ACL 2025
   date: '2025-01-01'
-  link: https://arxiv.org/abs/2506.00777
-  id: https://arxiv.org/abs/2506.00777
-  tags:
-  - biomedical NLP
-  - relation extraction
-  - LLM evaluation
-  - LLM-as-a-judge
+  link: https://aclanthology.org/2025.acl-long.1238/
+  id: https://aclanthology.org/2025.acl-long.1238/
+  extra-links:
+  - type: PDF
+    link: https://aclanthology.org/2025.acl-long.1238.pdf
+  - type: Source  
+    link: https://github.com/tahmedge/llm_judge_biomedical_re
+  - type: Video
+    link: 
+  - type: Blog Post 
+    link: 
+
 
 - title: 'Judging the Judges: Can Large Vision-Language Models Fairly Evaluate Chart
     Comprehension and Reasoning?'
@@ -276,11 +334,16 @@
   date: '2025-01-01'
   link: https://aclanthology.org/2025.acl-industry.83/
   id: https://aclanthology.org/2025.acl-industry.83/
-  tags:
-  - chart comprehension
-  - evaluation
-  - vision-language models
-  - fairness
+  extra-links:
+  - type: PDF
+    link: https://aclanthology.org/2025.acl-industry.83.pdf
+  - type: Source  
+    link: https://github.com/tahmedge/chart_lvlm_judge
+  - type: Video
+    link: 
+  - type: Blog Post 
+    link: 
+
 
 - title: 'ColFlor: Towards BERT-Size Vision-Language Document Retrieval Models'
   authors:
@@ -290,11 +353,16 @@
   date: '2025-01-01'
   link: https://doi.org/10.1109/MLSP62443.2025.11204231
   id: https://doi.org/10.1109/MLSP62443.2025.11204231
-  tags:
-  - vision-language retrieval
-  - document retrieval
-  - BERT-size models
-  - efficient LVLMs
+  extra-links:
+  - type: PDF
+    link: https://ieeexplore.ieee.org/document/11204231
+  - type: Source  
+    link: https://github.com/AhmedMasryKU/colflor
+  - type: Video
+    link: 
+  - type: Blog Post 
+    link: https://huggingface.co/blog/ahmed-masry/colflor
+
 
 - title: 'Natural Language Generation for Visualizations: State of the Art, Challenges
     and Future Directions'
@@ -305,11 +373,16 @@
   date: '2024-01-01'
   link: https://onlinelibrary.wiley.com/doi/epdf/10.1111/cgf.15266
   id: https://onlinelibrary.wiley.com/doi/epdf/10.1111/cgf.15266
-  tags:
-  - natural language generation
-  - data visualization
-  - survey
-  - multimodal communication
+  extra-links:
+  - type: PDF
+    link: https://onlinelibrary.wiley.com/doi/pdf/10.1111/cgf.15266?msockid=044f1d436f1462572b3c080e6e3e6348
+  - type: Source  
+    link: 
+  - type: Video
+    link: 
+  - type: Blog Post 
+    link: 
+
 
 - title: 'Open-RAG: Enhanced Retrieval Augmented Reasoning with Open-Source Large
     Language Models'
@@ -324,13 +397,18 @@
   date: '2024-01-01'
   link: https://aclanthology.org/2024.findings-emnlp.831/
   id: https://aclanthology.org/2024.findings-emnlp.831/
-  tags:
-  - retrieval-augmented generation
-  - benchmarks
-  - large language models
-  - open-world QA
+  extra-links:
+  - type: PDF
+    link: https://aclanthology.org/2024.findings-emnlp.831.pdf
+  - type: Source  
+    link: 
+  - type: Video
+    link: 
+  - type: Blog Post 
+    link: 
 
-- title: 'Automated Data-Driven Storytelling with Visualizations and Texts'
+
+- title: 'DataNarrative: Automated Data-Driven Storytelling with Visualizations and Texts'
   authors:
   - Mohammed Saidul Islam
   - Md Tahmid Rahman Laskar
@@ -341,11 +419,17 @@
   date: '2024-01-01'
   link: https://aclanthology.org/2024.emnlp-main.1073/
   id: https://aclanthology.org/2024.emnlp-main.1073/
-  tags:
-  - data storytelling
-  - visualization
-  - natural language generation
-  - multimodal narrative
+
+  extra-links:
+  - type: PDF
+    link: https://aclanthology.org/2024.emnlp-main.1073.pdf
+  - type: Source  
+    link: 
+  - type: Video
+    link: 
+  - type: Blog Post 
+    link: 
+
 
 - title: 'Are Large Vision Language Models up to the Challenge of Chart Comprehension
     and Reasoning?'
@@ -360,11 +444,16 @@
   date: '2024-01-01'
   link: https://aclanthology.org/2024.findings-emnlp.191/
   id: https://aclanthology.org/2024.findings-emnlp.191/
-  tags:
-  - chart comprehension
-  - vision-language models
-  - reasoning
-  - evaluation
+  extra-links:
+  - type: PDF
+    link: https://aclanthology.org/2024.findings-emnlp.191.pdf
+  - type: Source  
+    link: 
+  - type: Video
+    link: 
+  - type: Blog Post 
+    link: 
+
 
 - title: 'A Systematic Survey and Critical Review on Evaluating Large Language Models:
     Challenges, Limitations, and Recommendations'
@@ -384,13 +473,18 @@
   - Jimmy Huang
   publisher: EMNLP 2024
   date: '2024-01-01'
-  link: https://arxiv.org/pdf/2407.04069
-  id: https://arxiv.org/pdf/2407.04069
-  tags:
-  - large language models
-  - evaluation
-  - survey
-  - benchmarks
+  link: https://aclanthology.org/2024.emnlp-main.764/
+  id: https://aclanthology.org/2024.emnlp-main.764/
+  extra-links:
+  - type: PDF
+    link: https://aclanthology.org/2024.emnlp-main.764.pdf
+  - type: Source  
+    link: 
+  - type: Video
+    link: 
+  - type: Blog Post 
+    link: 
+
 
 - title: 'ChartInstruct: Instruction Tuning for Chart Comprehension and Reasoning'
   authors:
@@ -401,13 +495,18 @@
   - Shafiq Joty
   publisher: ACL 2024 (Findings)
   date: '2024-01-01'
-  link: https://aclanthology.org/2024.findings-acl.619.pdf
-  id: https://aclanthology.org/2024.findings-acl.619.pdf
-  tags:
-  - instruction tuning
-  - chart reasoning
-  - vision-language models
-  - multimodal tasks
+  link: https://aclanthology.org/2024.findings-acl.619
+  id: https://aclanthology.org/2024.findings-acl.619
+  extra-links:
+  - type: PDF
+    link: https://aclanthology.org/2024.findings-acl.619.pdf
+  - type: Source  
+    link: https://github.com/vis-nlp/ChartInstruct/
+  - type: Video
+    link: 
+  - type: Blog Post 
+    link: https://huggingface.co/ahmed-masry/ChartInstruct-LLama2
+
 
 - title: 'BenLLMEval: A Comprehensive Evaluation into the Potentials and Pitfalls
     of Large Language Models on Bengali NLP'
@@ -421,12 +520,16 @@
   date: '2024-01-01'
   link: https://aclanthology.org/2024.lrec-main.201/
   id: https://aclanthology.org/2024.lrec-main.201/
-  tags:
-  - Bengali NLP
-  - large language models
-  - benchmarking
-  - evaluation
-  - low-resource languages
+  extra-links:
+  - type: PDF
+    link: https://aclanthology.org/2024.lrec-main.201.pdf
+  - type: Source  
+    link: 
+  - type: Video
+    link: 
+  - type: Blog Post 
+    link: 
+
 
 - title: 'Towards a Holistic Evaluation of LLM Generated Code for Exploratory Visual
     Analysis'
@@ -437,11 +540,16 @@
   date: '2024-01-01'
   link: https://www.uw-insight-lab.com/assets/papers/HEAL24-HolisticEval.pdf
   id: https://www.uw-insight-lab.com/assets/papers/HEAL24-HolisticEval.pdf
-  tags:
-  - code generation
-  - visual analytics
-  - LLM evaluation
-  - human-centered evaluation
+  extra-links:
+  - type: PDF
+    link: https://www.uw-insight-lab.com/assets/papers/HEAL24-HolisticEval.pdf
+  - type: Source  
+    link: 
+  - type: Video
+    link: 
+  - type: Blog Post 
+    link: 
+
 
 - title: 'UniChart: A Universal Vision-Language Pretrained Model for Chart Comprehension
     and Reasoning'
@@ -453,13 +561,18 @@
   - Shafiq Joty
   publisher: EMNLP 2023
   date: '2023-01-01'
-  link: https://aclanthology.org/2023.emnlp-main.906.pdf
-  id: https://aclanthology.org/2023.emnlp-main.906.pdf
-  tags:
-  - vision-language models
-  - chart comprehension
-  - pretraining
-  - multimodal reasoning
+  link: https://aclanthology.org/2023.emnlp-main.906
+  id: https://aclanthology.org/2023.emnlp-main.906
+  extra-links:
+  - type: PDF
+    link: https://aclanthology.org/2023.emnlp-main.906.pdf
+  - type: Source  
+    link: https://github.com/vis-nlp/UniChart
+  - type: Video
+    link: https://aclanthology.org/2023.emnlp-main.906.mp4
+  - type: Blog Post 
+    link: 
+
 
 - title: 'Can Large Language Models Fix Data Annotation Errors? An Empirical Study
     Using Debatepedia for Query-Focused Text Summarization'
@@ -471,12 +584,18 @@
   - Jimmy Xiangji Huang
   publisher: EMNLP 2023
   date: '2023-01-01'
-  link: https://aclanthology.org/2023.findings-emnlp.686.pdf
-  id: https://aclanthology.org/2023.findings-emnlp.686.pdf
-  tags:
-  - data annotation
-  - large language models
-  - summarization
+  link: https://aclanthology.org/2023.findings-emnlp.686/
+  id: https://aclanthology.org/2023.findings-emnlp.686/
+  extra-links:
+  - type: PDF
+    link: https://aclanthology.org/2023.findings-emnlp.686.pdf
+  - type: Source  
+    link: https://github.com/tahmedge/CQSUMDP
+  - type: Video
+    link: 
+  - type: Blog Post 
+    link: 
+
 
 - title: 'SeeChart: Enabling Accessible Visualizations Through Interactive Natural
     Language Interface For People with Visual Impairments'
@@ -486,12 +605,18 @@
   - Enamul Hoque
   publisher: IUI 2023
   date: '2023-01-01'
-  link: https://arxiv.org/pdf/2302.07742
-  id: https://arxiv.org/pdf/2302.07742
-  tags:
-  - accessibility
-  - low vision
-  - information visualization
+  link: https://dl.acm.org/doi/abs/10.1145/3581641.3584099
+  id: https://dl.acm.org/doi/abs/10.1145/3581641.3584099
+  extra-links:
+  - type: PDF
+    link: https://dl.acm.org/doi/abs/10.1145/3581641.3584099
+  - type: Source  
+    link: 
+  - type: Video
+    link: https://www.yorku.ca/enamulh/video/iui23a-sub1109-i8.mp4
+  - type: Blog Post 
+    link: 
+
 
 - title: 'Do LLMs Work on Charts? Designing Few-Shot Prompts for Chart Question Answering
     and Summarization'
@@ -506,11 +631,16 @@
   date: '2023-01-01'
   link: https://arxiv.org/abs/2312.10610
   id: https://arxiv.org/abs/2312.10610
-  tags:
-  - chart question answering
-  - summarization
-  - prompt engineering
-  - large language models
+  extra-links:
+  - type: PDF
+    link: https://arxiv.org/pdf/2312.10610
+  - type: Source  
+    link: 
+  - type: Video
+    link: 
+  - type: Blog Post 
+    link: 
+
 
 - title: 'Chart Question Answering: State of the Art and Future Directions'
   authors:
@@ -521,11 +651,16 @@
   date: '2022-01-01'
   link: https://doi.org/10.1111/cgf.14573
   id: https://doi.org/10.1111/cgf.14573
-  tags:
-  - chart question answering
-  - survey
-  - visual reasoning
-  - multimodal NLP
+  extra-links:
+  - type: PDF
+    link: https://arxiv.org/pdf/2205.03966
+  - type: Source  
+    link: 
+  - type: Video
+    link: 
+  - type: Blog Post 
+    link: 
+
 
 - title: 'A Deep Attentive Multimodal Learning Approach for Disaster Identification
     from Social Media Posts'
@@ -538,12 +673,16 @@
   date: '2022-01-01'
   link: https://doi.org/10.1109/ACCESS.2022.3170897
   id: https://doi.org/10.1109/ACCESS.2022.3170897
-  tags:
-  - disaster identification
-  - social media
-  - multimodal learning
-  - attention
-  - crisis informatics
+  extra-links:
+  - type: PDF
+    link: https://ieeexplore.ieee.org/document/9764741
+  - type: Source  
+    link: https://github.com/eftekhar-hossain/Multimodal-Disaster_IEEE-Access
+  - type: Video
+    link: 
+  - type: Blog Post 
+    link: 
+
 
 - title: 'Domain Adaptation with Pre-Trained Transformers for Query-Focused Abstractive
     Text Summarization'
@@ -555,11 +694,16 @@
   date: '2022-01-01'
   link: https://aclanthology.org/2022.cl-2.2/
   id: https://aclanthology.org/2022.cl-2.2/
-  tags:
-  - query-focused summarization
-  - transformers
-  - domain adaptation
-  - abstractive summarization
+  extra-links:
+  - type: PDF
+    link: https://aclanthology.org/2022.cl-2.2.pdf
+  - type: Source  
+    link: https://github.com/tahmedge/PreQFAS
+  - type: Video
+    link: 
+  - type: Blog Post 
+    link: 
+
 
 - title: 'OpenCQA: Open-ended Question Answering with Charts'
   authors:
@@ -578,6 +722,16 @@
   - open-domain QA
   - vision-language
   - datasets
+  extra-links:
+  - type: PDF
+    link: https://aclanthology.org/2022.emnlp-main.811/
+  - type: Source  
+    link: https://github.com/vis-nlp/OpenCQA
+  - type: Video
+    link: https://aclanthology.org/2022.emnlp-main.811.mp4
+  - type: Blog Post 
+    link: https://www.marktechpost.com/2023/01/22/a-new-artificial-intelligence-ai-benchmark-called-opencqa-answers-open-ended-questions-about-charts-using-descriptive-texts/
+
 
 - title: 'Chart-to-Text: A Large-Scale Benchmark for Chart Summarization'
   authors:
@@ -592,11 +746,16 @@
   date: '2022-01-01'
   link: https://aclanthology.org/2022.acl-long.277/
   id: https://aclanthology.org/2022.acl-long.277/
-  tags:
-  - chart-to-text
-  - benchmark
-  - natural language generation
-  - evaluation
+  extra-links:
+  - type: PDF
+    link: https://aclanthology.org/2022.acl-long.277/
+  - type: Source  
+    link: https://github.com/vis-nlp/Chart-to-text
+  - type: Video
+    link: 
+  - type: Blog Post 
+    link: 
+
 
 - title: 'ChartQA: A Benchmark for Question Answering about Charts with Visual and
     Logical Reasoning'
@@ -611,11 +770,16 @@
   date: '2022-01-01'
   link: https://aclanthology.org/2022.findings-acl.177/
   id: https://aclanthology.org/2022.findings-acl.177/
-  tags:
-  - chart question answering
-  - numeric reasoning
-  - datasets
-  - multimodal QA
+  extra-links:
+  - type: PDF
+    link: https://aclanthology.org/2022.findings-acl.177/
+  - type: Source  
+    link: https://github.com/vis-nlp/ChartQA
+  - type: Video
+    link: https://aclanthology.org/2022.findings-acl.177.mp4
+  - type: Blog Post 
+    link: 
+
 
 - title: 'ConVIScope: Visual Analytics for Exploring Patient Conversations'
   authors:
@@ -633,6 +797,16 @@
   - healthcare
   - patient conversations
   - text visualization
+  extra-links:
+  - type: PDF
+    link: https://open.library.ubc.ca/media/stream/pdf/52383/1.0406303/5
+  - type: Source  
+    link: 
+  - type: Video
+    link: https://www.yorku.ca/enamulh/video/ConViscope
+  - type: Blog Post 
+    link: 
+
 
 - title: 'CommunityPulse: Facilitating Community Input Analysis by Surfacing Hidden
     Insights, Reflections, and Priorities'
@@ -650,6 +824,16 @@
   - visual analytics
   - participatory design
   - civic technology
+  extra-links:
+  - type: PDF
+    link: https://dl.acm.org/doi/abs/10.1145/3461778.3462132
+  - type: Source  
+    link: 
+  - type: Video
+    link: https://www.yorku.ca/enamulh/video/CommunityPulse_Video.mp4
+  - type: Blog Post 
+    link: 
+
 
 - title: 'Integrating Image Data Extraction and Table Parsing Methods for Chart Question
     Answering'
@@ -658,11 +842,18 @@
   - Enamul Hoque
   publisher: CVPR 2021 – Chart Question Answering Workshop
   date: '2021-01-01'
-  tags:
-  - chart question answering
-  - image extraction
-  - table parsing
-  - computer vision
+  link: https://www.semanticscholar.org/paper/Integrating-Image-Data-Extraction-and-Table-Parsing-Masry/eb2f1a0e61167cf4afa410473df69d351ba57e0c
+  id: https://www.semanticscholar.org/paper/Integrating-Image-Data-Extraction-and-Table-Parsing-Masry/eb2f1a0e61167cf4afa410473df69d351ba57e0c
+  extra-links:
+  - type: PDF
+    link: https://www.yorku.ca/enamulh/papers/cqaw.pdf
+  - type: Source  
+    link: 
+  - type: Video
+    link: 
+  - type: Blog Post 
+    link: 
+
 
 - title: Designing and Evaluating Multimodal Interactions for Facilitating Visual
     Analysis With Dashboards
@@ -678,14 +869,16 @@
   link: https://doi.org/gj7645
   id: https://doi.org/gj7645
   image: https://ieeexplore.ieee.org/mediastore_new/IEEE/content/media/6287639/9312710/9303381/hoque2-3046623-small.gif
-  tags:
-  - Data visualization
-  - Visualization
-  - Natural languages
-  - Task analysis
-  - Mice
-  - COVID-19
-  - Tools
+  extra-links:
+  - type: PDF
+    link: https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9303381
+  - type: Source  
+    link: https://ieeexplore.ieee.org/document/9303381
+  - type: Video
+    link: 
+  - type: Blog Post 
+    link: 
+  
 
 - title: 'Chart-to-Text: Generating Natural Language Descriptions for Charts by Adapting
     the Transformer Model'
@@ -694,15 +887,17 @@
   - Enamul Hoque
   publisher: arXiv
   date: '2020-12-01'
-  link: https://arxiv.org/abs/2010.09142
-  id: https://arxiv.org/abs/2010.09142
-  tags:
-  - Chart Summarization
-  - NLP
-  repo: https://github.com/JasonObeid/Chart2Text
+  link: https://aclanthology.org/2020.inlg-1.20.pdf
+  id: https://aclanthology.org/2020.inlg-1.20.pdf
   extra-links:
-  - type: source
+  - type: PDF
+    link: https://aclanthology.org/2020.inlg-1.20.pdf
+  - type: Source  
     link: https://github.com/JasonObeid/Chart2Text
+  - type: Video
+    link: 
+  - type: Blog Post 
+    link: 
 
 - title: 'WSL-DS: Weakly Supervised Learning with Distant Supervision for Query Focused
     Multi-Document Abstractive Summarization'
@@ -710,19 +905,19 @@
   - Md Tahmid Rahman Laskar
   - Enamul Hoque
   - Jimmy Xiangji Huang
-  publisher: arXiv:2011.01421 [cs]
+  publisher: Proceedings of the 28th International Conference on Computational Linguistics
   date: '2020-11-02'
-  link: http://arxiv.org/abs/2011.01421
-  id: http://arxiv.org/abs/2011.01421
-  tags:
-  - Computation and Language (cs.CL);
-  - Information Retrieval (cs.IR)
-  repo: https://github.com/tahmedge/WSL-DS-COLING-2020
   extra-links:
-  - type: source
+  - type: PDF
+    link: https://aclanthology.org/2020.coling-main.495/
+  - type: Source  
     link: https://github.com/tahmedge/WSL-DS-COLING-2020
+  - type: Video
+    link: 
+  - type: Blog Post 
+    link: 
 
-- title: Sneak Pique
+- title: Sneak Pique - Exploring Autocompletion as a Data Discovery Scaffold for Supporting Visual Analysis
   authors:
   - Vidya Setlur
   - Enamul Hoque
@@ -733,14 +928,15 @@
   link: https://doi.org/gj9db3
   id: https://doi.org/gj9db3
   image: https://dl.acm.org/cms/asset/d3dbbc65-153c-4f4f-a615-37f87e8e2d4b/3379337.3415813.key.jpg
-  tags:
-  - autocompletion
-  - data preview
-  - natural language interaction
-  - visual analysis.
   extra-links:
-  - type: source
-    link: https://dl.acm.org/action/downloadSupplement?doi=10.1145%2F3379337.3415813&file=ufp1378aux.zip
+  - type: PDF
+    link: https://dhkim16.github.io/pdf/sneakpique.pdf
+  - type: Source  
+    link: 
+  - type: Video
+    link: https://www.youtube.com/watch?v=n2evJc0BVHg
+  - type: Blog Post 
+    link: https://medium.com/acm-uist/providing-a-sneak-peek-into-ones-data-through-visual-autocompletion-ce0e5e6fc93
 
 - title: 'ClaimViz: Visual Analytics for Identifying and Verifying Factual Claims'
   authors:
@@ -752,10 +948,15 @@
   link: https://doi.org/gj9db2
   id: https://doi.org/gj9db2
   image: https://ieeexplore.ieee.org/mediastore_new/IEEE/content/media/9329359/9331017/9331280/uddin1-p5-uddin-small.gif
-  tags:
-  - Human-centered computing
-  - Visualization
-  - Visualization design and evaluation methods
+  extra-links:
+  - type: PDF
+    link: https://ieeexplore.ieee.org/document/9331280
+  - type: Source  
+    link: 
+  - type: Video
+    link: https://aclanthology.org/2020.lrec-1.676/
+  - type: Blog Post 
+    link: 
 
 - title: 'Contextualized Embeddings based Transformer Encoder for Sentence Similarity
     Modeling in Answer Selection Task'
@@ -767,14 +968,15 @@
   date: '2020-05-01'
   link: https://www.aclweb.org/anthology/2020.lrec-1.676
   id: https://www.aclweb.org/anthology/2020.lrec-1.676/
-  tags:
-  - Answer Selection
-  - Transformer Encoder
-  - Contextualized Embeddings
-  - ELMo
-  - BERT
-  - RoBERTa
-  - Deep Learning
+  extra-links:
+  - type: PDF
+    link: https://aclanthology.org/2020.lrec-1.676/
+  - type: Source  
+    link: https://github.com/tahmedge/CETE-LREC
+  - type: Video
+    link: 
+  - type: Blog Post 
+    link: 
 
 - title: Answering Questions about Charts and Generating Visual Explanations
   authors:
@@ -786,14 +988,15 @@
   link: https://doi.org/gj9db4
   id: https://doi.org/gj9db4
   image: https://dhkim16.github.io/vis-qa/img/qa-examples.png
-  tags:
-  - Question answering
-  - Visualization
-  - Explainable AI
-  repo: https://github.com/dhkim16/VisQA-release
   extra-links:
-  - type: source
-    link: https://github.com/dhkim16/VisQA-release
+  - type: PDF
+    link: https://dl.acm.org/doi/10.1145/3313831.3376467
+  - type: Source  
+    link: https://dhkim16.github.io/vis-qa/
+  - type: Video
+    link: https://www.youtube.com/watch?v=l9ZGZpRGjgY
+  - type: Blog Post 
+    link: 
 
 - title: 'Query Focused Abstractive Summarization via Incorporating Query Relevance
     and Transfer Learning with Transformer Models'
@@ -805,11 +1008,73 @@
   date: '2020-01-01'
   link: https://link.springer.com/chapter/10.1007/978-3-030-47358-7_35
   id: https://link.springer.com/chapter/10.1007/978-3-030-47358-7_35
-  tags:
-  - Query
-  - Abtractive summarization
-  - Transformer
-  - BERT
+  extra-links:
+  - type: PDF
+    link: https://link.springer.com/chapter/10.1007/978-3-030-47358-7_35
+  - type: Source  
+    link: https://github.com/tahmedge/QR-BERTSUM-TL-for-QFAS
+  - type: Video
+    link: 
+  - type: Blog Post 
+    link: 
+
+- title: 'ConVisQA: A Natural Language Interface for Visually Exploring Online Conversations'
+  authors:
+  - Nadia Siddiqui
+  - Enamul Hoque
+  publisher: In Proceedings of the 24th International Conference InformationVisualisation 
+  date: '2020-01-01'
+  link: https://ieeexplore.ieee.org/document/9373300
+  id: https://ieeexplore.ieee.org/document/9373300
+  image: https://www.yorku.ca/enamulh/vis-search/img/teaser_scatter_plot_contrast.png
+  extra-links:
+  - type: PDF
+    link: https://ieeexplore.ieee.org/document/9373300
+  - type: Source  
+    link: 
+  - type: Video
+    link: 
+  - type: Blog Post 
+    link: 
+
+- title: 'Utilizing Bidirectional Encoder Representations from Transformers for Answer Selection'
+  authors:
+  - Md Tahmid Rahman Laskar
+  - Enamul Hoque
+  - Jimmy Huang
+  publisher: In Proceedings of the 24th International Conference InformationVisualisation 
+  date: '2019-01-01'
+  link: https://link.springer.com/chapter/10.1007/978-3-030-63591-6_63
+  id: https://link.springer.com/chapter/10.1007/978-3-030-63591-6_63
+  image: https://www.yorku.ca/enamulh/vis-search/img/teaser_scatter_plot_contrast.png
+  extra-links:
+  - type: PDF
+    link: https://link.springer.com/chapter/10.1007/978-3-030-63591-6_63
+  - type: Source  
+    link: 
+  - type: Video
+    link: 
+  - type: Blog Post 
+    link: 
+
+- title: 'Visual Exploration of Topic Controversy in Online Conversations'
+  authors:
+  - Enamul Hoque
+  - Esha Abid 
+  publisher: In Proceedings of HCI International (late-breaking work),
+  date: '2019-01-01'
+  link: https://link.springer.com/chapter/10.1007/978-3-030-30712-7_46
+  id: https://link.springer.com/chapter/10.1007/978-3-030-30712-7_46
+  image: https://www.yorku.ca/enamulh/vis-search/img/teaser_scatter_plot_contrast.png
+  extra-links:
+  - type: PDF
+    link: https://link.springer.com/chapter/10.1007/978-3-030-30712-7_46
+  - type: Source  
+    link: 
+  - type: Video
+    link: 
+  - type: Blog Post 
+    link: 
 
 - title: 'Searching the Visual Style and Structure of D3 Visualizations'
   authors:
@@ -820,26 +1085,15 @@
   link: https://doi.org/gh525d
   id: https://doi.org/gh525d
   image: https://www.yorku.ca/enamulh/vis-search/img/teaser_scatter_plot_contrast.png
-  tags:
-  - Visualization search engine
-  - Visualization design
-  - Vearch user interfaces
-
-- title: Interactive topic hierarchy revision for exploring a collection of online
-    conversations
-  authors:
-  - Enamul Hoque
-  - Giuseppe Carenini
-  publisher: Information Visualization
-  date: '2018-02-23'
-  link: https://doi.org/gj9dbx
-  id: https://doi.org/gj9dbx
-  tags:
-  - Visual text analytics
-  - Text visualization
-  - Interactive topic modeling
-  - Asynchronous conversations
-  - Computer-mediated communication
+  extra-links:
+  - type: PDF
+    link: https://ieeexplore.ieee.org/document/8809832
+  - type: Source  
+    link: https://www.yorku.ca/enamulh/vis-search/
+  - type: Video
+    link: https://www.yorku.ca/enamulh/vis-search/video/Vis2019_camera.mp4
+  - type: Blog Post 
+    link: https://www.yorku.ca/enamulh/vis-search/
 
 - title: Applying Pragmatics Principles for Interaction with Visual Analytics
   authors:
@@ -852,36 +1106,12 @@
   link: https://doi.org/gcp7wd
   id: https://doi.org/gcp7wd
   image: https://ieeexplore.ieee.org/mediastore_new/IEEE/content/media/2945/8165924/8019833/24tvcg01-setlur-2744684-fig-1-source-small.gif
-  tags:
-  - natural language
-  - interaction
-  - language pragmatics
-  - visual analytics
-  - ambiguity
-  - feedback
-
-- title: 'Interactive Topic Modeling for Exploring Asynchronous Online Conversations'
-  authors:
-  - Enamul Hoque
-  - Giuseppe Carenini
-  publisher: ACM Transactions on Interactive Intelligent Systems
-  date: '2016-05-05'
-  link: https://doi.org/ggfbbw
-  id: https://doi.org/ggfbbw
   extra-links:
-  - type: source
-    link: https://dl.acm.org/action/downloadSupplement?doi=10.1145%2F2854158&file=hoque.zip
-
-- title: ConVisIT
-  authors:
-  - Enamul Hoque
-  - Giuseppe Carenini
-  publisher: Association for Computing Machinery (ACM)
-  date: '2015-03-18'
-  link: https://doi.org/gj9dbz
-  id: https://doi.org/gj9dbz
-  image: https://www.cs.ubc.ca/cs-research/lci/research-groups/natural-language-processing/image/convis/3.jpg
-  repo: https://github.com/enamulubc/ConVis
-  extra-links:
-  - type: source
-    link: https://github.com/enamulubc/ConVis
+  - type: PDF
+    link: https://doi.org/gcp7wd
+  - type: Source  
+    link: 
+  - type: Video
+    link: https://enamulh.github.io/video/VAST2017_105.mp4
+  - type: Blog Post 
+    link: 
