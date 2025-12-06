@@ -3,6 +3,7 @@
   - Enamul Hoque
   publisher: Springer
   date: '2025-01-01'
+  image:
   extra-links:
   - type: PDF
     link: 
@@ -25,6 +26,7 @@
   date: '2025-01-01'
   link: https://www.sciencedirect.com/science/article/abs/pii/S0957417424025107?via%3Dihub
   id: https://www.sciencedirect.com/science/article/abs/pii/S0957417424025107?via%3Dihub
+  image: images/publications/authornet.png
   extra-links:
   - type: PDF
     link: https://doi.org/10.1016/j.eswa.2024.125643
@@ -48,6 +50,7 @@
   date: '2025-01-01'
   link: https://link.springer.com/article/10.1007/s00521-024-10953-1
   id: https://link.springer.com/article/10.1007/s00521-024-10953-1
+  image: images/publications/AFuNet.png
   extra-links:
   - type: PDF
     link: https://doi.org/10.1007/s00521-024-10953-1
@@ -76,6 +79,7 @@
   date: '2025-01-01'
   link: https://aclanthology.org/2025.emnlp-industry.134/
   id: https://aclanthology.org/2025.emnlp-industry.134/
+  image: images/publications/TinyLVLM_EMNLP.png
   extra-links:
   - type: PDF
     link: https://aclanthology.org/2025.emnlp-industry.134.pdf
@@ -106,6 +110,7 @@
   date: '2025-01-01'
   link: https://aclanthology.org/2025.emnlp-industry.145/
   id: https://aclanthology.org/2025.emnlp-industry.145/
+  image: images/publications/colmate.png
   extra-links:
   - type: PDF
     link: https://aclanthology.org/2025.emnlp-industry.145.pdf
@@ -128,6 +133,7 @@
   date: '2025-01-01'
   link: https://aclanthology.org/2025.emnlp-main.1622
   id: https://aclanthology.org/2025.emnlp-main.1622
+  image: images/publications/Text2Vis.png
   extra-links:
   - type: PDF
     link: https://aclanthology.org/2025.emnlp-main.1622.pdf
@@ -167,6 +173,7 @@
   date: '2025-01-01'
   link: https://arxiv.org/abs/2502.01341
   id: https://arxiv.org/abs/2502.01341
+  image: images/publications/AlignVLM.png
   extra-links:
   - type: PDF
     link: https://arxiv.org/pdf/2502.01341
@@ -191,6 +198,7 @@
   date: '2025-01-01'
   link: https://ieeevis.org/year/2025/program/paper_1628b4eb-473e-4157-9d19-44990b75efc7.html
   id: https://ieeevis.org/year/2025/program/paper_1628b4eb-473e-4157-9d19-44990b75efc7.html
+  image: images/publications/Deception_IEEEVis.png
   extra-links:
   - type: PDF
     link: https://arxiv.org/pdf/2508.09716
@@ -216,6 +224,7 @@
   date: '2025-01-01'
   link: https://aclanthology.org/2025.emnlp-main.1472/
   id: https://aclanthology.org/2025.emnlp-main.1472/
+  image: images/publications/ChartBias_EMNLP.png
   extra-links:
   - type: PDF
     link: https://aclanthology.org/2025.emnlp-main.1472.pdf
@@ -249,6 +258,7 @@
   date: '2025-01-01'
   link: https://bigcharts.github.io/
   id: https://bigcharts.github.io/
+  image: images/publications/BigChart-R1.png
   extra-links:
   - type: PDF
     link: https://arxiv.org/pdf/2508.09804
@@ -280,6 +290,7 @@
   date: '2025-01-01'
   link: https://aclanthology.org/2025.findings-acl.978/
   id: https://aclanthology.org/2025.findings-acl.978/
+  image: images/publications/ChartQAPro.png
   extra-links:
   - type: PDF
     link: 
@@ -306,6 +317,7 @@
   date: '2025-01-01'
   link: https://aclanthology.org/2025.acl-long.1238/
   id: https://aclanthology.org/2025.acl-long.1238/
+  image: images/publications/Biomedical.png
   extra-links:
   - type: PDF
     link: https://aclanthology.org/2025.acl-long.1238.pdf
@@ -334,6 +346,7 @@
   date: '2025-01-01'
   link: https://aclanthology.org/2025.acl-industry.83/
   id: https://aclanthology.org/2025.acl-industry.83/
+  image: images/publications/Judging_the_judges_ACL.png
   extra-links:
   - type: PDF
     link: https://aclanthology.org/2025.acl-industry.83.pdf
@@ -353,6 +366,7 @@
   date: '2025-01-01'
   link: https://doi.org/10.1109/MLSP62443.2025.11204231
   id: https://doi.org/10.1109/MLSP62443.2025.11204231
+  image: https://github.com/AhmedMasryKU/colflor/blob/main/assets/colflor_n32.png?raw=true
   extra-links:
   - type: PDF
     link: https://ieeexplore.ieee.org/document/11204231
@@ -373,6 +387,7 @@
   date: '2024-01-01'
   link: https://onlinelibrary.wiley.com/doi/epdf/10.1111/cgf.15266
   id: https://onlinelibrary.wiley.com/doi/epdf/10.1111/cgf.15266
+  image: images/publications/NLG_Survey_CGF.png
   extra-links:
   - type: PDF
     link: https://onlinelibrary.wiley.com/doi/pdf/10.1111/cgf.15266?msockid=044f1d436f1462572b3c080e6e3e6348
@@ -397,6 +412,7 @@
   date: '2024-01-01'
   link: https://aclanthology.org/2024.findings-emnlp.831/
   id: https://aclanthology.org/2024.findings-emnlp.831/
+  image: images/publications/Open-RAG_EMNLP.png
   extra-links:
   - type: PDF
     link: https://aclanthology.org/2024.findings-emnlp.831.pdf
@@ -419,7 +435,7 @@
   date: '2024-01-01'
   link: https://aclanthology.org/2024.emnlp-main.1073/
   id: https://aclanthology.org/2024.emnlp-main.1073/
-
+  image: images/publications/Data-driven-storytelling.png
   extra-links:
   - type: PDF
     link: https://aclanthology.org/2024.emnlp-main.1073.pdf
@@ -444,6 +460,7 @@
   date: '2024-01-01'
   link: https://aclanthology.org/2024.findings-emnlp.191/
   id: https://aclanthology.org/2024.findings-emnlp.191/
+  image: images/publications/Chart_Comprehension_EMNLP.png
   extra-links:
   - type: PDF
     link: https://aclanthology.org/2024.findings-emnlp.191.pdf
@@ -475,6 +492,7 @@
   date: '2024-01-01'
   link: https://aclanthology.org/2024.emnlp-main.764/
   id: https://aclanthology.org/2024.emnlp-main.764/
+  image: images/publications/survey_eval_llms.png
   extra-links:
   - type: PDF
     link: https://aclanthology.org/2024.emnlp-main.764.pdf
@@ -497,6 +515,7 @@
   date: '2024-01-01'
   link: https://aclanthology.org/2024.findings-acl.619
   id: https://aclanthology.org/2024.findings-acl.619
+  image: images/publications/ChartInstruct_ACL.png
   extra-links:
   - type: PDF
     link: https://aclanthology.org/2024.findings-acl.619.pdf
@@ -520,6 +539,7 @@
   date: '2024-01-01'
   link: https://aclanthology.org/2024.lrec-main.201/
   id: https://aclanthology.org/2024.lrec-main.201/
+  image: images/publications/benllm.png
   extra-links:
   - type: PDF
     link: https://aclanthology.org/2024.lrec-main.201.pdf
@@ -540,7 +560,8 @@
   date: '2024-01-01'
   link: https://www.uw-insight-lab.com/assets/papers/HEAL24-HolisticEval.pdf
   id: https://www.uw-insight-lab.com/assets/papers/HEAL24-HolisticEval.pdf
-  extra-links:
+  image: images/publications/Ex_vis_analysis.png
+  extra-links: 
   - type: PDF
     link: https://www.uw-insight-lab.com/assets/papers/HEAL24-HolisticEval.pdf
   - type: Source  
@@ -563,6 +584,7 @@
   date: '2023-01-01'
   link: https://aclanthology.org/2023.emnlp-main.906
   id: https://aclanthology.org/2023.emnlp-main.906
+  image: images/publications/unichart.png
   extra-links:
   - type: PDF
     link: https://aclanthology.org/2023.emnlp-main.906.pdf
@@ -586,6 +608,7 @@
   date: '2023-01-01'
   link: https://aclanthology.org/2023.findings-emnlp.686/
   id: https://aclanthology.org/2023.findings-emnlp.686/
+  image: images/publications/debatepedia.png
   extra-links:
   - type: PDF
     link: https://aclanthology.org/2023.findings-emnlp.686.pdf
@@ -607,6 +630,7 @@
   date: '2023-01-01'
   link: https://dl.acm.org/doi/abs/10.1145/3581641.3584099
   id: https://dl.acm.org/doi/abs/10.1145/3581641.3584099
+  image: images/publications/seechart.png
   extra-links:
   - type: PDF
     link: https://dl.acm.org/doi/abs/10.1145/3581641.3584099
@@ -618,8 +642,7 @@
     link: 
 
 
-- title: 'Do LLMs Work on Charts? Designing Few-Shot Prompts for Chart Question Answering
-    and Summarization'
+- title: 'Do LLMs Work on Charts? Designing Few-Shot Prompts for Chart Question Answering and Summarization'
   authors:
   - Xuan Long Do
   - Mohammad Hassanpour
@@ -631,6 +654,7 @@
   date: '2023-01-01'
   link: https://arxiv.org/abs/2312.10610
   id: https://arxiv.org/abs/2312.10610
+  image: images/publications/promptchart.png
   extra-links:
   - type: PDF
     link: https://arxiv.org/pdf/2312.10610
@@ -651,6 +675,7 @@
   date: '2022-01-01'
   link: https://doi.org/10.1111/cgf.14573
   id: https://doi.org/10.1111/cgf.14573
+  image: images/publications/cqa-survey.png
   extra-links:
   - type: PDF
     link: https://arxiv.org/pdf/2205.03966
@@ -673,6 +698,7 @@
   date: '2022-01-01'
   link: https://doi.org/10.1109/ACCESS.2022.3170897
   id: https://doi.org/10.1109/ACCESS.2022.3170897
+  image: images/publications/disaster.png
   extra-links:
   - type: PDF
     link: https://ieeexplore.ieee.org/document/9764741
@@ -694,6 +720,7 @@
   date: '2022-01-01'
   link: https://aclanthology.org/2022.cl-2.2/
   id: https://aclanthology.org/2022.cl-2.2/
+  image: images/publications/QFAS.png
   extra-links:
   - type: PDF
     link: https://aclanthology.org/2022.cl-2.2.pdf
@@ -717,11 +744,7 @@
   date: '2022-01-01'
   link: https://aclanthology.org/2022.emnlp-main.811/
   id: https://aclanthology.org/2022.emnlp-main.811/
-  tags:
-  - chart QA
-  - open-domain QA
-  - vision-language
-  - datasets
+  image: images/publications/OpenCQA.png
   extra-links:
   - type: PDF
     link: https://aclanthology.org/2022.emnlp-main.811/
@@ -746,6 +769,7 @@
   date: '2022-01-01'
   link: https://aclanthology.org/2022.acl-long.277/
   id: https://aclanthology.org/2022.acl-long.277/
+  image: images/publications/Shankar-acl-22-fig.jpg
   extra-links:
   - type: PDF
     link: https://aclanthology.org/2022.acl-long.277/
@@ -770,11 +794,12 @@
   date: '2022-01-01'
   link: https://aclanthology.org/2022.findings-acl.177/
   id: https://aclanthology.org/2022.findings-acl.177/
+  image: images/publications/Ahmed-acl-22-fig.jpg
   extra-links:
   - type: PDF
     link: https://aclanthology.org/2022.findings-acl.177/
   - type: Source  
-    link: https://github.com/vis-nlp/ChartQA
+    link: https://github.com/vis-nlp/Ahmed-acl-22-fig.jpg
   - type: Video
     link: https://aclanthology.org/2022.findings-acl.177.mp4
   - type: Blog Post 
@@ -792,11 +817,7 @@
   date: '2021-01-01'
   link: https://arxiv.org/abs/2108.13514
   id: https://arxiv.org/abs/2108.13514
-  tags:
-  - visual analytics
-  - healthcare
-  - patient conversations
-  - text visualization
+  image: images/publications/conviscope.png
   extra-links:
   - type: PDF
     link: https://open.library.ubc.ca/media/stream/pdf/52383/1.0406303/5
@@ -819,11 +840,7 @@
   date: '2021-01-01'
   link: https://dl.acm.org/doi/10.1145/3461778.3462103
   id: https://dl.acm.org/doi/10.1145/3461778.3462103
-  tags:
-  - community engagement
-  - visual analytics
-  - participatory design
-  - civic technology
+  image: images/publications/community-pulse.png
   extra-links:
   - type: PDF
     link: https://dl.acm.org/doi/abs/10.1145/3461778.3462132
@@ -844,6 +861,7 @@
   date: '2021-01-01'
   link: https://www.semanticscholar.org/paper/Integrating-Image-Data-Extraction-and-Table-Parsing-Masry/eb2f1a0e61167cf4afa410473df69d351ba57e0c
   id: https://www.semanticscholar.org/paper/Integrating-Image-Data-Extraction-and-Table-Parsing-Masry/eb2f1a0e61167cf4afa410473df69d351ba57e0c
+  image: images/publications/cqaw.png
   extra-links:
   - type: PDF
     link: https://www.yorku.ca/enamulh/papers/cqaw.pdf
@@ -868,7 +886,7 @@
   date: '2021-01-01'
   link: https://doi.org/gj7645
   id: https://doi.org/gj7645
-  image: https://ieeexplore.ieee.org/mediastore_new/IEEE/content/media/6287639/9312710/9303381/hoque2-3046623-small.gif
+  image: images/publications/multimodal.png
   extra-links:
   - type: PDF
     link: https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9303381
@@ -889,6 +907,7 @@
   date: '2020-12-01'
   link: https://aclanthology.org/2020.inlg-1.20.pdf
   id: https://aclanthology.org/2020.inlg-1.20.pdf
+  image: images/publications//chart-sum.png
   extra-links:
   - type: PDF
     link: https://aclanthology.org/2020.inlg-1.20.pdf
@@ -907,6 +926,7 @@
   - Jimmy Xiangji Huang
   publisher: Proceedings of the 28th International Conference on Computational Linguistics
   date: '2020-11-02'
+  image: images/publications/coling.png
   extra-links:
   - type: PDF
     link: https://aclanthology.org/2020.coling-main.495/
@@ -927,7 +947,7 @@
   date: '2020-10-20'
   link: https://doi.org/gj9db3
   id: https://doi.org/gj9db3
-  image: https://dl.acm.org/cms/asset/d3dbbc65-153c-4f4f-a615-37f87e8e2d4b/3379337.3415813.key.jpg
+  image: images/publications/sneak.png
   extra-links:
   - type: PDF
     link: https://dhkim16.github.io/pdf/sneakpique.pdf
@@ -947,7 +967,7 @@
   date: '2020-10-01'
   link: https://doi.org/gj9db2
   id: https://doi.org/gj9db2
-  image: https://ieeexplore.ieee.org/mediastore_new/IEEE/content/media/9329359/9331017/9331280/uddin1-p5-uddin-small.gif
+  image: images/publications/claimviz.png
   extra-links:
   - type: PDF
     link: https://ieeexplore.ieee.org/document/9331280
@@ -968,6 +988,7 @@
   date: '2020-05-01'
   link: https://www.aclweb.org/anthology/2020.lrec-1.676
   id: https://www.aclweb.org/anthology/2020.lrec-1.676/
+  image: images/publications/lrec.png 
   extra-links:
   - type: PDF
     link: https://aclanthology.org/2020.lrec-1.676/
@@ -1008,6 +1029,7 @@
   date: '2020-01-01'
   link: https://link.springer.com/chapter/10.1007/978-3-030-47358-7_35
   id: https://link.springer.com/chapter/10.1007/978-3-030-47358-7_35
+  image: images/publications/cai2020.png
   extra-links:
   - type: PDF
     link: https://link.springer.com/chapter/10.1007/978-3-030-47358-7_35
@@ -1026,7 +1048,7 @@
   date: '2020-01-01'
   link: https://ieeexplore.ieee.org/document/9373300
   id: https://ieeexplore.ieee.org/document/9373300
-  image: https://www.yorku.ca/enamulh/vis-search/img/teaser_scatter_plot_contrast.png
+  image: images/publications/convisqa.png
   extra-links:
   - type: PDF
     link: https://ieeexplore.ieee.org/document/9373300
@@ -1046,7 +1068,7 @@
   date: '2019-01-01'
   link: https://link.springer.com/chapter/10.1007/978-3-030-63591-6_63
   id: https://link.springer.com/chapter/10.1007/978-3-030-63591-6_63
-  image: https://www.yorku.ca/enamulh/vis-search/img/teaser_scatter_plot_contrast.png
+  image: images/publications/ammcs.png
   extra-links:
   - type: PDF
     link: https://link.springer.com/chapter/10.1007/978-3-030-63591-6_63
@@ -1065,7 +1087,7 @@
   date: '2019-01-01'
   link: https://link.springer.com/chapter/10.1007/978-3-030-30712-7_46
   id: https://link.springer.com/chapter/10.1007/978-3-030-30712-7_46
-  image: https://www.yorku.ca/enamulh/vis-search/img/teaser_scatter_plot_contrast.png
+  image: images/publications/controversy.png
   extra-links:
   - type: PDF
     link: https://link.springer.com/chapter/10.1007/978-3-030-30712-7_46
@@ -1084,7 +1106,7 @@
   date: '2019-01-01'
   link: https://doi.org/gh525d
   id: https://doi.org/gh525d
-  image: https://www.yorku.ca/enamulh/vis-search/img/teaser_scatter_plot_contrast.png
+  image: images/publications/vis-search.png
   extra-links:
   - type: PDF
     link: https://ieeexplore.ieee.org/document/8809832
@@ -1105,7 +1127,7 @@
   date: '2018-01-01'
   link: https://doi.org/gcp7wd
   id: https://doi.org/gcp7wd
-  image: https://ieeexplore.ieee.org/mediastore_new/IEEE/content/media/2945/8165924/8019833/24tvcg01-setlur-2744684-fig-1-source-small.gif
+  image: images/publications/pragmatics.gif
   extra-links:
   - type: PDF
     link: https://doi.org/gcp7wd
