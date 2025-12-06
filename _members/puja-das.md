@@ -4,7 +4,7 @@ search:
   - puja
 role: msc
 group: current
-image: images/puja_das.jpg
+image: images/members/puja_das.jpg
 email: 
 github: 
 ---

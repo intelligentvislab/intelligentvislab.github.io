@@ -4,7 +4,7 @@ search:
   - Nafis
 role: msc
 group: current
-image: images/nafis_tahmid_choudhuri.jpg
+image: images/members/nafis_tahmid_choudhuri.jpg
 email: 
 github: 
 ---
