@@ -14,7 +14,13 @@
 {%- capture details -%}
 {{- paper.publisher -}}
 &nbsp; · &nbsp;
-{{- paper.date | date: "%d %b %Y" -}}
+<!-- Full Date -->
+<!-- {{- paper.date | date: "%d %b %Y" -}} -->
+<!-- Month and Year only -->
+<!-- {{- paper.date | date: "%b %Y" -}} -->
+
+<!-- Year Only -->
+{{- paper.date | date: "%Y" -}}
 {%- endcapture -%}
 
 {% capture tags %}
