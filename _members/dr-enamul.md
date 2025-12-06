@@ -4,7 +4,7 @@ search:
   - Enamul Hoque
 role: pi
 group: current
-image: images/prof.jpg
+image: images/members/professor_enamul.jpg
 email: enamulh@yorku.ca
 twitter: Enamul_Hoque
 github: enamulh
