@@ -1,5 +1,8 @@
+<!-- ...Paper Sorting... -->
 {% assign papers = site.data.research-output %}
-{% assign papers = papers | sort: "date" | reverse %}
+{% assign papers = papers | sort: "date" %}
+{% assign byyear = papers | group_by_exp: "post", "post.date | date: '%Y'" | sort: "name" %}
+<!-- ...Paper Sorting Ended... -->
 {% assign byyear = papers | group_by_exp: "post", "post.date | date: '%Y'" | sort: "name" | reverse %}
 
 {% for yeargroup in byyear %}
@@ -27,15 +30,26 @@
 {% include tags.html tags=paper.tags repo=paper.repo %}
 {% endcapture %}
 
+<!-- ...Extra Links... -->
 {% capture extralinks %}
-{% if paper.extra-links.size > 0 %}
+{% assign has_links = false %}
+{% if paper.extra-links and paper.extra-links.size > 0 %}
 <div>
   {%- for link in paper.extra-links -%}
-  {% include paper-link.html type=link.type link=link.link text=link.text %}
+    {% assign href = link.link | default: "" | strip %}
+    {% if href != "" %}
+      {% include paper-link.html type=link.type link=href text=link.text %}
+      {% assign has_links = true %}
+    {% endif %}
   {%- endfor -%}
 </div>
 {% endif %}
+{% if has_links == false %}
+{% assign extralinks = "" %}
+{% endif %}
 {% endcapture %}
+<!-- ...Extra Links Ended... -->
+
 
 {%
   include card.html
