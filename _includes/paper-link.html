@@ -51,22 +51,22 @@ https://fontawesome.com/icons?d=gallery&q=icon&m=free
 {%- endcomment -%}
 
 {%- if include.type == "PDF" -%}
-{%- assign icon = "fas fa-code" -%}
+{%- assign icon = "fas fa-file-pdf" -%}
 {%- assign text = include.text | default: "PDF" -%}
 {%- endif -%}
 
 {%- if include.type == "Video" -%}
-{%- assign icon = "fas fa-code" -%}
+{%- assign icon = "fas fa-play-circle" -%}
 {%- assign text = include.text | default: "Video" -%}
 {%- endif -%}
 
 {%- if include.type == "Blog Post" -%}
-{%- assign icon = "fas fa-code" -%}
+{%- assign icon = "fas fa-pen-nib" -%}
 {%- assign text = include.text | default: "Blog Post" -%}
 {%- endif -%}
 
 {%- if include.type == "Dataset" -%}
-{%- assign icon = "fas fa-code" -%}
+{%- assign icon = "fas fa-database" -%}
 {%- assign text = include.text | default: "Dataset" -%}
 {%- endif -%}
 
