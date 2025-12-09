@@ -13,12 +13,19 @@
     max-width: 100%;
     overflow: hidden;
     box-shadow: $shadow;
+    border: 1px solid #e6e6e6;
+    border-radius: 6px;
+    background-clip: padding-box;
 
     img {
       object-fit: cover;
       width: 100%;
       height: auto;
       transition: transform $fast;
+      height: auto;
+      display: block;
+      transition: transform $fast;
+      border-radius: 4px;
     }
 
     &:hover img {
