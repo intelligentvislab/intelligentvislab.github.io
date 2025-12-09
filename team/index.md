@@ -40,4 +40,21 @@ the work we're doing, please reach out!
 
 <!-- section break -->
 
+## Alumni
 
+We are incredibly proud of all the IVL alumni who have passed through the lab, for whatever period of time they were with us. Below
+is a list of lab alumni (if you feel you're missing from the list and would like to be added, please e-mail us): 
+{:.center} 
+
+- 2024-2024 - **Somang Nam**, Postdoctoral fellow, York University
+- 2023-2025 - **Mohammed Saidul Islam**, EECS, York University
+- 2023-2024 - **Shadikur Rahman**, EECS, York University
+- 2022-2023 - **Mohammad Hassanpour**, EECS, York University
+- 2022-2024 - **Syed Muhammad Ali**, MAIST, York University
+- 2022-2024 - **Mehrad Shahmohammadi**, MAIST, York University
+- 2021-2022 - **Md. Zubair Ibne Alam**, master’s student, EECS, York University
+- 2021-2023 - **Kaavya Varadarajan**, MAIST, York University
+- 2021-2023 - **Parsa Kaveh**, EECS, York University
+- 2020-2022 - **Shankar Kantharaj**, EECS, York University
+- 2019-2022 - **Zehra Shirin**, MAIST, York University
+- 2018-2021 - **Nadia Ashfaq Siddiqui**, MAIST, York University
