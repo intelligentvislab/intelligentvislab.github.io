@@ -215,7 +215,7 @@ title: Home
         </ul>
       </section>
 
-      <section class="people-wrap" style="margin-top:12px">
+<!--       <section class="people-wrap" style="margin-top:12px">
         <h3 class="side-title" style="border-left-color:#0b7a75;">PEOPLE</h3>
         <div class="person-grid">
           <a href="/team"><img src="/images/people/sample1.jpg" alt="Team member"></a>
@@ -224,7 +224,7 @@ title: Home
           <a href="/team"><img src="/images/people/sample4.jpg" alt="Team member"></a>
         </div>
         <div class="people-footer"><a href="/team">See all →</a></div>
-      </section>
+      </section> -->
     </aside>
   </div>
 </div>
