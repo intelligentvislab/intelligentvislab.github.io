@@ -3,6 +3,6 @@ html, body { margin: 0; padding: 0; min-height: 100vh; }
 body { display: flex; justify-content: flex-start; align-items: stretch; flex-direction: column; font-size: 12pt; }
 body main { padding-top: 78px; box-sizing: border-box; flex-grow: 1; background: #ffffff; }
 @media (max-width: 979px) { body main { padding-top: 65px; } }
-body section .section { box-sizing: border-box; max-width: 1024px; margin: 0 auto; padding: 10px; }
+body section .section { box-sizing: border-box; max-width: 1100; margin: 0 auto; padding: 10px; }
 @media (max-width: 979px) { body section { padding: 15px; } }
 body section:nth-child(even) { background: #f8f8f8; }

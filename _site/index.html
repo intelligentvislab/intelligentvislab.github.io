@@ -213,21 +213,33 @@ Intelligent Visualization Lab - Home
     border-radius:12px;
   }
   .hero h1{
-    font:600 1.9rem/1.25 Poppins,system-ui,sans-serif;
+    font:600 1.6rem/1.25 Poppins,system-ui,sans-serif;
     color:var(--ink);
     text-align:center;
+  color: #1b1f23;
     margin:0 0 10px;
     letter-spacing:.02em;
     text-transform:none;
   }
   .hero p{
     font:400 1.05rem/1.6 Lora,Georgia,serif;
-    color:var(--muted);
+  color: #4a5058;
     max-width:840px;
     margin:0 auto;
     text-align:center;
   }
+/* Hero subheading link style */
+.hero p a {
+  color: inherit;                 /* Same subtle grey as paragraph */
+  text-decoration: none;          /* Remove underline */
+  border-bottom: 1px dotted transparent; /* Optional subtle cue */
+  transition: color 0.18s ease, border-color 0.18s ease;
+}
 
+.hero p a:hover {
+  color: var(--brand-ink);        /* Slightly darker branded blue on hover */
+  border-bottom-color: var(--brand-ink);
+}
   /* Two-column layout */
   .grid{
     display:grid;
@@ -248,7 +260,7 @@ Intelligent Visualization Lab - Home
     margin:1px 0 16px;
     text-align:left;
     border-left:4px solid var(--brand);
-    padding-left:1px;
+    padding-left:5px;
   }
 
   /* Themes (left column cards) */
@@ -256,7 +268,7 @@ Intelligent Visualization Lab - Home
     background:var(--card);
     border:1px solid var(--line);
     border-radius:12px;
-    padding:16px;
+    padding:10px;
     margin:0 0 16px;
     box-shadow:0 1px 0 rgba(0,0,0,.03);
   }
@@ -287,7 +299,7 @@ Intelligent Visualization Lab - Home
   .theme-media img{
     width:100%;
     border-radius:10px;
-    display:block;
+    display:block;    
   }
 
   .theme-papers-header{
@@ -400,7 +412,7 @@ Intelligent Visualization Lab - Home
   <div class="wrap">
     <h1>Building multimodal AI that sees, reasons, and communicates with data</h1>
     <p>
-      Established in <b>2019</b> at <a href="https://www.yorku.ca/" target="_blank" rel="noopener noreferrer"><b>York University</b></a>, our lab bridges <b>Natural Language Processing (NLP)</b> and <b>Information Visualization (Vis)</b>—two domains that have historically evolved separately—to advance language-based data interaction and reasoning that is more accessible, inclusive, and intelligent.
+Based at  <a href="https://www.yorku.ca/" target="_blank" rel="noopener noreferrer"><b>York University</b></a>, our research Lab brings together NLP, visualization, and multimodal LLMs to make data interaction more responsible, interpretable, and human-centered.
     </p>  
     <!-- <h1>Connecting language, visualization, and intelligence to help humans see and think with data.</h1>
     <p>
@@ -430,11 +442,10 @@ Intelligent Visualization Lab - Home
             <div class="theme-papers-list">
               <ul>
                 <li><a href="/research/?search=Text2Vis">Text2Vis: Generating Multimodal Visualizations from Natural Language (EMNLP 2025)</a></li>
-                <li><a href="/research/?search=DataNarrative">DataNarrative: Automated data-driven storytelling with visualizations and texts (EMNLP 2024)</a></li>
                 <li><a href="/research/?search=ChartGemma">ChartGemma: Visual instruction-tuning for chart reasoning in the wild (COLING 2025)</a></li>
+                <li><a href="/research/?search=BigCharts-R1">BigCharts-R1: Visual Reinforcement Learning for Chart Reasoning (COLM 2025)</a></li>
                 <li><a href="/research/?search=ChartQA">ChartQA: A benchmark for question answering about charts with visual and logical reasoning (ACL 2022)</a></li>
                 <li><a href="/research/?search=Chart-to-Text">Chart-to-Text: A Large-Scale Benchmark for Chart Summarization (ACL 2022)</a></li>
-                <li><a href="/research/?search=BigCharts-R1">BigCharts-R1: Visual Reinforcement Learning for Chart Reasoning (COLM 2025)</a></li>
               </ul>
             </div>
           </div>
@@ -443,9 +454,9 @@ Intelligent Visualization Lab - Home
 
       <!-- THEME 2 -->
       <article class="theme">
-        <h3>Agentic AI for Analytic Workflows</h3>
+        <h3>Agentic AI for Data Science Workflows</h3>
         <p class="theme-subtitle">
-          Building multimodal agents that plan actions, interact with analytic tools, refine outputs, and collaborate with humans across realistic, end-to-end data workflows.
+          Building multimodal agents that plan actions, interact with analytic tools, refine outputs, and collaborate with humans across realistic, end-to-end data science workflows.
         </p>
         <div class="theme-layout">
           <div class="theme-media">
@@ -464,44 +475,24 @@ Intelligent Visualization Lab - Home
         </div>
       </article>
 
-      <!-- THEME 3 -->
+        <!-- THEME 3 -->
       <article class="theme">
-        <h3>Accessible, Inclusive &amp; Responsible VLMs for Visualization</h3>
+        <h3>Human-Centered &amp; Responsible AI for Data Visualization</h3>
         <p class="theme-subtitle">
-          Ensuring analytic AI systems are fair, transparent, robust to deceptive designs, and supportive of users with diverse abilities, literacy levels, and cultural backgrounds.
+          Designing accessible, trustworthy, and goal-aligned AI systems that collaborate with people, mitigate bias and deception, and support diverse analytical needs in data visualization.
         </p>
         <div class="theme-layout">
           <div class="theme-media">
-            <img src="/images/teaser1.png" alt="Accessible, inclusive, and responsible visualization with VLMs" />
+            <img src="/images/inverted.png" alt="Human-centered and responsible AI for data visualization" />
           </div>
           <div class="theme-papers">
             <p class="theme-papers-header">Representative papers</p>
             <div class="theme-papers-list">
               <ul>
-                <li><a href="/research/?search=SeeChart">SeeChart: Accessible Visualizations for Blind and Low-Vision Users (IUI 2023)</a></li>
-                <li><a href="/research/?search=DeceptionVis">DeceptionVis: The Perils of Chart Deception for Vision-Language Models (IEEE VIS 2025 — Best Paper)</a></li>
+                <li><a href="/research/?search=DeceptionVis">🏅 The Perils of Chart Deception: How Misleading Visualizations Affect Vision-Language Models (IEEE VIS 2025)</a></li>
                 <li><a href="/research/?search=Fair%20Narratives">From Charts to Fair Narratives: Uncovering Geo-Economic Bias in Chart-to-Text (EMNLP 2025)</a></li>
+                <li><a href="/research/?search=SeeChart">SeeChart: Accessible Visualizations for Blind and Low-Vision Users (IUI 2023)</a></li>
                 <li><a href="/research/?search=Judging%20the%20Judges">Judging the Judges: Reliability of VLMs as Chart Reasoning Evaluators (ACL 2025, Industry Track)</a></li>
-              </ul>
-            </div>
-          </div>
-        </div>
-      </article>
-
-      <!-- THEME 4 -->
-      <article class="theme">
-        <h3>Human-AI Alignment for Co-Creative Data Intelligence</h3>
-        <p class="theme-subtitle">
-          Designing generative analytic interfaces and collaboration modes that align AI reasoning with human goals, critique, and creativity in real data analysis settings.
-        </p>
-        <div class="theme-layout">
-          <div class="theme-media">
-            <img src="/images/intervention2.png" alt="Human–AI collaboration and co-creative analytic interfaces" />
-          </div>
-          <div class="theme-papers">
-            <p class="theme-papers-header">Representative papers</p>
-            <div class="theme-papers-list">
-              <ul>
                 <li><a href="/research/?search=Sneak%20Pique">Sneak Pique: Autocompletion as a Data Discovery Scaffold (UIST 2020)</a></li>
                 <li><a href="/research/?search=evizeon">evizeon: Applying Pragmatics Principles for Visual Analytics Interaction (TVCG 2017)</a></li>
               </ul>
@@ -510,6 +501,29 @@ Intelligent Visualization Lab - Home
         </div>
       </article>
 
+    <article class="theme">
+        <h3>Visual &amp; Interactive Document Analytics</h3>
+        <p class="theme-subtitle">
+          Developing interfaces and visual analytics techniques that help users read, explore, and interpret text-rich documents.
+        </p>
+        <div class="theme-layout">
+          <div class="theme-media">
+            <img src="/images/3.jpg" alt="Visual analytics for large text collections" />
+          </div>
+          <div class="theme-papers">
+            <p class="theme-papers-header">Representative papers</p>
+            <div class="theme-papers-list">
+              <ul>
+                <li><a href="/research/?search=CommunityPulse">🏅 CommunityPulse: Facilitating Community Input Analysis by Surfacing Hidden Insights, Reflections, and Priorities
+Priorities (DIS 2021)</a></li>
+                <li><a href="/research/?search=Model%20Explanation">Facilitating Document Reading by Linking Text and Tables (UIST 2018)</a></li>
+                <li><a href="/research/?search=ConVIScope">ConVIScope: Visual Analytics for Exploring Patient Conversation (IEEE Vis 2021)</a></li>
+                <li><a href="/research/?search=Topic%20Visualization">ClaimViz : Visual Analytics for Identifying and Verifying Factual Claims (IEEE Vis 2020)</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </article>
       <!-- THEME 5 -->
       <article class="theme">
         <h3>Language Understanding, Summarization, and Evaluation</h3>
@@ -518,7 +532,7 @@ Intelligent Visualization Lab - Home
         </p>
         <div class="theme-layout">
           <div class="theme-media">
-            <img src="/images/teaser3.png" alt="Language understanding, summarization, and evaluation for analytics" />
+            <img src="/images/eval.png" alt="Language understanding, summarization, and evaluation for analytics" />
           </div>
           <div class="theme-papers">
             <p class="theme-papers-header">Representative papers</p>
