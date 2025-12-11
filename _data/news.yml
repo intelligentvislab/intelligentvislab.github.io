@@ -1,8 +1,11 @@
 - date: 2025-11-03
   text: Best Paper at IEEE VIS for our chart reasoning work (congrats Ridwan & team!)
-  link: /news/
+  link: https://www.yorku.ca/laps/newsroom/2025/12/01/professor-enamul-hoque-prince-and-team-win-best-paper-award-at-ieee-vis/
 - date: 2025-10-20
   text: Four papers accepted at EMNLP 2025 (Text2Vis, Tiny LVLM Judges, Fair Narratives, COLMATE).
 - date: 2025-10-05
   text: MLLM4Vis tutorial delivered at VIS 2025—slides and materials posted.
-  link: /tutorials/mllm4vis/
+  link: https://nlp4vis.github.io/
+- date: 2025-07-15
+  text: We received an NSERC Discovery Grant titled “Human-AI Interactions for Democratizing Visual Analytics” for a five-year term.
+  link: https://www.yorku.ca/laps/newsroom/2025/07/15/six-professors-from-the-school-of-information-technology-receive-nserc-grants/#:~:text=Md%20Enamul%20Hoque%20Prince
