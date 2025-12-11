@@ -281,7 +281,7 @@ Based at  <a href="https://www.yorku.ca/" target="_blank" rel="noopener noreferr
             <p class="theme-papers-header">Representative papers</p>
             <div class="theme-papers-list">
               <ul>
-                <li><a href="/research/?search=DashboardQA">DashboardQA: Benchmarking Multimodal Agents for Interactive Dashboards (2025)</a></li>
+                <li><a href="https://arxiv.org/pdf/2508.17398">DashboardQA: Benchmarking Multimodal Agents for Interactive Dashboards (2025)</a></li>
                 <li><a href="/research/?search=Text2Vis">Text2Vis: Agentic Refinement for Visualization Generation via an Actor–Critic Framework (EMNLP 2025)</a></li>
                 <li><a href="/research/?search=DataNarrative">DataNarrative: Narrative Construction via Multi-Agent Planner–Evaluator Systems (EMNLP 2024)</a></li>
               </ul>
@@ -304,12 +304,12 @@ Based at  <a href="https://www.yorku.ca/" target="_blank" rel="noopener noreferr
             <p class="theme-papers-header">Representative papers</p>
             <div class="theme-papers-list">
               <ul>
-                <li><a href="/research/?search=DeceptionVis">🏅 The Perils of Chart Deception: How Misleading Visualizations Affect Vision-Language Models (IEEE VIS 2025)</a></li>
-                <li><a href="/research/?search=Fair%20Narratives">From Charts to Fair Narratives: Uncovering Geo-Economic Bias in Chart-to-Text (EMNLP 2025)</a></li>
-                <li><a href="/research/?search=SeeChart">SeeChart: Accessible Visualizations for Blind and Low-Vision Users (IUI 2023)</a></li>
-                <li><a href="/research/?search=Judging%20the%20Judges">Judging the Judges: Reliability of VLMs as Chart Reasoning Evaluators (ACL 2025, Industry Track)</a></li>
+                <li><a href="https://arxiv.org/pdf/2508.09716">🏅 The Perils of Chart Deception: How Misleading Visualizations Affect Vision-Language Models (IEEE VIS 2025)</a></li>
+                <li><a href="https://aclanthology.org/2025.emnlp-main.1472.pdf">From Charts to Fair Narratives: Uncovering Geo-Economic Bias in Chart-to-Text (EMNLP 2025)</a></li>
+                <li><a href="https://arxiv.org/pdf/2302.07742">SeeChart: Accessible Visualizations for Blind and Low-Vision Users (IUI 2023)</a></li>
+                <li><a href="https://arxiv.org/pdf/2505.08468?">Judging the Judges: Reliability of VLMs as Chart Reasoning Evaluators (ACL 2025, Industry Track)</a></li>
                 <li><a href="/research/?search=Sneak%20Pique">Sneak Pique: Autocompletion as a Data Discovery Scaffold (UIST 2020)</a></li>
-                <li><a href="/research/?search=evizeon">evizeon: Applying Pragmatics Principles for Visual Analytics Interaction (TVCG 2017)</a></li>
+                <li><a href="https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=8019833">evizeon: Applying Pragmatics Principles for Visual Analytics Interaction (TVCG 2017)</a></li>
               </ul>
             </div>
           </div>
@@ -331,9 +331,9 @@ Based at  <a href="https://www.yorku.ca/" target="_blank" rel="noopener noreferr
               <ul>
                 <li><a href="/research/?search=CommunityPulse">🏅 CommunityPulse: Facilitating Community Input Analysis by Surfacing Hidden Insights, Reflections, and Priorities
 Priorities (DIS 2021)</a></li>
-                <li><a href="/research/?search=Model%20Explanation">Facilitating Document Reading by Linking Text and Tables (UIST 2018)</a></li>
-                <li><a href="/research/?search=ConVIScope">ConVIScope: Visual Analytics for Exploring Patient Conversation (IEEE Vis 2021)</a></li>
-                <li><a href="/research/?search=Topic%20Visualization">ClaimViz : Visual Analytics for Identifying and Verifying Factual Claims (IEEE Vis 2020)</a></li>
+                <li><a href="https://dl.acm.org/doi/pdf/10.1145/3242587.3242617">Facilitating Document Reading by Linking Text and Tables (UIST 2018)</a></li>
+                <li><a href="https://ieeexplore.ieee.org/abstract/document/9623269">ConVIScope: Visual Analytics for Exploring Patient Conversation (IEEE Vis 2021)</a></li>
+                <li><a href="https://www.computer.org/csdl/proceedings-article/vis/2020/801400a246/1qROIHocgRG">ClaimViz : Visual Analytics for Identifying and Verifying Factual Claims (IEEE Vis 2020)</a></li>
               </ul>
             </div>
           </div>
@@ -353,10 +353,10 @@ Priorities (DIS 2021)</a></li>
             <p class="theme-papers-header">Representative papers</p>
             <div class="theme-papers-list">
               <ul>
-                <li><a href="/research/?search=LLM%20Evaluation%20Survey">A Systematic Survey and Critical Review on Evaluating Large Language Models (EMNLP 2024)</a></li>
+                <li><a href="https://aclanthology.org/2024.emnlp-main.764.pdf">A Systematic Survey and Critical Review on Evaluating Large Language Models (EMNLP 2024)</a></li>
                 <li><a href="/research/?search=Biomedical%20LLM-as-the-Judge">Improving Automatic Evaluation of LLMs in Biomedical Relation Extraction via LLMs-as-the-Judge (ACL 2025)</a></li>
                 <li><a href="/research/?search=Open-RAG">Open-RAG: Enhanced Retrieval-Augmented Reasoning with Open-Source LLMs (EMNLP 2024)</a></li>
-                <li><a href="/research/?search=Domain%20Adaptation%20Query-Focused%20Abstractive%20Summarization">Domain Adaptation with Pre-Trained Transformers for Query-Focused Abstractive Text Summarization (Computational Linguistics 2022)</a></li>
+                <li><a href="https://direct.mit.edu/coli/article/48/2/279/109901">Domain Adaptation with Pre-Trained Transformers for Query-Focused Abstractive Text Summarization (Computational Linguistics 2022)</a></li>
               </ul>
             </div>
           </div>
