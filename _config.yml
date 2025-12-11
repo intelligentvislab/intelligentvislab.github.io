@@ -53,6 +53,7 @@ highlighter: rouge
 plugins:
   - jekyll-feed
   - jekyll-redirect-from
+  - jekyll-sitemap  
 
 # banner images
 slideShow:
