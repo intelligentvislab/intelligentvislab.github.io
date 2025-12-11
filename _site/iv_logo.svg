@@ -23,13 +23,13 @@
 
   <!-- ICON -->
   <g transform="translate(24,24)">
-    <path d="M32,15 H162" fill="none" stroke="#00B7FF" stroke-width="8.5" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M32,15 H162" fill="none" stroke="#5A8BFF" stroke-width="8.5" stroke-linecap="round" stroke-linejoin="round"/>
     <path d="M202,37 V127 a20,20 0 0 1 -20,20 h-84 l-26,26 a5,5 0 0 1 -9,-3 v-22
              H32 a20,20 0 0 1 -20,-20 V35 a20,20 0 0 1 20,-20 h66"
-          fill="none" stroke="#00B7FF" stroke-width="8.5" stroke-linecap="round" stroke-linejoin="round"/>
-    <rect x="28"  y="93" width="28" height="50" rx="6" fill="#4FA3FF"/>
-    <rect x="80"  y="53" width="28" height="88" rx="6" fill="#4FA3FF"/>
-    <rect x="132" y="89" width="28" height="52" rx="6" fill="#4FA3FF"/>
+          fill="none" stroke="#5A8BFF" stroke-width="8.5" stroke-linecap="round" stroke-linejoin="round"/>
+    <rect x="28"  y="93" width="28" height="50" rx="6" fill="#2C63FF"/>
+    <rect x="80"  y="53" width="28" height="88" rx="6" fill="#2C63FF"/>
+    <rect x="132" y="89" width="28" height="52" rx="6" fill="#2C63FF"/>
 
     <circle r="5" fill="#F68B1F">
       <animateMotion dur="3s" repeatCount="indefinite" keySplines=".25 .1 .25 1" keyTimes="0;1" calcMode="spline">
@@ -51,14 +51,14 @@
   <g transform="translate(260,70)">
     <text x="0" y="0"
           font-family="Inter, system-ui, -apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif"
-          font-size="54" font-weight="600" fill="#F7FAFF">Intelligent</text>
+          font-size="48" font-weight="600" fill="#F7FAFF">Intelligent</text>
 
     <text x="0" y="56"
           font-family="Inter, system-ui, -apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif"
-          font-size="54" font-weight="600" fill="#F7FAFF">Visualization</text>
+          font-size="48" font-weight="600" fill="#F7FAFF">Visualization</text>
 
-    <text x="0" y="105"
+    <text x="0" y="112"
           font-family="Inter, system-ui, -apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif"
-          font-size="54" font-weight="600" fill="#F7FAFF">Lab</text>
+          font-size="48" font-weight="600" fill="#F7FAFF">Lab</text>
   </g>
 </svg>

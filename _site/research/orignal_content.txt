@@ -30,7 +30,7 @@ Intelligent Visualization Lab - Research
 <link
   rel="alternate"
   type="application/rss+xml"
-  href="http://localhost:4000/feed.xml"
+  href="http://localhost:8800/feed.xml"
 />
 
 <!-- https://developers.google.com/web/fundamentals/native-hardware/click-to-call#disable_auto-detection_when_necessary -->
@@ -157,7 +157,7 @@ Intelligent Visualization Lab - Research
           <!-- Replaced old PNG logo with new SVG icon -->
           <img 
             src="/iv_logo.svg" 
-            alt="IVL — Intelligent Visualization Lab" 
+            alt="Intelligent Visualization Lab" 
             width="200" height="80"
           />
         </span>
@@ -173,7 +173,7 @@ Intelligent Visualization Lab - Research
           <li><a href="/" class="nav_link" data-tooltip="Homepage" data-placement="bottom" data-delay="400">Home</a></li>
           <li><a href="/research" class="nav_link" data-tooltip="Published works" data-placement="bottom" data-delay="400">Publications</a></li>
           <li><a href="/team" class="nav_link" data-tooltip="About our team" data-placement="bottom" data-delay="400">Team</a></li>
-          <li><a href="/projects" class="nav_link" data-tooltip="Ongoing projects" data-placement="bottom" data-delay="400">Projects</a></li>
+          <!-- <li><a href="/projects" class="nav_link" data-tooltip="Ongoing projects" data-placement="bottom" data-delay="400">Projects</a></li> -->
           <li><a href="/contact" class="nav_link" data-tooltip="Email, mailing address, and location" data-placement="bottom" data-delay="400">Contact</a></li>
         </ul>
       </nav>
@@ -219,6 +219,1967 @@ A _research list_ component, to sort and group all of your research publications
 Can be used on any page, but assumes its content from `/_data/research-output.yml`.
 Uses the _card_ component (small).
 
+<!-- ...Paper Sorting... -->
+
+
+
+<!-- ...Paper Sorting Ended... -->
+
+
+
+
+### 2025
+{:.card_search_hide}
+
+
+
+
+
+<!-- ...Extra Links... -->
+
+<!-- ...Extra Links Ended... -->
+
+
+
+
+
+
+<div class="card" data-size="small">
+  
+  <a
+    href="https://arxiv.org/abs/2502.01341"
+    class="card_image"
+  ><img
+      src="/images/publications/AlignVLM.png"
+      onerror="this.src = '/images/placeholder.svg'; this.onerror = null;"
+    ></a>
+  <div class="card_text">
+    
+    <a href="https://arxiv.org/abs/2502.01341" class="card_title">AlignVLM: Rethinking LLM-as-a-Judge for Fair Evaluation of Chart Reasoning</a>
+    <p
+      
+      class="truncate"
+      tabindex="0"
+      
+    >Ahmed Masry, Juan A. Rodriguez, Tianyu Zhang, Suyuchen Wang, Chao Wang, Aarash Feizi, Akshay Kalkunte Suresh, Abhay Puri, Xiangru Jian, Pierre-André Noël, Sathwik Tejaswi Madhusudhan, Marco Pedersoli, Bang Liu, Nicolas Chapados, Yoshua Bengio, Enamul Hoque, Christopher Pal, Issam H. Laradji, David Vazquez, Perouz Taslakian, Spandana Gella, Sai Rajeswar
+</p><p
+      
+      class="truncate"
+      tabindex="0"
+      
+    >NeurIPS 2025  ·  
+<!-- Full Date -->
+<!--01 Jan 2025-->
+<!-- Month and Year only -->
+<!--Jan 2025-->
+
+<!-- Year Only -->
+2025
+</p><div>
+    
+      <a href="https://arxiv.org/pdf/2502.01341" class="paper_link"><i class="fas fa-file-pdf"></i>PDF</a>
+
+      
+    
+    
+    
+    
+      <a href="https://huggingface.co/papers/2502.01341" class="paper_link"><i class="fas fa-pen-nib"></i>Blog Post</a>
+
+      
+    </div>
+</div>
+</div>
+
+
+
+
+
+
+<!-- ...Extra Links... -->
+
+<!-- ...Extra Links Ended... -->
+
+
+
+
+
+
+<div class="card" data-size="small">
+  
+  <a
+    href="https://aclanthology.org/2025.emnlp-main.1622"
+    class="card_image"
+  ><img
+      src="/images/publications/Text2Vis.png"
+      onerror="this.src = '/images/placeholder.svg'; this.onerror = null;"
+    ></a>
+  <div class="card_text">
+    
+    <a href="https://aclanthology.org/2025.emnlp-main.1622" class="card_title">Text2Vis: A Challenging and Diverse Benchmark for Generating Multimodal Visualizations from Text</a>
+    <p
+      
+      class="truncate"
+      tabindex="0"
+      
+    >Mizanur Rahman, Md Tahmid Rahman Laskar, Shafiq Joty, Enamul Hoque
+</p><p
+      
+      class="truncate"
+      tabindex="0"
+      
+    >EMNLP 2025  ·  
+<!-- Full Date -->
+<!--01 Jan 2025-->
+<!-- Month and Year only -->
+<!--Jan 2025-->
+
+<!-- Year Only -->
+2025
+</p><div>
+    
+      <a href="https://aclanthology.org/2025.emnlp-main.1622.pdf" class="paper_link"><i class="fas fa-file-pdf"></i>PDF</a>
+
+      
+    
+    
+      <a href="https://github.com/vis-nlp/Text2Vis" class="paper_link"><i class="fas fa-code"></i>Source</a>
+
+      
+    
+    
+    
+      <a href="https://huggingface.co/papers/2507.19969" class="paper_link"><i class="fas fa-pen-nib"></i>Blog Post</a>
+
+      
+    </div>
+</div>
+</div>
+
+
+
+
+
+
+<!-- ...Extra Links... -->
+
+<!-- ...Extra Links Ended... -->
+
+
+
+
+
+
+<div class="card" data-size="small">
+  
+  <a
+    href="https://aclanthology.org/2025.emnlp-industry.145/"
+    class="card_image"
+  ><img
+      src="/images/publications/colmate.png"
+      onerror="this.src = '/images/placeholder.svg'; this.onerror = null;"
+    ></a>
+  <div class="card_text">
+    
+    <a href="https://aclanthology.org/2025.emnlp-industry.145/" class="card_title">ColMate: Contrastive Late Interaction and Masked Text for Multimodal Document Retrieval</a>
+    <p
+      
+      class="truncate"
+      tabindex="0"
+      
+    >Ahmed Masry, Megh Thakkar, Patrice Bechard, Sathwik Tejaswi Madhusudhan, Rabiul Awal, Shambhavi Mishra, Akshay Kalkunte Suresh, Srivatsava Daruru, Enamul Hoque, Spandana Gella, Torsten Scholak, Sai Rajeswar
+</p><p
+      
+      class="truncate"
+      tabindex="0"
+      
+    >EMNLP 2025 (Industry Track)  ·  
+<!-- Full Date -->
+<!--01 Jan 2025-->
+<!-- Month and Year only -->
+<!--Jan 2025-->
+
+<!-- Year Only -->
+2025
+</p><div>
+    
+      <a href="https://aclanthology.org/2025.emnlp-industry.145.pdf" class="paper_link"><i class="fas fa-file-pdf"></i>PDF</a>
+
+      
+    
+    
+    
+    
+      <a href="https://huggingface.co/papers/2511.00903" class="paper_link"><i class="fas fa-pen-nib"></i>Blog Post</a>
+
+      
+    </div>
+</div>
+</div>
+
+
+
+
+
+
+<!-- ...Extra Links... -->
+
+<!-- ...Extra Links Ended... -->
+
+
+
+
+
+
+<div class="card" data-size="small">
+  
+  <a
+    href="https://aclanthology.org/2025.emnlp-industry.134/"
+    class="card_image"
+  ><img
+      src="/images/publications/TinyLVLM_EMNLP.png"
+      onerror="this.src = '/images/placeholder.svg'; this.onerror = null;"
+    ></a>
+  <div class="card_text">
+    
+    <a href="https://aclanthology.org/2025.emnlp-industry.134/" class="card_title">Deploying Tiny LVLM Judges for Real-World Evaluation of Chart Models: Lessons Learned and Best Practices</a>
+    <p
+      
+      class="truncate"
+      tabindex="0"
+      
+    >Md Tahmid Rahman Laskar, Mohammed Saidul Islam, Ridwan Mahbub, Mizanur Rahman, Amran Bhuiyan, Israt Jahan, Mir Tafseer Nayeem, Shafiq Joty, Enamul Hoque, Jimmy Huang
+</p><p
+      
+      class="truncate"
+      tabindex="0"
+      
+    >EMNLP 2025 (Industry Track)  ·  
+<!-- Full Date -->
+<!--01 Jan 2025-->
+<!-- Month and Year only -->
+<!--Jan 2025-->
+
+<!-- Year Only -->
+2025
+</p><div>
+    
+      <a href="https://aclanthology.org/2025.emnlp-industry.134.pdf" class="paper_link"><i class="fas fa-file-pdf"></i>PDF</a>
+
+      
+    
+    
+    
+    </div>
+</div>
+</div>
+
+
+
+
+
+
+<!-- ...Extra Links... -->
+
+<!-- ...Extra Links Ended... -->
+
+
+
+
+
+
+<div class="card" data-size="small">
+  
+  <a
+    href="https://link.springer.com/article/10.1007/s00521-024-10953-1"
+    class="card_image"
+  ><img
+      src="/images/publications/AFuNet.png"
+      onerror="this.src = '/images/placeholder.svg'; this.onerror = null;"
+    ></a>
+  <div class="card_text">
+    
+    <a href="https://link.springer.com/article/10.1007/s00521-024-10953-1" class="card_title">AFuNet: An Attention-Based Fusion Network to Classify Texts in a Resource-Constrained Language</a>
+    <p
+      
+      class="truncate"
+      tabindex="0"
+      
+    >Md. Rajib Hossain, Mohammed Moshiul Hoque, M. Ali Akber Dewan, Enamul Hoque, Nazmul Siddique
+</p><p
+      
+      class="truncate"
+      tabindex="0"
+      
+    >Neural Computing and Applications  ·  
+<!-- Full Date -->
+<!--01 Jan 2025-->
+<!-- Month and Year only -->
+<!--Jan 2025-->
+
+<!-- Year Only -->
+2025
+</p><div>
+    
+      <a href="https://doi.org/10.1007/s00521-024-10953-1" class="paper_link"><i class="fas fa-file-pdf"></i>PDF</a>
+
+      
+    
+    
+    
+    </div>
+</div>
+</div>
+
+
+
+
+
+
+<!-- ...Extra Links... -->
+
+<!-- ...Extra Links Ended... -->
+
+
+
+
+
+
+<div class="card" data-size="small">
+  
+  <a
+    
+    class="card_image"
+  ><img src="/images/placeholder.svg"></a>
+  <div class="card_text">
+    
+    <a href="" class="card_title">Large Language Models for Information Visualization</a>
+    <p
+      
+      class="truncate"
+      tabindex="0"
+      
+    >Enamul Hoque
+</p><p
+      
+      class="truncate"
+      tabindex="0"
+      
+    >Springer  ·  
+<!-- Full Date -->
+<!--01 Jan 2025-->
+<!-- Month and Year only -->
+<!--Jan 2025-->
+
+<!-- Year Only -->
+2025
+</p><div>
+    
+    
+    
+    </div>
+</div>
+</div>
+
+
+
+
+
+
+<!-- ...Extra Links... -->
+
+<!-- ...Extra Links Ended... -->
+
+
+
+
+
+
+<div class="card" data-size="small">
+  
+  <a
+    href="https://www.sciencedirect.com/science/article/abs/pii/S0957417424025107?via%3Dihub"
+    class="card_image"
+  ><img
+      src="/images/publications/authornet.png"
+      onerror="this.src = '/images/placeholder.svg'; this.onerror = null;"
+    ></a>
+  <div class="card_text">
+    
+    <a href="https://www.sciencedirect.com/science/article/abs/pii/S0957417424025107?via%3Dihub" class="card_title">AuthorNet: Leveraging attention-based early fusion of transformers for low-resource authorship attribution</a>
+    <p
+      
+      class="truncate"
+      tabindex="0"
+      
+    >Md. Rajib Hossain, Mohammed Moshiul Hoque, M. Ali Akber Dewan, Enamul Hoque, Nazmul Siddique
+</p><p
+      
+      class="truncate"
+      tabindex="0"
+      
+    >Expert Systems with Applications  ·  
+<!-- Full Date -->
+<!--01 Jan 2025-->
+<!-- Month and Year only -->
+<!--Jan 2025-->
+
+<!-- Year Only -->
+2025
+</p><div>
+    
+      <a href="https://doi.org/10.1016/j.eswa.2024.125643" class="paper_link"><i class="fas fa-file-pdf"></i>PDF</a>
+
+      
+    
+    
+    
+    </div>
+</div>
+</div>
+
+
+
+
+
+
+<!-- ...Extra Links... -->
+
+<!-- ...Extra Links Ended... -->
+
+
+
+
+
+
+<div class="card" data-size="small">
+  
+  <a
+    href="https://doi.org/10.1109/MLSP62443.2025.11204231"
+    class="card_image"
+  ><img
+      src="https://github.com/AhmedMasryKU/colflor/blob/main/assets/colflor_n32.png?raw=true"
+      onerror="this.src = '/images/placeholder.svg'; this.onerror = null;"
+    ></a>
+  <div class="card_text">
+    
+    <a href="https://doi.org/10.1109/MLSP62443.2025.11204231" class="card_title">ColFlor: Towards BERT-Size Vision-Language Document Retrieval Models</a>
+    <p
+      
+      class="truncate"
+      tabindex="0"
+      
+    >Ahmed Masry, Enamul Hoque
+</p><p
+      
+      class="truncate"
+      tabindex="0"
+      
+    >IEEE MLSP 2025 Workshop  ·  
+<!-- Full Date -->
+<!--01 Jan 2025-->
+<!-- Month and Year only -->
+<!--Jan 2025-->
+
+<!-- Year Only -->
+2025
+</p><div>
+    
+      <a href="https://ieeexplore.ieee.org/document/11204231" class="paper_link"><i class="fas fa-file-pdf"></i>PDF</a>
+
+      
+    
+    
+      <a href="https://github.com/AhmedMasryKU/colflor" class="paper_link"><i class="fas fa-code"></i>Source</a>
+
+      
+    
+    
+    
+      <a href="https://huggingface.co/blog/ahmed-masry/colflor" class="paper_link"><i class="fas fa-pen-nib"></i>Blog Post</a>
+
+      
+    </div>
+</div>
+</div>
+
+
+
+
+
+
+<!-- ...Extra Links... -->
+
+<!-- ...Extra Links Ended... -->
+
+
+
+
+
+
+<div class="card" data-size="small">
+  
+  <a
+    href="https://aclanthology.org/2025.acl-industry.83/"
+    class="card_image"
+  ><img
+      src="/images/publications/Judging_the_judges_ACL.png"
+      onerror="this.src = '/images/placeholder.svg'; this.onerror = null;"
+    ></a>
+  <div class="card_text">
+    
+    <a href="https://aclanthology.org/2025.acl-industry.83/" class="card_title">Judging the Judges: Can Large Vision-Language Models Fairly Evaluate Chart Comprehension and Reasoning?</a>
+    <p
+      
+      class="truncate"
+      tabindex="0"
+      
+    >Md Tahmid Rahman Laskar, Mohammed Saidul Islam, Ridwan Mahbub, Ahmed Masry, Mizanur Rahman, Amran Bhuiyan, Mir Tafseer Nayeem, Shafiq Joty, Enamul Hoque, Jimmy Huang
+</p><p
+      
+      class="truncate"
+      tabindex="0"
+      
+    >ACL 2025 (Industry Track)  ·  
+<!-- Full Date -->
+<!--01 Jan 2025-->
+<!-- Month and Year only -->
+<!--Jan 2025-->
+
+<!-- Year Only -->
+2025
+</p><div>
+    
+      <a href="https://aclanthology.org/2025.acl-industry.83.pdf" class="paper_link"><i class="fas fa-file-pdf"></i>PDF</a>
+
+      
+    
+    
+      <a href="https://github.com/tahmedge/chart_lvlm_judge" class="paper_link"><i class="fas fa-code"></i>Source</a>
+
+      
+    
+    
+    </div>
+</div>
+</div>
+
+
+
+
+
+
+<!-- ...Extra Links... -->
+
+<!-- ...Extra Links Ended... -->
+
+
+
+
+
+
+<div class="card" data-size="small">
+  
+  <a
+    href="https://aclanthology.org/2025.acl-long.1238/"
+    class="card_image"
+  ><img
+      src="/images/publications/Biomedical.png"
+      onerror="this.src = '/images/placeholder.svg'; this.onerror = null;"
+    ></a>
+  <div class="card_text">
+    
+    <a href="https://aclanthology.org/2025.acl-long.1238/" class="card_title">Improving Automatic Evaluation of Large Language Models (LLMs) in Biomedical Relation Extraction via LLMs-as-the-Judge</a>
+    <p
+      
+      class="truncate"
+      tabindex="0"
+      
+    >Md Tahmid Rahman Laskar, Israt Jahan, Elham Dolatabadi, Chun Peng, Enamul Hoque, Jimmy Huang
+</p><p
+      
+      class="truncate"
+      tabindex="0"
+      
+    >ACL 2025  ·  
+<!-- Full Date -->
+<!--01 Jan 2025-->
+<!-- Month and Year only -->
+<!--Jan 2025-->
+
+<!-- Year Only -->
+2025
+</p><div>
+    
+      <a href="https://aclanthology.org/2025.acl-long.1238.pdf" class="paper_link"><i class="fas fa-file-pdf"></i>PDF</a>
+
+      
+    
+    
+      <a href="https://github.com/tahmedge/llm_judge_biomedical_re" class="paper_link"><i class="fas fa-code"></i>Source</a>
+
+      
+    
+    
+    </div>
+</div>
+</div>
+
+
+
+
+
+
+<!-- ...Extra Links... -->
+
+<!-- ...Extra Links Ended... -->
+
+
+
+
+
+
+<div class="card" data-size="small">
+  
+  <a
+    href="https://aclanthology.org/2025.findings-acl.978/"
+    class="card_image"
+  ><img
+      src="/images/publications/ChartQAPro.png"
+      onerror="this.src = '/images/placeholder.svg'; this.onerror = null;"
+    ></a>
+  <div class="card_text">
+    
+    <a href="https://aclanthology.org/2025.findings-acl.978/" class="card_title">ChartQAPro: A More Diverse and Challenging Benchmark for Chart Question Answering</a>
+    <p
+      
+      class="truncate"
+      tabindex="0"
+      
+    >Ahmed Masry, Mohammed Saidul Islam, Mahir Ahmed, Aayush Bajaj, Firoz Kabir, Aaryaman Kartha, Md Tahmid Rahman Laskar, Mizanur Rahman, Shadikur Rahman, Mehrad Shahmohammadi, Megh Thakkar, Md Rizwan Parvez, Enamul Hoque, Shafiq Joty
+</p><p
+      
+      class="truncate"
+      tabindex="0"
+      
+    >ACL 2025 (Findings)  ·  
+<!-- Full Date -->
+<!--01 Jan 2025-->
+<!-- Month and Year only -->
+<!--Jan 2025-->
+
+<!-- Year Only -->
+2025
+</p><div>
+    
+    
+      <a href="https://github.com/vis-nlp/ChartQAPro" class="paper_link"><i class="fas fa-code"></i>Source</a>
+
+      
+    
+    
+    
+      <a href="https://huggingface.co/papers/2504.05506" class="paper_link"><i class="fas fa-pen-nib"></i>Blog Post</a>
+
+      
+    
+    
+      <a href="https://huggingface.co/datasets/ahmed-masry/ChartQAPro" class="paper_link"><i class="fas fa-database"></i>Dataset</a>
+
+      
+    </div>
+</div>
+</div>
+
+
+
+
+
+
+<!-- ...Extra Links... -->
+
+<!-- ...Extra Links Ended... -->
+
+
+
+
+
+
+<div class="card" data-size="small">
+  
+  <a
+    href="https://bigcharts.github.io/"
+    class="card_image"
+  ><img
+      src="/images/publications/BigChart-R1.png"
+      onerror="this.src = '/images/placeholder.svg'; this.onerror = null;"
+    ></a>
+  <div class="card_text">
+    
+    <a href="https://bigcharts.github.io/" class="card_title">BigCharts-R1: Enhanced Chart Reasoning with Visual Reinforcement Fine-Tuning</a>
+    <p
+      
+      class="truncate"
+      tabindex="0"
+      
+    >Ahmed Masry, Abhay Puri, Masoud Hashemi, Juan A. Rodriguez, Megh Thakkar, Khyati Mahajan, Vikas Yadav, Sathwik Tejaswi Madhusudhan, Alexandre Piché, Dzmitry Bahdanau, Christopher Pal, David Vazquez, Enamul Hoque, Perouz Taslakian, Sai Rajeswar, Spandana Gella
+</p><p
+      
+      class="truncate"
+      tabindex="0"
+      
+    >COLM 2025  ·  
+<!-- Full Date -->
+<!--01 Jan 2025-->
+<!-- Month and Year only -->
+<!--Jan 2025-->
+
+<!-- Year Only -->
+2025
+</p><div>
+    
+      <a href="https://arxiv.org/pdf/2508.09804" class="paper_link"><i class="fas fa-file-pdf"></i>PDF</a>
+
+      
+    
+    
+      <a href="https://github.com/ServiceNow/BigCharts-R1" class="paper_link"><i class="fas fa-code"></i>Source</a>
+
+      
+    
+    
+      <a href="https://www.youtube.com/watch?v=vN_KsGTzh4E" class="paper_link"><i class="fas fa-play-circle"></i>Video</a>
+
+      
+    
+    </div>
+</div>
+</div>
+
+
+
+
+
+
+<!-- ...Extra Links... -->
+
+<!-- ...Extra Links Ended... -->
+
+
+
+
+
+
+<div class="card" data-size="small">
+  
+  <a
+    href="https://aclanthology.org/2025.emnlp-main.1472/"
+    class="card_image"
+  ><img
+      src="/images/publications/ChartBias_EMNLP.png"
+      onerror="this.src = '/images/placeholder.svg'; this.onerror = null;"
+    ></a>
+  <div class="card_text">
+    
+    <a href="https://aclanthology.org/2025.emnlp-main.1472/" class="card_title">From Charts to Fair Narratives: Uncovering and Mitigating Geo-Economic Biases in Chart-to-Text</a>
+    <p
+      
+      class="truncate"
+      tabindex="0"
+      
+    >Ridwan Mahbub, Mohammed Saidul Islam, Mir Tafseer Nayeem, Md Tahmid Rahman Laskar, Mizanur Rahman, Shafiq Joty, Enamul Hoque
+</p><p
+      
+      class="truncate"
+      tabindex="0"
+      
+    >EMNLP 2025  ·  
+<!-- Full Date -->
+<!--01 Jan 2025-->
+<!-- Month and Year only -->
+<!--Jan 2025-->
+
+<!-- Year Only -->
+2025
+</p><div>
+    
+      <a href="https://aclanthology.org/2025.emnlp-main.1472.pdf" class="paper_link"><i class="fas fa-file-pdf"></i>PDF</a>
+
+      
+    
+    
+    
+    </div>
+</div>
+</div>
+
+
+
+
+
+
+<!-- ...Extra Links... -->
+
+<!-- ...Extra Links Ended... -->
+
+
+
+
+
+
+<div class="card" data-size="small">
+  
+  <a
+    href="https://ieeevis.org/year/2025/program/paper_1628b4eb-473e-4157-9d19-44990b75efc7.html"
+    class="card_image"
+  ><img
+      src="/images/publications/Deception_IEEEVis.png"
+      onerror="this.src = '/images/placeholder.svg'; this.onerror = null;"
+    ></a>
+  <div class="card_text">
+    
+    <a href="https://ieeevis.org/year/2025/program/paper_1628b4eb-473e-4157-9d19-44990b75efc7.html" class="card_title">The Perils of Chart Deception: How Misleading Visualizations Affect Vision-Language Models</a>
+    <p
+      
+      class="truncate"
+      tabindex="0"
+      
+    >Ridwan Mahbub, Mohammed Saidul Islam, Md Tahmid Rahman Laskar, Mizanur Rahman, Mir Tafseer Nayeem, Enamul Hoque
+</p><p
+      
+      class="truncate"
+      tabindex="0"
+      
+    >IEEE VIS 2025 (Short Paper)  ·  
+<!-- Full Date -->
+<!--01 Jan 2025-->
+<!-- Month and Year only -->
+<!--Jan 2025-->
+
+<!-- Year Only -->
+2025
+</p><div>
+    
+      <a href="https://arxiv.org/pdf/2508.09716" class="paper_link"><i class="fas fa-file-pdf"></i>PDF</a>
+
+      
+    
+    
+      <a href="https://github.com/vis-nlp/visDeception" class="paper_link"><i class="fas fa-code"></i>Source</a>
+
+      
+    
+    
+      <a href="https://www.youtube.com/watch?v=VdSWiJuX_x8" class="paper_link"><i class="fas fa-play-circle"></i>Video</a>
+
+      
+    
+    </div>
+</div>
+</div>
+
+
+
+
+
+
+### 2024
+{:.card_search_hide}
+
+
+
+
+
+<!-- ...Extra Links... -->
+
+<!-- ...Extra Links Ended... -->
+
+
+
+
+
+
+<div class="card" data-size="small">
+  
+  <a
+    href="https://aclanthology.org/2024.findings-emnlp.191/"
+    class="card_image"
+  ><img
+      src="/images/publications/Chart_Comprehension_EMNLP.png"
+      onerror="this.src = '/images/placeholder.svg'; this.onerror = null;"
+    ></a>
+  <div class="card_text">
+    
+    <a href="https://aclanthology.org/2024.findings-emnlp.191/" class="card_title">Are Large Vision Language Models up to the Challenge of Chart Comprehension and Reasoning?</a>
+    <p
+      
+      class="truncate"
+      tabindex="0"
+      
+    >Mohammed Saidul Islam, Raian Rahman, Ahmed Masry, Md Tahmid Rahman Laskar, Mir Tafseer Nayeem, Enamul Hoque
+</p><p
+      
+      class="truncate"
+      tabindex="0"
+      
+    >EMNLP 2024 (Findings)  ·  
+<!-- Full Date -->
+<!--01 Jan 2024-->
+<!-- Month and Year only -->
+<!--Jan 2024-->
+
+<!-- Year Only -->
+2024
+</p><div>
+    
+      <a href="https://aclanthology.org/2024.findings-emnlp.191.pdf" class="paper_link"><i class="fas fa-file-pdf"></i>PDF</a>
+
+      
+    
+    
+    
+    </div>
+</div>
+</div>
+
+
+
+
+
+
+<!-- ...Extra Links... -->
+
+<!-- ...Extra Links Ended... -->
+
+
+
+
+
+
+<div class="card" data-size="small">
+  
+  <a
+    href="https://aclanthology.org/2024.findings-emnlp.831/"
+    class="card_image"
+  ><img
+      src="/images/publications/Open-RAG_EMNLP.png"
+      onerror="this.src = '/images/placeholder.svg'; this.onerror = null;"
+    ></a>
+  <div class="card_text">
+    
+    <a href="https://aclanthology.org/2024.findings-emnlp.831/" class="card_title">Open-RAG: Enhanced Retrieval Augmented Reasoning with Open-Source Large Language Models</a>
+    <p
+      
+      class="truncate"
+      tabindex="0"
+      
+    >Shayekh Bin Islam, Md Asib Rahman, K S M Tozammel Hossain, Enamul Hoque, Shafiq Joty, Md Rizwan Parvez
+</p><p
+      
+      class="truncate"
+      tabindex="0"
+      
+    >EMNLP 2024 (Findings)  ·  
+<!-- Full Date -->
+<!--01 Jan 2024-->
+<!-- Month and Year only -->
+<!--Jan 2024-->
+
+<!-- Year Only -->
+2024
+</p><div>
+    
+      <a href="https://aclanthology.org/2024.findings-emnlp.831.pdf" class="paper_link"><i class="fas fa-file-pdf"></i>PDF</a>
+
+      
+    
+    
+    
+    </div>
+</div>
+</div>
+
+
+
+
+
+
+<!-- ...Extra Links... -->
+
+<!-- ...Extra Links Ended... -->
+
+
+
+
+
+
+<div class="card" data-size="small">
+  
+  <a
+    href="https://onlinelibrary.wiley.com/doi/epdf/10.1111/cgf.15266"
+    class="card_image"
+  ><img
+      src="/images/publications/NLG_Survey_CGF.png"
+      onerror="this.src = '/images/placeholder.svg'; this.onerror = null;"
+    ></a>
+  <div class="card_text">
+    
+    <a href="https://onlinelibrary.wiley.com/doi/epdf/10.1111/cgf.15266" class="card_title">Natural Language Generation for Visualizations: State of the Art, Challenges and Future Directions</a>
+    <p
+      
+      class="truncate"
+      tabindex="0"
+      
+    >Enamul Hoque, Mohammed Saidul Islam
+</p><p
+      
+      class="truncate"
+      tabindex="0"
+      
+    >Computer Graphics Forum (CGF) 44(1) 1–23  ·  
+<!-- Full Date -->
+<!--01 Jan 2024-->
+<!-- Month and Year only -->
+<!--Jan 2024-->
+
+<!-- Year Only -->
+2024
+</p><div>
+    
+      <a href="https://onlinelibrary.wiley.com/doi/pdf/10.1111/cgf.15266?msockid=044f1d436f1462572b3c080e6e3e6348" class="paper_link"><i class="fas fa-file-pdf"></i>PDF</a>
+
+      
+    
+    
+    
+    </div>
+</div>
+</div>
+
+
+
+
+
+
+<!-- ...Extra Links... -->
+
+<!-- ...Extra Links Ended... -->
+
+
+
+
+
+
+<div class="card" data-size="small">
+  
+  <a
+    href="https://www.uw-insight-lab.com/assets/papers/HEAL24-HolisticEval.pdf"
+    class="card_image"
+  ><img
+      src="/images/publications/Ex_vis_analysis.png"
+      onerror="this.src = '/images/placeholder.svg'; this.onerror = null;"
+    ></a>
+  <div class="card_text">
+    
+    <a href="https://www.uw-insight-lab.com/assets/papers/HEAL24-HolisticEval.pdf" class="card_title">Towards a Holistic Evaluation of LLM Generated Code for Exploratory Visual Analysis</a>
+    <p
+      
+      class="truncate"
+      tabindex="0"
+      
+    >Anamaria Crisan, Enamul Hoque
+</p><p
+      
+      class="truncate"
+      tabindex="0"
+      
+    >HEAL@CHI 2024 Workshop  ·  
+<!-- Full Date -->
+<!--01 Jan 2024-->
+<!-- Month and Year only -->
+<!--Jan 2024-->
+
+<!-- Year Only -->
+2024
+</p><div>
+    
+      <a href="https://www.uw-insight-lab.com/assets/papers/HEAL24-HolisticEval.pdf" class="paper_link"><i class="fas fa-file-pdf"></i>PDF</a>
+
+      
+    
+    
+    
+    </div>
+</div>
+</div>
+
+
+
+
+
+
+<!-- ...Extra Links... -->
+
+<!-- ...Extra Links Ended... -->
+
+
+
+
+
+
+<div class="card" data-size="small">
+  
+  <a
+    href="https://aclanthology.org/2024.lrec-main.201/"
+    class="card_image"
+  ><img
+      src="/images/publications/benllm.png"
+      onerror="this.src = '/images/placeholder.svg'; this.onerror = null;"
+    ></a>
+  <div class="card_text">
+    
+    <a href="https://aclanthology.org/2024.lrec-main.201/" class="card_title">BenLLMEval: A Comprehensive Evaluation into the Potentials and Pitfalls of Large Language Models on Bengali NLP</a>
+    <p
+      
+      class="truncate"
+      tabindex="0"
+      
+    >Md Tahmid Rahman Laskar, Mizanur Rahman, Israt Jahan, Enamul Hoque, Jimmy Xiangji Huang
+</p><p
+      
+      class="truncate"
+      tabindex="0"
+      
+    >LREC-COLING 2024  ·  
+<!-- Full Date -->
+<!--01 Jan 2024-->
+<!-- Month and Year only -->
+<!--Jan 2024-->
+
+<!-- Year Only -->
+2024
+</p><div>
+    
+      <a href="https://aclanthology.org/2024.lrec-main.201.pdf" class="paper_link"><i class="fas fa-file-pdf"></i>PDF</a>
+
+      
+    
+    
+    
+    </div>
+</div>
+</div>
+
+
+
+
+
+
+<!-- ...Extra Links... -->
+
+<!-- ...Extra Links Ended... -->
+
+
+
+
+
+
+<div class="card" data-size="small">
+  
+  <a
+    href="https://aclanthology.org/2024.findings-acl.619"
+    class="card_image"
+  ><img
+      src="/images/publications/ChartInstruct_ACL.png"
+      onerror="this.src = '/images/placeholder.svg'; this.onerror = null;"
+    ></a>
+  <div class="card_text">
+    
+    <a href="https://aclanthology.org/2024.findings-acl.619" class="card_title">ChartInstruct: Instruction Tuning for Chart Comprehension and Reasoning</a>
+    <p
+      
+      class="truncate"
+      tabindex="0"
+      
+    >Ahmed Masry, Mehrad Shahmohammadi, Md Rizwan Parvez, Enamul Hoque, Shafiq Joty
+</p><p
+      
+      class="truncate"
+      tabindex="0"
+      
+    >ACL 2024 (Findings)  ·  
+<!-- Full Date -->
+<!--01 Jan 2024-->
+<!-- Month and Year only -->
+<!--Jan 2024-->
+
+<!-- Year Only -->
+2024
+</p><div>
+    
+      <a href="https://aclanthology.org/2024.findings-acl.619.pdf" class="paper_link"><i class="fas fa-file-pdf"></i>PDF</a>
+
+      
+    
+    
+      <a href="https://github.com/vis-nlp/ChartInstruct/" class="paper_link"><i class="fas fa-code"></i>Source</a>
+
+      
+    
+    
+    
+      <a href="https://huggingface.co/ahmed-masry/ChartInstruct-LLama2" class="paper_link"><i class="fas fa-pen-nib"></i>Blog Post</a>
+
+      
+    </div>
+</div>
+</div>
+
+
+
+
+
+
+<!-- ...Extra Links... -->
+
+<!-- ...Extra Links Ended... -->
+
+
+
+
+
+
+<div class="card" data-size="small">
+  
+  <a
+    href="https://aclanthology.org/2024.emnlp-main.764/"
+    class="card_image"
+  ><img
+      src="/images/publications/survey_eval_llms.png"
+      onerror="this.src = '/images/placeholder.svg'; this.onerror = null;"
+    ></a>
+  <div class="card_text">
+    
+    <a href="https://aclanthology.org/2024.emnlp-main.764/" class="card_title">A Systematic Survey and Critical Review on Evaluating Large Language Models: Challenges, Limitations, and Recommendations</a>
+    <p
+      
+      class="truncate"
+      tabindex="0"
+      
+    >Md Tahmid Rahman Laskar, Sawsan Alqahtani, M Saiful Bari, Mizanur Rahman, Mohammad Abdullah Matin Khan, Haidar Khan, Israt Jahan, Amran Bhuiyan, Chee Wei Tan, Md Rizwan Parvez, Enamul Hoque, Shafiq Joty, Jimmy Huang
+</p><p
+      
+      class="truncate"
+      tabindex="0"
+      
+    >EMNLP 2024  ·  
+<!-- Full Date -->
+<!--01 Jan 2024-->
+<!-- Month and Year only -->
+<!--Jan 2024-->
+
+<!-- Year Only -->
+2024
+</p><div>
+    
+      <a href="https://aclanthology.org/2024.emnlp-main.764.pdf" class="paper_link"><i class="fas fa-file-pdf"></i>PDF</a>
+
+      
+    
+    
+    
+    </div>
+</div>
+</div>
+
+
+
+
+
+
+<!-- ...Extra Links... -->
+
+<!-- ...Extra Links Ended... -->
+
+
+
+
+
+
+<div class="card" data-size="small">
+  
+  <a
+    href="https://aclanthology.org/2024.emnlp-main.1073/"
+    class="card_image"
+  ><img
+      src="/images/publications/Data-driven-storytelling.png"
+      onerror="this.src = '/images/placeholder.svg'; this.onerror = null;"
+    ></a>
+  <div class="card_text">
+    
+    <a href="https://aclanthology.org/2024.emnlp-main.1073/" class="card_title">DataNarrative: Automated Data-Driven Storytelling with Visualizations and Texts</a>
+    <p
+      
+      class="truncate"
+      tabindex="0"
+      
+    >Mohammed Saidul Islam, Md Tahmid Rahman Laskar, Md Rizwan Parvez, Enamul Hoque, Shafiq Joty
+</p><p
+      
+      class="truncate"
+      tabindex="0"
+      
+    >EMNLP 2024  ·  
+<!-- Full Date -->
+<!--01 Jan 2024-->
+<!-- Month and Year only -->
+<!--Jan 2024-->
+
+<!-- Year Only -->
+2024
+</p><div>
+    
+      <a href="https://aclanthology.org/2024.emnlp-main.1073.pdf" class="paper_link"><i class="fas fa-file-pdf"></i>PDF</a>
+
+      
+    
+    
+    
+    </div>
+</div>
+</div>
+
+
+
+
+
+
+### 2023
+{:.card_search_hide}
+
+
+
+
+
+<!-- ...Extra Links... -->
+
+<!-- ...Extra Links Ended... -->
+
+
+
+
+
+
+<div class="card" data-size="small">
+  
+  <a
+    href="https://dl.acm.org/doi/abs/10.1145/3581641.3584099"
+    class="card_image"
+  ><img
+      src="/images/publications/seechart.png"
+      onerror="this.src = '/images/placeholder.svg'; this.onerror = null;"
+    ></a>
+  <div class="card_text">
+    
+    <a href="https://dl.acm.org/doi/abs/10.1145/3581641.3584099" class="card_title">SeeChart: Enabling Accessible Visualizations Through Interactive Natural Language Interface For People with Visual Impairments</a>
+    <p
+      
+      class="truncate"
+      tabindex="0"
+      
+    >Md Zubair Ibne Alam, Shehnaz Islam, Enamul Hoque
+</p><p
+      
+      class="truncate"
+      tabindex="0"
+      
+    >IUI 2023  ·  
+<!-- Full Date -->
+<!--01 Jan 2023-->
+<!-- Month and Year only -->
+<!--Jan 2023-->
+
+<!-- Year Only -->
+2023
+</p><div>
+    
+      <a href="https://dl.acm.org/doi/abs/10.1145/3581641.3584099" class="paper_link"><i class="fas fa-file-pdf"></i>PDF</a>
+
+      
+    
+    
+    
+      <a href="https://www.yorku.ca/enamulh/video/iui23a-sub1109-i8.mp4" class="paper_link"><i class="fas fa-play-circle"></i>Video</a>
+
+      
+    
+    </div>
+</div>
+</div>
+
+
+
+
+
+
+<!-- ...Extra Links... -->
+
+<!-- ...Extra Links Ended... -->
+
+
+
+
+
+
+<div class="card" data-size="small">
+  
+  <a
+    href="https://aclanthology.org/2023.emnlp-main.906"
+    class="card_image"
+  ><img
+      src="/images/publications/unichart.png"
+      onerror="this.src = '/images/placeholder.svg'; this.onerror = null;"
+    ></a>
+  <div class="card_text">
+    
+    <a href="https://aclanthology.org/2023.emnlp-main.906" class="card_title">UniChart: A Universal Vision-Language Pretrained Model for Chart Comprehension and Reasoning</a>
+    <p
+      
+      class="truncate"
+      tabindex="0"
+      
+    >Ahmed Masry, Parsa Kavehzadeh, Xuan Long Do, Enamul Hoque, Shafiq Joty
+</p><p
+      
+      class="truncate"
+      tabindex="0"
+      
+    >EMNLP 2023  ·  
+<!-- Full Date -->
+<!--01 Jan 2023-->
+<!-- Month and Year only -->
+<!--Jan 2023-->
+
+<!-- Year Only -->
+2023
+</p><div>
+    
+      <a href="https://aclanthology.org/2023.emnlp-main.906.pdf" class="paper_link"><i class="fas fa-file-pdf"></i>PDF</a>
+
+      
+    
+    
+      <a href="https://github.com/vis-nlp/UniChart" class="paper_link"><i class="fas fa-code"></i>Source</a>
+
+      
+    
+    
+      <a href="https://aclanthology.org/2023.emnlp-main.906.mp4" class="paper_link"><i class="fas fa-play-circle"></i>Video</a>
+
+      
+    
+    </div>
+</div>
+</div>
+
+
+
+
+
+
+<!-- ...Extra Links... -->
+
+<!-- ...Extra Links Ended... -->
+
+
+
+
+
+
+<div class="card" data-size="small">
+  
+  <a
+    href="https://aclanthology.org/2023.findings-emnlp.686/"
+    class="card_image"
+  ><img
+      src="/images/publications/debatepedia.png"
+      onerror="this.src = '/images/placeholder.svg'; this.onerror = null;"
+    ></a>
+  <div class="card_text">
+    
+    <a href="https://aclanthology.org/2023.findings-emnlp.686/" class="card_title">Can Large Language Models Fix Data Annotation Errors? An Empirical Study Using Debatepedia for Query-Focused Text Summarization</a>
+    <p
+      
+      class="truncate"
+      tabindex="0"
+      
+    >Md Tahmid Rahman Laskar, Mizanur Rahman, Israt Jahan, Enamul Hoque, Jimmy Xiangji Huang
+</p><p
+      
+      class="truncate"
+      tabindex="0"
+      
+    >EMNLP 2023  ·  
+<!-- Full Date -->
+<!--01 Jan 2023-->
+<!-- Month and Year only -->
+<!--Jan 2023-->
+
+<!-- Year Only -->
+2023
+</p><div>
+    
+      <a href="https://aclanthology.org/2023.findings-emnlp.686.pdf" class="paper_link"><i class="fas fa-file-pdf"></i>PDF</a>
+
+      
+    
+    
+      <a href="https://github.com/tahmedge/CQSUMDP" class="paper_link"><i class="fas fa-code"></i>Source</a>
+
+      
+    
+    
+    </div>
+</div>
+</div>
+
+
+
+
+
+
+<!-- ...Extra Links... -->
+
+<!-- ...Extra Links Ended... -->
+
+
+
+
+
+
+<div class="card" data-size="small">
+  
+  <a
+    href="https://arxiv.org/abs/2312.10610"
+    class="card_image"
+  ><img
+      src="/images/publications/promptchart.png"
+      onerror="this.src = '/images/placeholder.svg'; this.onerror = null;"
+    ></a>
+  <div class="card_text">
+    
+    <a href="https://arxiv.org/abs/2312.10610" class="card_title">Do LLMs Work on Charts? Designing Few-Shot Prompts for Chart Question Answering and Summarization</a>
+    <p
+      
+      class="truncate"
+      tabindex="0"
+      
+    >Xuan Long Do, Mohammad Hassanpour, Ahmed Masry, Parsa Kavehzadeh, Enamul Hoque, Shafiq Joty
+</p><p
+      
+      class="truncate"
+      tabindex="0"
+      
+    >arXiv preprint  ·  
+<!-- Full Date -->
+<!--01 Jan 2023-->
+<!-- Month and Year only -->
+<!--Jan 2023-->
+
+<!-- Year Only -->
+2023
+</p><div>
+    
+      <a href="https://arxiv.org/pdf/2312.10610" class="paper_link"><i class="fas fa-file-pdf"></i>PDF</a>
+
+      
+    
+    
+    
+    </div>
+</div>
+</div>
+
+
+
+
+
+
+### 2022
+{:.card_search_hide}
+
+
+
+
+
+<!-- ...Extra Links... -->
+
+<!-- ...Extra Links Ended... -->
+
+
+
+
+
+
+<div class="card" data-size="small">
+  
+  <a
+    href="https://doi.org/10.1111/cgf.14573"
+    class="card_image"
+  ><img
+      src="/images/publications/cqa-survey.png"
+      onerror="this.src = '/images/placeholder.svg'; this.onerror = null;"
+    ></a>
+  <div class="card_text">
+    
+    <a href="https://doi.org/10.1111/cgf.14573" class="card_title">Chart Question Answering: State of the Art and Future Directions</a>
+    <p
+      
+      class="truncate"
+      tabindex="0"
+      
+    >Enamul Hoque, Parsa Kavehzadeh, Ahmed Masry
+</p><p
+      
+      class="truncate"
+      tabindex="0"
+      
+    >Computer Graphics Forum 41(3) 555–572  ·  
+<!-- Full Date -->
+<!--01 Jan 2022-->
+<!-- Month and Year only -->
+<!--Jan 2022-->
+
+<!-- Year Only -->
+2022
+</p><div>
+    
+      <a href="https://arxiv.org/pdf/2205.03966" class="paper_link"><i class="fas fa-file-pdf"></i>PDF</a>
+
+      
+    
+    
+    
+    </div>
+</div>
+</div>
+
+
+
+
+
+
+<!-- ...Extra Links... -->
+
+<!-- ...Extra Links Ended... -->
+
+
+
+
+
+
+<div class="card" data-size="small">
+  
+  <a
+    href="https://doi.org/10.1109/ACCESS.2022.3170897"
+    class="card_image"
+  ><img
+      src="/images/publications/disaster.png"
+      onerror="this.src = '/images/placeholder.svg'; this.onerror = null;"
+    ></a>
+  <div class="card_text">
+    
+    <a href="https://doi.org/10.1109/ACCESS.2022.3170897" class="card_title">A Deep Attentive Multimodal Learning Approach for Disaster Identification from Social Media Posts</a>
+    <p
+      
+      class="truncate"
+      tabindex="0"
+      
+    >Eftekhar Hossain, Mohammed Moshiul Hoque, Enamul Hoque, Md Saiful Islam
+</p><p
+      
+      class="truncate"
+      tabindex="0"
+      
+    >IEEE Access 10 46538–46551  ·  
+<!-- Full Date -->
+<!--01 Jan 2022-->
+<!-- Month and Year only -->
+<!--Jan 2022-->
+
+<!-- Year Only -->
+2022
+</p><div>
+    
+      <a href="https://ieeexplore.ieee.org/document/9764741" class="paper_link"><i class="fas fa-file-pdf"></i>PDF</a>
+
+      
+    
+    
+      <a href="https://github.com/eftekhar-hossain/Multimodal-Disaster_IEEE-Access" class="paper_link"><i class="fas fa-code"></i>Source</a>
+
+      
+    
+    
+    </div>
+</div>
+</div>
+
+
+
+
+
+
+<!-- ...Extra Links... -->
+
+<!-- ...Extra Links Ended... -->
+
+
+
+
+
+
+<div class="card" data-size="small">
+  
+  <a
+    href="https://aclanthology.org/2022.findings-acl.177/"
+    class="card_image"
+  ><img
+      src="/images/publications/Ahmed-acl-22-fig.jpg"
+      onerror="this.src = '/images/placeholder.svg'; this.onerror = null;"
+    ></a>
+  <div class="card_text">
+    
+    <a href="https://aclanthology.org/2022.findings-acl.177/" class="card_title">ChartQA: A Benchmark for Question Answering about Charts with Visual and Logical Reasoning</a>
+    <p
+      
+      class="truncate"
+      tabindex="0"
+      
+    >Ahmed Masry, Do Xuan Long, Jia Qing Tan, Shafiq Joty, Enamul Hoque
+</p><p
+      
+      class="truncate"
+      tabindex="0"
+      
+    >In Proceedings of the Annual Meeting of the Association for Computational Linguistics (ACL), pp. 4005–4023, 2022.  ·  
+<!-- Full Date -->
+<!--01 Jan 2022-->
+<!-- Month and Year only -->
+<!--Jan 2022-->
+
+<!-- Year Only -->
+2022
+</p><div>
+    
+      <a href="https://aclanthology.org/2022.findings-acl.177/" class="paper_link"><i class="fas fa-file-pdf"></i>PDF</a>
+
+      
+    
+    
+      <a href="https://github.com/vis-nlp/Ahmed-acl-22-fig.jpg" class="paper_link"><i class="fas fa-code"></i>Source</a>
+
+      
+    
+    
+      <a href="https://aclanthology.org/2022.findings-acl.177.mp4" class="paper_link"><i class="fas fa-play-circle"></i>Video</a>
+
+      
+    
+    </div>
+</div>
+</div>
+
+
+
+
+
+
+<!-- ...Extra Links... -->
+
+<!-- ...Extra Links Ended... -->
+
+
+
+
+
+
+<div class="card" data-size="small">
+  
+  <a
+    href="https://aclanthology.org/2022.acl-long.277/"
+    class="card_image"
+  ><img
+      src="/images/publications/Shankar-acl-22-fig.jpg"
+      onerror="this.src = '/images/placeholder.svg'; this.onerror = null;"
+    ></a>
+  <div class="card_text">
+    
+    <a href="https://aclanthology.org/2022.acl-long.277/" class="card_title">Chart-to-Text: A Large-Scale Benchmark for Chart Summarization</a>
+    <p
+      
+      class="truncate"
+      tabindex="0"
+      
+    >Shankar Kantharaj, Rixie Tiffany Leong, Xiang Lin, Ahmed Masry, Megh Thakkar, Enamul Hoque, Shafiq Joty
+</p><p
+      
+      class="truncate"
+      tabindex="0"
+      
+    >ACL 2022  ·  
+<!-- Full Date -->
+<!--01 Jan 2022-->
+<!-- Month and Year only -->
+<!--Jan 2022-->
+
+<!-- Year Only -->
+2022
+</p><div>
+    
+      <a href="https://aclanthology.org/2022.acl-long.277/" class="paper_link"><i class="fas fa-file-pdf"></i>PDF</a>
+
+      
+    
+    
+      <a href="https://github.com/vis-nlp/Chart-to-text" class="paper_link"><i class="fas fa-code"></i>Source</a>
+
+      
+    
+    
+    </div>
+</div>
+</div>
+
+
+
+
+
+
+<!-- ...Extra Links... -->
+
+<!-- ...Extra Links Ended... -->
+
+
+
+
+
+
+<div class="card" data-size="small">
+  
+  <a
+    href="https://aclanthology.org/2022.emnlp-main.811/"
+    class="card_image"
+  ><img
+      src="/images/publications/OpenCQA.png"
+      onerror="this.src = '/images/placeholder.svg'; this.onerror = null;"
+    ></a>
+  <div class="card_text">
+    
+    <a href="https://aclanthology.org/2022.emnlp-main.811/" class="card_title">OpenCQA: Open-ended Question Answering with Charts</a>
+    <p
+      
+      class="truncate"
+      tabindex="0"
+      
+    >Shankar Kantharaj, Xuan Long Do, Rixie Tiffany Leong, Jia Qing Tan, Enamul Hoque, Shafiq Joty
+</p><p
+      
+      class="truncate"
+      tabindex="0"
+      
+    >EMNLP 2022  ·  
+<!-- Full Date -->
+<!--01 Jan 2022-->
+<!-- Month and Year only -->
+<!--Jan 2022-->
+
+<!-- Year Only -->
+2022
+</p><div>
+    
+      <a href="https://aclanthology.org/2022.emnlp-main.811/" class="paper_link"><i class="fas fa-file-pdf"></i>PDF</a>
+
+      
+    
+    
+      <a href="https://github.com/vis-nlp/OpenCQA" class="paper_link"><i class="fas fa-code"></i>Source</a>
+
+      
+    
+    
+      <a href="https://aclanthology.org/2022.emnlp-main.811.mp4" class="paper_link"><i class="fas fa-play-circle"></i>Video</a>
+
+      
+    
+    
+      <a href="https://www.marktechpost.com/2023/01/22/a-new-artificial-intelligence-ai-benchmark-called-opencqa-answers-open-ended-questions-about-charts-using-descriptive-texts/" class="paper_link"><i class="fas fa-pen-nib"></i>Blog Post</a>
+
+      
+    </div>
+</div>
+</div>
+
+
+
+
+
+
+<!-- ...Extra Links... -->
+
+<!-- ...Extra Links Ended... -->
+
+
+
+
+
+
+<div class="card" data-size="small">
+  
+  <a
+    href="https://aclanthology.org/2022.cl-2.2/"
+    class="card_image"
+  ><img
+      src="/images/publications/QFAS.png"
+      onerror="this.src = '/images/placeholder.svg'; this.onerror = null;"
+    ></a>
+  <div class="card_text">
+    
+    <a href="https://aclanthology.org/2022.cl-2.2/" class="card_title">Domain Adaptation with Pre-Trained Transformers for Query-Focused Abstractive Text Summarization</a>
+    <p
+      
+      class="truncate"
+      tabindex="0"
+      
+    >Md Tahmid Rahman Laskar, Enamul Hoque, Jimmy Xiangji Huang
+</p><p
+      
+      class="truncate"
+      tabindex="0"
+      
+    >Computational Linguistics 48(2) 279–320  ·  
+<!-- Full Date -->
+<!--01 Jan 2022-->
+<!-- Month and Year only -->
+<!--Jan 2022-->
+
+<!-- Year Only -->
+2022
+</p><div>
+    
+      <a href="https://aclanthology.org/2022.cl-2.2.pdf" class="paper_link"><i class="fas fa-file-pdf"></i>PDF</a>
+
+      
+    
+    
+      <a href="https://github.com/tahmedge/PreQFAS" class="paper_link"><i class="fas fa-code"></i>Source</a>
+
+      
+    
+    
+    </div>
+</div>
+</div>
 
 
 
@@ -232,6 +2193,9 @@ Uses the _card_ component (small).
 
 
 
+<!-- ...Extra Links... -->
+
+<!-- ...Extra Links Ended... -->
 
 
 
@@ -244,7 +2208,7 @@ Uses the _card_ component (small).
     href="https://doi.org/gj7645"
     class="card_image"
   ><img
-      src="https://ieeexplore.ieee.org/mediastore_new/IEEE/content/media/6287639/9312710/9303381/hoque2-3046623-small.gif"
+      src="/images/publications/multimodal.png"
       onerror="this.src = '/images/placeholder.svg'; this.onerror = null;"
     ></a>
   <div class="card_text">
@@ -261,24 +2225,206 @@ Uses the _card_ component (small).
       class="truncate"
       tabindex="0"
       
-    >IEEE Access  ·  01 Jan 2021
-</p><div class="tags">
-  
-  <span class="tag">Data visualization</span>
-  
-  <span class="tag">Visualization</span>
-  
-  <span class="tag">Natural languages</span>
-  
-  <span class="tag">Task analysis</span>
-  
-  <span class="tag">Mice</span>
-  
-  <span class="tag">COVID-19</span>
-  
-  <span class="tag">Tools</span>
-  
+    >IEEE Access  ·  
+<!-- Full Date -->
+<!--01 Jan 2021-->
+<!-- Month and Year only -->
+<!--Jan 2021-->
+
+<!-- Year Only -->
+2021
+</p><div>
+    
+      <a href="https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&amp;arnumber=9303381" class="paper_link"><i class="fas fa-file-pdf"></i>PDF</a>
+
+      
+    
+    
+      <a href="https://ieeexplore.ieee.org/document/9303381" class="paper_link"><i class="fas fa-code"></i>Source</a>
+
+      
+    
+    
+    </div>
 </div>
+</div>
+
+
+
+
+
+
+<!-- ...Extra Links... -->
+
+<!-- ...Extra Links Ended... -->
+
+
+
+
+
+
+<div class="card" data-size="small">
+  
+  <a
+    href="https://www.semanticscholar.org/paper/Integrating-Image-Data-Extraction-and-Table-Parsing-Masry/eb2f1a0e61167cf4afa410473df69d351ba57e0c"
+    class="card_image"
+  ><img
+      src="/images/publications/cqaw.png"
+      onerror="this.src = '/images/placeholder.svg'; this.onerror = null;"
+    ></a>
+  <div class="card_text">
+    
+    <a href="https://www.semanticscholar.org/paper/Integrating-Image-Data-Extraction-and-Table-Parsing-Masry/eb2f1a0e61167cf4afa410473df69d351ba57e0c" class="card_title">Integrating Image Data Extraction and Table Parsing Methods for Chart Question Answering</a>
+    <p
+      
+      class="truncate"
+      tabindex="0"
+      
+    >Ahmed Masry, Enamul Hoque
+</p><p
+      
+      class="truncate"
+      tabindex="0"
+      
+    >CVPR 2021 – Chart Question Answering Workshop  ·  
+<!-- Full Date -->
+<!--01 Jan 2021-->
+<!-- Month and Year only -->
+<!--Jan 2021-->
+
+<!-- Year Only -->
+2021
+</p><div>
+    
+      <a href="https://www.yorku.ca/enamulh/papers/cqaw.pdf" class="paper_link"><i class="fas fa-file-pdf"></i>PDF</a>
+
+      
+    
+    
+    
+    </div>
+</div>
+</div>
+
+
+
+
+
+
+<!-- ...Extra Links... -->
+
+<!-- ...Extra Links Ended... -->
+
+
+
+
+
+
+<div class="card" data-size="small">
+  
+  <a
+    href="https://dl.acm.org/doi/10.1145/3461778.3462103"
+    class="card_image"
+  ><img
+      src="/images/publications/community-pulse.png"
+      onerror="this.src = '/images/placeholder.svg'; this.onerror = null;"
+    ></a>
+  <div class="card_text">
+    
+    <a href="https://dl.acm.org/doi/10.1145/3461778.3462103" class="card_title">CommunityPulse: Facilitating Community Input Analysis by Surfacing Hidden Insights, Reflections, and Priorities</a>
+    <p
+      
+      class="truncate"
+      tabindex="0"
+      
+    >Mahmood Jasim, Enamul Hoque, Narges Mahyar, Ali Sarvghad
+</p><p
+      
+      class="truncate"
+      tabindex="0"
+      
+    >DIS 2021 (Best Paper Honorable Mention)  ·  
+<!-- Full Date -->
+<!--01 Jan 2021-->
+<!-- Month and Year only -->
+<!--Jan 2021-->
+
+<!-- Year Only -->
+2021
+</p><div>
+    
+      <a href="https://dl.acm.org/doi/abs/10.1145/3461778.3462132" class="paper_link"><i class="fas fa-file-pdf"></i>PDF</a>
+
+      
+    
+    
+    
+      <a href="https://www.yorku.ca/enamulh/video/CommunityPulse_Video.mp4" class="paper_link"><i class="fas fa-play-circle"></i>Video</a>
+
+      
+    
+    </div>
+</div>
+</div>
+
+
+
+
+
+
+<!-- ...Extra Links... -->
+
+<!-- ...Extra Links Ended... -->
+
+
+
+
+
+
+<div class="card" data-size="small">
+  
+  <a
+    href="https://arxiv.org/abs/2108.13514"
+    class="card_image"
+  ><img
+      src="/images/publications/conviscope.png"
+      onerror="this.src = '/images/placeholder.svg'; this.onerror = null;"
+    ></a>
+  <div class="card_text">
+    
+    <a href="https://arxiv.org/abs/2108.13514" class="card_title">ConVIScope: Visual Analytics for Exploring Patient Conversations</a>
+    <p
+      
+      class="truncate"
+      tabindex="0"
+      
+    >Raymond Li, Enamul Hoque, Giuseppe Carenini, Richard Lester, Raymond Chau
+</p><p
+      
+      class="truncate"
+      tabindex="0"
+      
+    >IEEE VIS 2021 (Short Paper)  ·  
+<!-- Full Date -->
+<!--01 Jan 2021-->
+<!-- Month and Year only -->
+<!--Jan 2021-->
+
+<!-- Year Only -->
+2021
+</p><div>
+    
+      <a href="https://open.library.ubc.ca/media/stream/pdf/52383/1.0406303/5" class="paper_link"><i class="fas fa-file-pdf"></i>PDF</a>
+
+      
+    
+    
+    
+      <a href="https://www.yorku.ca/enamulh/video/ConViscope" class="paper_link"><i class="fas fa-play-circle"></i>Video</a>
+
+      
+    
+    </div>
 </div>
 </div>
 
@@ -294,6 +2440,9 @@ Uses the _card_ component (small).
 
 
 
+<!-- ...Extra Links... -->
+
+<!-- ...Extra Links Ended... -->
 
 
 
@@ -303,129 +2452,44 @@ Uses the _card_ component (small).
 <div class="card" data-size="small">
   
   <a
-    href="https://arxiv.org/abs/2010.09142"
-    class="card_image"
-  ><img src="/images/placeholder.svg"></a>
-  <div class="card_text">
-    
-    <a href="https://arxiv.org/abs/2010.09142" class="card_title">Chart-to-Text: Generating Natural Language Descriptions for Charts by Adapting the Transformer Model</a>
-    <p
-      
-      class="truncate"
-      tabindex="0"
-      
-    >Jason Obeid, Enamul Hoque
-</p><p
-      
-      class="truncate"
-      tabindex="0"
-      
-    >arXiv  ·  01 Dec 2020
-</p><div class="tags" data-repo="https://github.com/JasonObeid/Chart2Text">
-  
-  <span class="tag">Chart Summarization</span>
-  
-  <span class="tag">NLP</span>
-  
-</div>
-<div><a href="https://github.com/JasonObeid/Chart2Text" class="paper_link"><i class="fas fa-code"></i>Source</a>
-</div>
-</div>
-</div>
-
-
-
-
-
-
-
-
-
-
-
-
-<div class="card" data-size="small">
-  
-  <a
-    href="http://arxiv.org/abs/2011.01421"
-    class="card_image"
-  ><img src="/images/placeholder.svg"></a>
-  <div class="card_text">
-    
-    <a href="http://arxiv.org/abs/2011.01421" class="card_title">WSL-DS: Weakly Supervised Learning with Distant Supervision for Query Focused Multi-Document Abstractive Summarization</a>
-    <p
-      
-      class="truncate"
-      tabindex="0"
-      
-    >Md Tahmid Rahman Laskar, Enamul Hoque, Jimmy Xiangji Huang
-</p><p
-      
-      class="truncate"
-      tabindex="0"
-      
-    >arXiv:2011.01421 [cs]  ·  02 Nov 2020
-</p><div class="tags">
-  
-  <span class="tag">Computation and Language (cs.CL);</span>
-  
-  <span class="tag">Information Retrieval (cs.IR)</span>
-  
-</div>
-<div><a href="https://github.com/tahmedge/WSL-DS-COLING-2020" class="paper_link"><i class="fas fa-code"></i>Source</a>
-</div>
-</div>
-</div>
-
-
-
-
-
-
-
-
-
-
-
-
-<div class="card" data-size="small">
-  
-  <a
-    href="https://doi.org/gj9db3"
+    href="https://ieeexplore.ieee.org/document/9373300"
     class="card_image"
   ><img
-      src="https://dl.acm.org/cms/asset/d3dbbc65-153c-4f4f-a615-37f87e8e2d4b/3379337.3415813.key.jpg"
+      src="/images/publications/convisqa.png"
       onerror="this.src = '/images/placeholder.svg'; this.onerror = null;"
     ></a>
   <div class="card_text">
     
-    <a href="https://doi.org/gj9db3" class="card_title">Sneak Pique</a>
+    <a href="https://ieeexplore.ieee.org/document/9373300" class="card_title">ConVisQA: A Natural Language Interface for Visually Exploring Online Conversations</a>
     <p
       
       class="truncate"
       tabindex="0"
       
-    >Vidya Setlur, Enamul Hoque, Dae Hyun Kim, Angel X. Chang
+    >Nadia Siddiqui, Enamul Hoque
 </p><p
       
       class="truncate"
       tabindex="0"
       
-    >Association for Computing Machinery (ACM)  ·  20 Oct 2020
-</p><div class="tags">
-  
-  <span class="tag">autocompletion</span>
-  
-  <span class="tag">data preview</span>
-  
-  <span class="tag">natural language interaction</span>
-  
-  <span class="tag">visual analysis.</span>
-  
+    >In Proceedings of the 24th International Conference InformationVisualisation  ·  
+<!-- Full Date -->
+<!--01 Jan 2020-->
+<!-- Month and Year only -->
+<!--Jan 2020-->
+
+<!-- Year Only -->
+2020
+</p><div>
+    
+      <a href="https://ieeexplore.ieee.org/document/9373300" class="paper_link"><i class="fas fa-file-pdf"></i>PDF</a>
+
+      
+    
+    
+    
+    </div>
 </div>
-<div><a href="https://dl.acm.org/action/downloadSupplement?doi=10.1145%2F3379337.3415813&amp;file=ufp1378aux.zip" class="paper_link"><i class="fas fa-code"></i>Source</a>
-</div>
-</div>
 </div>
 
 
@@ -433,6 +2497,9 @@ Uses the _card_ component (small).
 
 
 
+<!-- ...Extra Links... -->
+
+<!-- ...Extra Links Ended... -->
 
 
 
@@ -442,88 +2509,47 @@ Uses the _card_ component (small).
 <div class="card" data-size="small">
   
   <a
-    href="https://doi.org/gj9db2"
+    href="https://link.springer.com/chapter/10.1007/978-3-030-47358-7_35"
     class="card_image"
   ><img
-      src="https://ieeexplore.ieee.org/mediastore_new/IEEE/content/media/9329359/9331017/9331280/uddin1-p5-uddin-small.gif"
+      src="/images/publications/cai2020.png"
       onerror="this.src = '/images/placeholder.svg'; this.onerror = null;"
     ></a>
   <div class="card_text">
     
-    <a href="https://doi.org/gj9db2" class="card_title">ClaimViz: Visual Analytics for Identifying and Verifying Factual Claims</a>
+    <a href="https://link.springer.com/chapter/10.1007/978-3-030-47358-7_35" class="card_title">Query Focused Abstractive Summarization via Incorporating Query Relevance and Transfer Learning with Transformer Models</a>
     <p
       
       class="truncate"
       tabindex="0"
       
-    >Md Main Uddin Rony, Enamul Hoque, Naeemul Hassan
+    >Md Tahmid Rahman Laskar, Enamul Hoque, Jimmy Huang
 </p><p
       
       class="truncate"
       tabindex="0"
       
-    >Institute of Electrical and Electronics Engineers (IEEE)  ·  01 Oct 2020
-</p><div class="tags">
-  
-  <span class="tag">Human-centered computing</span>
-  
-  <span class="tag">Visualization</span>
-  
-  <span class="tag">Visualization design and evaluation methods</span>
-  
-</div>
-</div>
-</div>
+    >Advances in Artificial Intelligence  ·  
+<!-- Full Date -->
+<!--01 Jan 2020-->
+<!-- Month and Year only -->
+<!--Jan 2020-->
 
-
-
-
-
-
-
-
-
-
-
-
-<div class="card" data-size="small">
-  
-  <a
-    href="https://www.aclweb.org/anthology/2020.lrec-1.676"
-    class="card_image"
-  ><img src="/images/placeholder.svg"></a>
-  <div class="card_text">
+<!-- Year Only -->
+2020
+</p><div>
     
-    <a href="https://www.aclweb.org/anthology/2020.lrec-1.676" class="card_title">Contextualized Embeddings based Transformer Encoder for Sentence Similarity Modeling in Answer Selection Task</a>
-    <p
+      <a href="https://link.springer.com/chapter/10.1007/978-3-030-47358-7_35" class="paper_link"><i class="fas fa-file-pdf"></i>PDF</a>
+
       
-      class="truncate"
-      tabindex="0"
+    
+    
+      <a href="https://github.com/tahmedge/QR-BERTSUM-TL-for-QFAS" class="paper_link"><i class="fas fa-code"></i>Source</a>
+
       
-    >Md Tahmid Rahman Laskar, Jimmy Xiangji Huang, Enamul Hoque
-</p><p
-      
-      class="truncate"
-      tabindex="0"
-      
-    >Proceedings of the 12th Language Resources and Evaluation Conference  ·  01 May 2020
-</p><div class="tags">
-  
-  <span class="tag">Answer Selection</span>
-  
-  <span class="tag">Transformer Encoder</span>
-  
-  <span class="tag">Contextualized Embeddings</span>
-  
-  <span class="tag">ELMo</span>
-  
-  <span class="tag">BERT</span>
-  
-  <span class="tag">RoBERTa</span>
-  
-  <span class="tag">Deep Learning</span>
-  
-</div>
+    
+    
+    </div>
 </div>
 </div>
 
@@ -532,6 +2558,9 @@ Uses the _card_ component (small).
 
 
 
+<!-- ...Extra Links... -->
+
+<!-- ...Extra Links Ended... -->
 
 
 
@@ -561,24 +2590,42 @@ Uses the _card_ component (small).
       class="truncate"
       tabindex="0"
       
-    >Association for Computing Machinery (ACM)  ·  21 Apr 2020
-</p><div class="tags" data-repo="https://github.com/dhkim16/VisQA-release">
-  
-  <span class="tag">Question answering</span>
-  
-  <span class="tag">Visualization</span>
-  
-  <span class="tag">Explainable AI</span>
-  
+    >Association for Computing Machinery (ACM)  ·  
+<!-- Full Date -->
+<!--21 Apr 2020-->
+<!-- Month and Year only -->
+<!--Apr 2020-->
+
+<!-- Year Only -->
+2020
+</p><div>
+    
+      <a href="https://dl.acm.org/doi/10.1145/3313831.3376467" class="paper_link"><i class="fas fa-file-pdf"></i>PDF</a>
+
+      
+    
+    
+      <a href="https://dhkim16.github.io/vis-qa/" class="paper_link"><i class="fas fa-code"></i>Source</a>
+
+      
+    
+    
+      <a href="https://www.youtube.com/watch?v=l9ZGZpRGjgY" class="paper_link"><i class="fas fa-play-circle"></i>Video</a>
+
+      
+    
+    </div>
 </div>
 </div>
-</div>
 
 
 
 
 
 
+<!-- ...Extra Links... -->
+
+<!-- ...Extra Links Ended... -->
 
 
 
@@ -588,35 +2635,295 @@ Uses the _card_ component (small).
 <div class="card" data-size="small">
   
   <a
-    href="https://link.springer.com/chapter/10.1007/978-3-030-47358-7_35"
+    href="https://www.aclweb.org/anthology/2020.lrec-1.676"
     class="card_image"
-  ><img src="/images/placeholder.svg"></a>
+  ><img
+      src="/images/publications/lrec.png"
+      onerror="this.src = '/images/placeholder.svg'; this.onerror = null;"
+    ></a>
   <div class="card_text">
     
-    <a href="https://link.springer.com/chapter/10.1007/978-3-030-47358-7_35" class="card_title">Query Focused Abstractive Summarization via Incorporating Query Relevance and Transfer Learning with Transformer Models</a>
+    <a href="https://www.aclweb.org/anthology/2020.lrec-1.676" class="card_title">Contextualized Embeddings based Transformer Encoder for Sentence Similarity Modeling in Answer Selection Task</a>
     <p
       
       class="truncate"
       tabindex="0"
       
-    >Md Tahmid Rahman Laskar, Enamul Hoque, Jimmy Huang
+    >Md Tahmid Rahman Laskar, Jimmy Xiangji Huang, Enamul Hoque
 </p><p
       
       class="truncate"
       tabindex="0"
       
-    >Advances in Artificial Intelligence  ·  01 Jan 2020
-</p><div class="tags">
-  
-  <span class="tag">Query</span>
-  
-  <span class="tag">Abtractive summarization</span>
-  
-  <span class="tag">Transformer</span>
-  
-  <span class="tag">BERT</span>
-  
+    >Proceedings of the 12th Language Resources and Evaluation Conference  ·  
+<!-- Full Date -->
+<!--01 May 2020-->
+<!-- Month and Year only -->
+<!--May 2020-->
+
+<!-- Year Only -->
+2020
+</p><div>
+    
+      <a href="https://aclanthology.org/2020.lrec-1.676/" class="paper_link"><i class="fas fa-file-pdf"></i>PDF</a>
+
+      
+    
+    
+      <a href="https://github.com/tahmedge/CETE-LREC" class="paper_link"><i class="fas fa-code"></i>Source</a>
+
+      
+    
+    
+    </div>
 </div>
+</div>
+
+
+
+
+
+
+<!-- ...Extra Links... -->
+
+<!-- ...Extra Links Ended... -->
+
+
+
+
+
+
+<div class="card" data-size="small">
+  
+  <a
+    href="https://doi.org/gj9db2"
+    class="card_image"
+  ><img
+      src="/images/publications/claimviz.png"
+      onerror="this.src = '/images/placeholder.svg'; this.onerror = null;"
+    ></a>
+  <div class="card_text">
+    
+    <a href="https://doi.org/gj9db2" class="card_title">ClaimViz: Visual Analytics for Identifying and Verifying Factual Claims</a>
+    <p
+      
+      class="truncate"
+      tabindex="0"
+      
+    >Md Main Uddin Rony, Enamul Hoque, Naeemul Hassan
+</p><p
+      
+      class="truncate"
+      tabindex="0"
+      
+    >Institute of Electrical and Electronics Engineers (IEEE)  ·  
+<!-- Full Date -->
+<!--01 Oct 2020-->
+<!-- Month and Year only -->
+<!--Oct 2020-->
+
+<!-- Year Only -->
+2020
+</p><div>
+    
+      <a href="https://ieeexplore.ieee.org/document/9331280" class="paper_link"><i class="fas fa-file-pdf"></i>PDF</a>
+
+      
+    
+    
+    
+      <a href="https://aclanthology.org/2020.lrec-1.676/" class="paper_link"><i class="fas fa-play-circle"></i>Video</a>
+
+      
+    
+    </div>
+</div>
+</div>
+
+
+
+
+
+
+<!-- ...Extra Links... -->
+
+<!-- ...Extra Links Ended... -->
+
+
+
+
+
+
+<div class="card" data-size="small">
+  
+  <a
+    href="https://doi.org/gj9db3"
+    class="card_image"
+  ><img
+      src="/images/publications/sneak.png"
+      onerror="this.src = '/images/placeholder.svg'; this.onerror = null;"
+    ></a>
+  <div class="card_text">
+    
+    <a href="https://doi.org/gj9db3" class="card_title">Sneak Pique - Exploring Autocompletion as a Data Discovery Scaffold for Supporting Visual Analysis</a>
+    <p
+      
+      class="truncate"
+      tabindex="0"
+      
+    >Vidya Setlur, Enamul Hoque, Dae Hyun Kim, Angel X. Chang
+</p><p
+      
+      class="truncate"
+      tabindex="0"
+      
+    >Association for Computing Machinery (ACM)  ·  
+<!-- Full Date -->
+<!--20 Oct 2020-->
+<!-- Month and Year only -->
+<!--Oct 2020-->
+
+<!-- Year Only -->
+2020
+</p><div>
+    
+      <a href="https://dhkim16.github.io/pdf/sneakpique.pdf" class="paper_link"><i class="fas fa-file-pdf"></i>PDF</a>
+
+      
+    
+    
+    
+      <a href="https://www.youtube.com/watch?v=n2evJc0BVHg" class="paper_link"><i class="fas fa-play-circle"></i>Video</a>
+
+      
+    
+    
+      <a href="https://medium.com/acm-uist/providing-a-sneak-peek-into-ones-data-through-visual-autocompletion-ce0e5e6fc93" class="paper_link"><i class="fas fa-pen-nib"></i>Blog Post</a>
+
+      
+    </div>
+</div>
+</div>
+
+
+
+
+
+
+<!-- ...Extra Links... -->
+
+<!-- ...Extra Links Ended... -->
+
+
+
+
+
+
+<div class="card" data-size="small">
+  
+  <a
+    
+    class="card_image"
+  ><img
+      src="/images/publications/coling.png"
+      onerror="this.src = '/images/placeholder.svg'; this.onerror = null;"
+    ></a>
+  <div class="card_text">
+    
+    <a href="" class="card_title">WSL-DS: Weakly Supervised Learning with Distant Supervision for Query Focused Multi-Document Abstractive Summarization</a>
+    <p
+      
+      class="truncate"
+      tabindex="0"
+      
+    >Md Tahmid Rahman Laskar, Enamul Hoque, Jimmy Xiangji Huang
+</p><p
+      
+      class="truncate"
+      tabindex="0"
+      
+    >Proceedings of the 28th International Conference on Computational Linguistics  ·  
+<!-- Full Date -->
+<!--02 Nov 2020-->
+<!-- Month and Year only -->
+<!--Nov 2020-->
+
+<!-- Year Only -->
+2020
+</p><div>
+    
+      <a href="https://aclanthology.org/2020.coling-main.495/" class="paper_link"><i class="fas fa-file-pdf"></i>PDF</a>
+
+      
+    
+    
+      <a href="https://github.com/tahmedge/WSL-DS-COLING-2020" class="paper_link"><i class="fas fa-code"></i>Source</a>
+
+      
+    
+    
+    </div>
+</div>
+</div>
+
+
+
+
+
+
+<!-- ...Extra Links... -->
+
+<!-- ...Extra Links Ended... -->
+
+
+
+
+
+
+<div class="card" data-size="small">
+  
+  <a
+    href="https://aclanthology.org/2020.inlg-1.20.pdf"
+    class="card_image"
+  ><img
+      src="/images/publications//chart-sum.png"
+      onerror="this.src = '/images/placeholder.svg'; this.onerror = null;"
+    ></a>
+  <div class="card_text">
+    
+    <a href="https://aclanthology.org/2020.inlg-1.20.pdf" class="card_title">Chart-to-Text: Generating Natural Language Descriptions for Charts by Adapting the Transformer Model</a>
+    <p
+      
+      class="truncate"
+      tabindex="0"
+      
+    >Jason Obeid, Enamul Hoque
+</p><p
+      
+      class="truncate"
+      tabindex="0"
+      
+    >arXiv  ·  
+<!-- Full Date -->
+<!--01 Dec 2020-->
+<!-- Month and Year only -->
+<!--Dec 2020-->
+
+<!-- Year Only -->
+2020
+</p><div>
+    
+      <a href="https://aclanthology.org/2020.inlg-1.20.pdf" class="paper_link"><i class="fas fa-file-pdf"></i>PDF</a>
+
+      
+    
+    
+      <a href="https://github.com/JasonObeid/Chart2Text" class="paper_link"><i class="fas fa-code"></i>Source</a>
+
+      
+    
+    
+    </div>
 </div>
 </div>
 
@@ -632,6 +2939,9 @@ Uses the _card_ component (small).
 
 
 
+<!-- ...Extra Links... -->
+
+<!-- ...Extra Links Ended... -->
 
 
 
@@ -644,7 +2954,7 @@ Uses the _card_ component (small).
     href="https://doi.org/gh525d"
     class="card_image"
   ><img
-      src="https://www.yorku.ca/enamulh/vis-search/img/teaser_scatter_plot_contrast.png"
+      src="/images/publications/vis-search.png"
       onerror="this.src = '/images/placeholder.svg'; this.onerror = null;"
     ></a>
   <div class="card_text">
@@ -661,16 +2971,149 @@ Uses the _card_ component (small).
       class="truncate"
       tabindex="0"
       
-    >IEEE Transactions on Visualization and Computer Graphics  ·  01 Jan 2019
-</p><div class="tags">
-  
-  <span class="tag">Visualization search engine</span>
-  
-  <span class="tag">Visualization design</span>
-  
-  <span class="tag">Vearch user interfaces</span>
-  
+    >IEEE Transactions on Visualization and Computer Graphics  ·  
+<!-- Full Date -->
+<!--01 Jan 2019-->
+<!-- Month and Year only -->
+<!--Jan 2019-->
+
+<!-- Year Only -->
+2019
+</p><div>
+    
+      <a href="https://ieeexplore.ieee.org/document/8809832" class="paper_link"><i class="fas fa-file-pdf"></i>PDF</a>
+
+      
+    
+    
+      <a href="https://www.yorku.ca/enamulh/vis-search/" class="paper_link"><i class="fas fa-code"></i>Source</a>
+
+      
+    
+    
+      <a href="https://www.yorku.ca/enamulh/vis-search/video/Vis2019_camera.mp4" class="paper_link"><i class="fas fa-play-circle"></i>Video</a>
+
+      
+    
+    
+      <a href="https://www.yorku.ca/enamulh/vis-search/" class="paper_link"><i class="fas fa-pen-nib"></i>Blog Post</a>
+
+      
+    </div>
 </div>
+</div>
+
+
+
+
+
+
+<!-- ...Extra Links... -->
+
+<!-- ...Extra Links Ended... -->
+
+
+
+
+
+
+<div class="card" data-size="small">
+  
+  <a
+    href="https://link.springer.com/chapter/10.1007/978-3-030-30712-7_46"
+    class="card_image"
+  ><img
+      src="/images/publications/controversy.png"
+      onerror="this.src = '/images/placeholder.svg'; this.onerror = null;"
+    ></a>
+  <div class="card_text">
+    
+    <a href="https://link.springer.com/chapter/10.1007/978-3-030-30712-7_46" class="card_title">Visual Exploration of Topic Controversy in Online Conversations</a>
+    <p
+      
+      class="truncate"
+      tabindex="0"
+      
+    >Enamul Hoque, Esha Abid
+</p><p
+      
+      class="truncate"
+      tabindex="0"
+      
+    >In Proceedings of HCI International (late-breaking work),  ·  
+<!-- Full Date -->
+<!--01 Jan 2019-->
+<!-- Month and Year only -->
+<!--Jan 2019-->
+
+<!-- Year Only -->
+2019
+</p><div>
+    
+      <a href="https://link.springer.com/chapter/10.1007/978-3-030-30712-7_46" class="paper_link"><i class="fas fa-file-pdf"></i>PDF</a>
+
+      
+    
+    
+    
+    </div>
+</div>
+</div>
+
+
+
+
+
+
+<!-- ...Extra Links... -->
+
+<!-- ...Extra Links Ended... -->
+
+
+
+
+
+
+<div class="card" data-size="small">
+  
+  <a
+    href="https://link.springer.com/chapter/10.1007/978-3-030-63591-6_63"
+    class="card_image"
+  ><img
+      src="/images/publications/ammcs.png"
+      onerror="this.src = '/images/placeholder.svg'; this.onerror = null;"
+    ></a>
+  <div class="card_text">
+    
+    <a href="https://link.springer.com/chapter/10.1007/978-3-030-63591-6_63" class="card_title">Utilizing Bidirectional Encoder Representations from Transformers for Answer Selection</a>
+    <p
+      
+      class="truncate"
+      tabindex="0"
+      
+    >Md Tahmid Rahman Laskar, Enamul Hoque, Jimmy Huang
+</p><p
+      
+      class="truncate"
+      tabindex="0"
+      
+    >In Proceedings of the 24th International Conference InformationVisualisation  ·  
+<!-- Full Date -->
+<!--01 Jan 2019-->
+<!-- Month and Year only -->
+<!--Jan 2019-->
+
+<!-- Year Only -->
+2019
+</p><div>
+    
+      <a href="https://link.springer.com/chapter/10.1007/978-3-030-63591-6_63" class="paper_link"><i class="fas fa-file-pdf"></i>PDF</a>
+
+      
+    
+    
+    
+    </div>
 </div>
 </div>
 
@@ -686,54 +3129,9 @@ Uses the _card_ component (small).
 
 
 
+<!-- ...Extra Links... -->
 
-
-
-
-
-
-<div class="card" data-size="small">
-  
-  <a
-    href="https://doi.org/gj9dbx"
-    class="card_image"
-  ><img src="/images/placeholder.svg"></a>
-  <div class="card_text">
-    
-    <a href="https://doi.org/gj9dbx" class="card_title">Interactive topic hierarchy revision for exploring a collection of online conversations</a>
-    <p
-      
-      class="truncate"
-      tabindex="0"
-      
-    >Enamul Hoque, Giuseppe Carenini
-</p><p
-      
-      class="truncate"
-      tabindex="0"
-      
-    >Information Visualization  ·  23 Feb 2018
-</p><div class="tags">
-  
-  <span class="tag">Visual text analytics</span>
-  
-  <span class="tag">Text visualization</span>
-  
-  <span class="tag">Interactive topic modeling</span>
-  
-  <span class="tag">Asynchronous conversations</span>
-  
-  <span class="tag">Computer-mediated communication</span>
-  
-</div>
-</div>
-</div>
-
-
-
-
-
-
+<!-- ...Extra Links Ended... -->
 
 
 
@@ -746,7 +3144,7 @@ Uses the _card_ component (small).
     href="https://doi.org/gcp7wd"
     class="card_image"
   ><img
-      src="https://ieeexplore.ieee.org/mediastore_new/IEEE/content/media/2945/8165924/8019833/24tvcg01-setlur-2744684-fig-1-source-small.gif"
+      src="/images/publications/pragmatics.gif"
       onerror="this.src = '/images/placeholder.svg'; this.onerror = null;"
     ></a>
   <div class="card_text">
@@ -763,113 +3161,27 @@ Uses the _card_ component (small).
       class="truncate"
       tabindex="0"
       
-    >IEEE Transactions on Visualization and Computer Graphics  ·  01 Jan 2018
-</p><div class="tags">
-  
-  <span class="tag">natural language</span>
-  
-  <span class="tag">interaction</span>
-  
-  <span class="tag">language pragmatics</span>
-  
-  <span class="tag">visual analytics</span>
-  
-  <span class="tag">ambiguity</span>
-  
-  <span class="tag">feedback</span>
-  
-</div>
-</div>
-</div>
+    >IEEE Transactions on Visualization and Computer Graphics  ·  
+<!-- Full Date -->
+<!--01 Jan 2018-->
+<!-- Month and Year only -->
+<!--Jan 2018-->
 
-
-
-
-
-
-### 2016
-{:.card_search_hide}
-
-
-
-
-
-
-
-
-
-
-
-<div class="card" data-size="small">
-  
-  <a
-    href="https://doi.org/ggfbbw"
-    class="card_image"
-  ><img src="/images/placeholder.svg"></a>
-  <div class="card_text">
+<!-- Year Only -->
+2018
+</p><div>
     
-    <a href="https://doi.org/ggfbbw" class="card_title">Interactive Topic Modeling for Exploring Asynchronous Online Conversations</a>
-    <p
+      <a href="https://doi.org/gcp7wd" class="paper_link"><i class="fas fa-file-pdf"></i>PDF</a>
+
       
-      class="truncate"
-      tabindex="0"
-      
-    >Enamul Hoque, Giuseppe Carenini
-</p><p
-      
-      class="truncate"
-      tabindex="0"
-      
-    >ACM Transactions on Interactive Intelligent Systems  ·  05 May 2016
-</p><div><a href="https://dl.acm.org/action/downloadSupplement?doi=10.1145%2F2854158&amp;file=hoque.zip" class="paper_link"><i class="fas fa-code"></i>Source</a>
-</div>
-</div>
-</div>
-
-
-
-
-
-
-### 2015
-{:.card_search_hide}
-
-
-
-
-
-
-
-
-
-
-
-<div class="card" data-size="small">
-  
-  <a
-    href="https://doi.org/gj9dbz"
-    class="card_image"
-  ><img
-      src="https://www.cs.ubc.ca/cs-research/lci/research-groups/natural-language-processing/image/convis/3.jpg"
-      onerror="this.src = '/images/placeholder.svg'; this.onerror = null;"
-    ></a>
-  <div class="card_text">
     
-    <a href="https://doi.org/gj9dbz" class="card_title">ConVisIT</a>
-    <p
+    
+    
+      <a href="https://enamulh.github.io/video/VAST2017_105.mp4" class="paper_link"><i class="fas fa-play-circle"></i>Video</a>
+
       
-      class="truncate"
-      tabindex="0"
-      
-    >Enamul Hoque, Giuseppe Carenini
-</p><p
-      
-      class="truncate"
-      tabindex="0"
-      
-    >Association for Computing Machinery (ACM)  ·  18 Mar 2015
-</p><div><a href="https://github.com/enamulubc/ConVis" class="paper_link"><i class="fas fa-code"></i>Source</a>
-</div>
+    
+    </div>
 </div>
 </div>
 
