@@ -298,7 +298,7 @@ Based at  <a href="https://www.yorku.ca/" target="_blank" rel="noopener noreferr
         </p>
         <div class="theme-layout">
           <div class="theme-media">
-            <img src="/images/inverted.png loading="lazy" alt="Human-centered and responsible AI for data visualization">
+            <img src="/images/inverted.png  alt="Human-centered and responsible AI for data visualization">
           </div>
           <div class="theme-papers">
             <p class="theme-papers-header">Representative papers</p>
@@ -323,7 +323,7 @@ Based at  <a href="https://www.yorku.ca/" target="_blank" rel="noopener noreferr
         </p>
         <div class="theme-layout">
           <div class="theme-media">
-            <img src="/images/3.jpg loading="lazy" alt="Visual analytics for large text collections">
+            <img src="/images/3.jpg alt="Visual analytics for large text collections">
           </div>
           <div class="theme-papers">
             <p class="theme-papers-header">Representative papers</p>
