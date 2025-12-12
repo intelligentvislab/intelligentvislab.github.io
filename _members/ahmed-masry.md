@@ -1,5 +1,5 @@
 ---
-title: Ahmed Gamal Masry
+title: Ahmed Masry
 search:
   - Ahmed
 role: phd
