@@ -42,7 +42,7 @@ the work we're doing, please reach out!
 
 ## Alumni
 
-We are incredibly proud of all the IVL alumni who have passed through the lab, for whatever period of time they were with us. Below
+We are incredibly proud of all the Intelligent Visualization Lab alumni who have passed through the lab, for whatever period of time they were with us. Below
 is a list of lab alumni (if you feel you're missing from the list and would like to be added, please e-mail us): 
 {:.center} 
 
