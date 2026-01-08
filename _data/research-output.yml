@@ -1,3 +1,77 @@
+- title: 'DashboardQA: Benchmarking Multimodal Agents for Question Answering on Interactive Dashboards'
+  authors:
+  - Aaryaman Kartha
+  - Ahmed Masry
+  - Mohammed Saidul Islam
+  - Thinh Lang
+  - Shadikur Rahman
+  - Ridwan Mahbub
+  - Mizanur Rahman
+  - Mahir Ahmed
+  - Md Rizwan Parvez
+  - Enamul Hoque
+  - Shafiq Joty
+  publisher: In Proceedings of the Conference on European Chapter of the ACL (EACL)
+  date: '2026-01-01'
+  link: https://arxiv.org/abs/2508.17398
+  id: https://arxiv.org/abs/2508.17398
+  image: images/publications/dashboardqa.png
+  extra-links:
+  - type: PDF
+    link: https://arxiv.org/pdf/2508.17398
+  - type: Source
+    link: 
+  - type: Video
+    link: 
+  - type: Blog Post 
+    link: 
+
+
+- title: 'Aligning Text, Code, and Vision: A Multi-Objective Reinforcement Learning Framework for Text-to-Vis'
+  authors:
+  - Mizanur Rahman
+  - Mohammed Saidul Islam
+  - Md Tahmid Rahman Laskar
+  - Shafiq Joty
+  - Enamul Hoque
+  publisher: In Proceedings of the Conference on European Chapter of the ACL (EACL)
+  date: '2026-01-01'
+  image: 
+  extra-links:
+  - type: PDF
+    link: 
+  - type: Source  
+    link: 
+  - type: Video
+    link: 
+  - type: Blog Post 
+    link: 
+
+- title: 'LLM-Based Data Science Agents: A Survey of Capabilities, Challenges, and Future Directions'
+  authors:
+  - Mizanur Rahman
+  - Amran Bhuiyan
+  - Mohammed Saidul Islam
+  - Md Tahmid Rahman Laskar
+  - Ridwan Mahbub
+  - Ahmed Masry
+  - Shafiq Joty
+  - Enamul Hoque
+  publisher: In Proceedings of the Conference on European Chapter of the ACL (EACL)
+  date: '2026-01-01'
+  image: images/publications/llm-data-science-agents.png
+  link: https://arxiv.org/pdf/2510.04023
+  id: https://arxiv.org/pdf/2510.04023
+  extra-links:
+  - type: PDF
+    link: https://arxiv.org/pdf/2510.04023
+  - type: Source  
+    link: 
+  - type: Video
+    link: 
+  - type: Blog Post 
+    link: 
+
 - title: Large Language Models for Information Visualization
   authors:
   - Enamul Hoque
@@ -38,8 +112,7 @@
     link: 
 
 
-- title: 'AFuNet: An Attention-Based Fusion Network to Classify Texts in a Resource-Constrained
-    Language'
+- title: 'AFuNet: An Attention-Based Fusion Network to Classify Texts in a Resource-Constrained Language'
   authors:
   - Md. Rajib Hossain
   - Mohammed Moshiul Hoque
@@ -373,7 +446,6 @@
   - type: Source  
     link: https://github.com/AhmedMasryKU/colflor
   - type: Video
-    link: 
   - type: Blog Post 
     link: https://huggingface.co/blog/ahmed-masry/colflor
 
@@ -551,6 +623,26 @@
     link: 
 
 
+- title: 'RefineCode: Enhancing Code Quality Through Actionable Code Review Recommendations and Intelligent Issue Resolution'
+  authors:
+  - Shadikur Rahman
+  - Umme Ayman Koana
+  - Enamul Hoque
+  publisher: 
+  date: '2024-01-01'
+  link: https://www.researchgate.net/profile/Shadikur-Rahman/publication/394465408_RefineCode_Enhancing_Code_Quality_Through_Actionable_Code_Review_Recommendations_and_Intelligent_Issue_Resolution/links/689cae781156f345cea07395/RefineCode-Enhancing-Code-Quality-Through-Actionable-Code-Review-Recommendations-and-Intelligent-Issue-Resolution.pdf
+  id: https://www.researchgate.net/profile/Shadikur-Rahman/publication/394465408_RefineCode_Enhancing_Code_Quality_Through_Actionable_Code_Review_Recommendations_and_Intelligent_Issue_Resolution/links/689cae781156f345cea07395/RefineCode-Enhancing-Code-Quality-Through-Actionable-Code-Review-Recommendations-and-Intelligent-Issue-Resolution.pdf
+  image: images/publications/RefineCode_2.png
+  extra-links: 
+  - type: PDF
+    link: https://www.researchgate.net/profile/Shadikur-Rahman/publication/394465408_RefineCode_Enhancing_Code_Quality_Through_Actionable_Code_Review_Recommendations_and_Intelligent_Issue_Resolution/links/689cae781156f345cea07395/RefineCode-Enhancing-Code-Quality-Through-Actionable-Code-Review-Recommendations-and-Intelligent-Issue-Resolution.pdf
+  - type: Source  
+    link: 
+  - type: Video
+    link: 
+  - type: Blog Post 
+    link: 
+
 - title: 'Towards a Holistic Evaluation of LLM Generated Code for Exploratory Visual
     Analysis'
   authors:
@@ -709,29 +801,6 @@
   - type: Blog Post 
     link: 
 
-
-- title: 'Domain Adaptation with Pre-Trained Transformers for Query-Focused Abstractive
-    Text Summarization'
-  authors:
-  - Md Tahmid Rahman Laskar
-  - Enamul Hoque
-  - Jimmy Xiangji Huang
-  publisher: Computational Linguistics 48(2) 279–320
-  date: '2022-01-01'
-  link: https://aclanthology.org/2022.cl-2.2/
-  id: https://aclanthology.org/2022.cl-2.2/
-  image: images/publications/QFAS.png
-  extra-links:
-  - type: PDF
-    link: https://aclanthology.org/2022.cl-2.2.pdf
-  - type: Source  
-    link: https://github.com/tahmedge/PreQFAS
-  - type: Video
-    link: 
-  - type: Blog Post 
-    link: 
-
-
 - title: 'OpenCQA: Open-ended Question Answering with Charts'
   authors:
   - Shankar Kantharaj
@@ -845,11 +914,11 @@
   - type: PDF
     link: https://dl.acm.org/doi/abs/10.1145/3461778.3462132
   - type: Source  
-    link: 
+    link: https://communitypulse.cs.umass.edu/
   - type: Video
     link: https://www.yorku.ca/enamulh/video/CommunityPulse_Video.mp4
   - type: Blog Post 
-    link: 
+    link: https://csc.lsu.edu/~mjasim/projects/communitypulse.html
 
 
 - title: 'Integrating Image Data Extraction and Table Parsing Methods for Chart Question
@@ -872,6 +941,25 @@
   - type: Blog Post 
     link: 
 
+- title: Domain Adaptation with Pre-trained Transformers for Query-Focused Abstractive Text Summarization
+  authors:
+  - TahmidRahman
+  - Enamul Hoque
+  - Jimmy Xiangji Huang
+  publisher: Journal of Computational Linguistics (CL), 48(2) 279–320
+  date: '2021-01-01'
+  link: https://direct.mit.edu/coli/article/48/2/279/109901/Domain-Adaptation-with-Pre-trained-Transformers
+  id: https://direct.mit.edu/coli/article/48/2/279/109901/Domain-Adaptation-with-Pre-trained-Transformers
+  image: images/publications/QFAS.png
+  extra-links:
+  - type: PDF
+    link: https://aclanthology.org/2022.cl-2.2.pdf
+  - type: Source  
+    link: https://github.com/tahmedge/PreQFAS
+  - type: Video
+    link: 
+  - type: Blog Post 
+    link: 
 
 - title: Designing and Evaluating Multimodal Interactions for Facilitating Visual
     Analysis With Dashboards
@@ -975,6 +1063,27 @@
     link: 
   - type: Video
     link: https://aclanthology.org/2020.lrec-1.676/
+  - type: Blog Post 
+    link: 
+
+- title: 'Towards Understanding Desiderata for Large-Scale Civic Input Analysis'
+  authors:
+  - Mahmood Jasim
+  - Enamul Hoque
+  - Ali Sarvghad
+  - Narges Mahyar
+  publisher: In	Proceedings	of The ACM Conference on Human	Factors	in Computing	Systems	(CHI)
+  date: '2020-10-01'
+  link: https://dl.acm.org/doi/10.1145/3334480.3382964
+  id: https://dl.acm.org/doi/epdf/10.1145/3334480.3382964
+  image: images/publications/com-pulse.png
+  extra-links:
+  - type: PDF
+    link: https://dl.acm.org/doi/pdf/10.1145/3334480.3382964
+  - type: Source  
+    link: 
+  - type: Video
+    link: 
   - type: Blog Post 
     link: 
 
@@ -1117,7 +1226,7 @@
   - type: Blog Post 
     link: https://www.yorku.ca/enamulh/vis-search/
 
-- title: Applying Pragmatics Principles for Interaction with Visual Analytics
+- title: 'Applying Pragmatics Principles for Interaction with Visual Analytics'
   authors:
   - Enamul Hoque
   - Vidya Setlur
