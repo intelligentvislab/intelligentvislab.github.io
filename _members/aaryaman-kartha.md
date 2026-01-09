@@ -3,7 +3,7 @@ title: Aaryaman Kartha
 search:
   - Aaryaman
 role: msc
-group: current
+group: alumnai
 image: images/members/aaryaman_kartha.jpg
 email: 
 github: 

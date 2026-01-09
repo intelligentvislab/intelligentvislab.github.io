@@ -4,7 +4,7 @@ search:
   - Ridwan
 role: msc
 group: current
-image: images/person-placeholder.jpg
+image: images/Ridwan.jpeg
 email: 
 github: 
 ---

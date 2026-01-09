@@ -4,7 +4,7 @@ search:
   - Mahir
 role: msc
 group: current
-image: images/person-placeholder.jpg
+image: images/mahir.jpeg
 email: mrahmed@yorku.ca
 github: MahirRezoun
 ---

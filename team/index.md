@@ -47,6 +47,7 @@ is a list of lab alumni (if you feel you're missing from the list and would like
 {:.center} 
 
 - 2024-2024 - **Somang Nam**, Postdoctoral fellow, York University
+- 2023-2025 - **Aaryaman Kartha**, EECS, York University
 - 2023-2025 - **Mohammed Saidul Islam**, EECS, York University
 - 2023-2024 - **Shadikur Rahman**, EECS, York University
 - 2022-2023 - **Mohammad Hassanpour**, EECS, York University
