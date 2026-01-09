@@ -4,7 +4,7 @@ search:
   - Mizanur
 role: phd
 group: current
-image: images/person-placeholder.jpg
+image: images/mizanur.jpeg
 email: 
 github: 
 ---
