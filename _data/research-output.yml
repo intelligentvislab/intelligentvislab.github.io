@@ -20,10 +20,12 @@
   - type: PDF
     link: https://arxiv.org/pdf/2508.17398
   - type: Source
-    link: 
+    link: https://github.com/vis-nlp/DashboardQA
   - type: Video
     link: 
   - type: Blog Post 
+    link: 
+  - type: Dataset
     link: 
 
 
@@ -39,13 +41,15 @@
   image: images/publications/aligning-text-code-vision.png
   extra-links:
   - type: PDF
-    link: 
+    link: https://arxiv.org/pdf/2601.04582
   - type: Source  
     link: 
   - type: Video
     link: 
   - type: Blog Post 
     link: 
+  - type: Dataset
+    link:
 
 - title: 'LLM-Based Data Science Agents: A Survey of Capabilities, Challenges, and Future Directions'
   authors:
@@ -71,6 +75,8 @@
     link: 
   - type: Blog Post 
     link: 
+  - type: Dataset
+    link:
 
 - title: Large Language Models for Information Visualization
   authors:
@@ -110,6 +116,8 @@
     link: 
   - type: Blog Post 
     link: 
+  - type: Dataset
+    link:
 
 
 - title: 'AFuNet: An Attention-Based Fusion Network to Classify Texts in a Resource-Constrained Language'
@@ -216,6 +224,8 @@
     link: 
   - type: Blog Post 
     link: https://huggingface.co/papers/2507.19969
+  - type: Dataset
+    link:
 
 
 - title: 'AlignVLM: Rethinking LLM-as-a-Judge for Fair Evaluation of Chart Reasoning'
@@ -267,7 +277,7 @@
   - Mizanur Rahman
   - Mir Tafseer Nayeem
   - Enamul Hoque
-  publisher: IEEE VIS 2025 (Short Paper)
+  publisher: IEEE VIS 2025 (Short Paper) [ Best Paper Award]
   date: '2025-01-01'
   link: https://ieeevis.org/year/2025/program/paper_1628b4eb-473e-4157-9d19-44990b75efc7.html
   id: https://ieeevis.org/year/2025/program/paper_1628b4eb-473e-4157-9d19-44990b75efc7.html
@@ -281,6 +291,8 @@
     link: https://www.youtube.com/watch?v=VdSWiJuX_x8
   - type: Blog Post 
     link: 
+  - type: Dataset
+    link:
 
 
 - title: 'From Charts to Fair Narratives: Uncovering and Mitigating Geo-Economic Biases
@@ -307,6 +319,8 @@
     link: 
   - type: Blog Post 
     link: 
+  - type: Dataset
+    link:
 
 
 - title: 'BigCharts-R1: Enhanced Chart Reasoning with Visual Reinforcement Fine-Tuning'
@@ -341,6 +355,8 @@
     link: https://www.youtube.com/watch?v=vN_KsGTzh4E
   - type: Blog Post 
     link: 
+  - type: Dataset
+    link:
 
 
 - title: 'ChartQAPro: A More Diverse and Challenging Benchmark for Chart Question Answering'
@@ -430,6 +446,30 @@
   - type: Blog Post 
     link: 
 
+- title: 'ChartGemma: Visual Instruction-tuning for Chart Reasoning in the Wild'
+  authors:
+  - Ahmed Masry
+  - Megh Thakkar
+  - Aayush Bajaj
+  - Aaryaman Kartha
+  - Enamul Hoque
+  - Shafiq Joty
+  publisher: ACL 2025 (Industry Track)
+  date: '2025-01-01'
+  link: https://aclanthology.org/2025.coling-industry.54/
+  id: https://aclanthology.org/2025.coling-industry.54/
+  image: images/publications/ChartQAPro.png
+  extra-links:
+  - type: PDF
+    link: https://aclanthology.org/2025.coling-industry.54.pdf
+  - type: Source  
+    link: https://github.com/vis-nlp/ChartGemma
+  - type: Video
+    link: 
+  - type: Blog Post 
+    link: 
+  - type: Dataset
+    link: https://huggingface.co/datasets/ahmed-masry/ChartGemma
 
 - title: 'ColFlor: Towards BERT-Size Vision-Language Document Retrieval Models'
   authors:
@@ -800,6 +840,8 @@
     link: 
   - type: Blog Post 
     link: 
+  - type: Dataset
+    link: https://archive.ics.uci.edu/dataset/456/multimodal+damage+identification+for+humanitarian+computing
 
 - title: 'OpenCQA: Open-ended Question Answering with Charts'
   authors:
@@ -905,7 +947,7 @@
   - Enamul Hoque
   - Narges Mahyar
   - Ali Sarvghad
-  publisher: DIS 2021 (Best Paper Honorable Mention)
+  publisher: In Proceedings of the ACM Conference on Designing Interactive Systems (Best Paper Honorable Mention)
   date: '2021-01-01'
   link: https://dl.acm.org/doi/10.1145/3461778.3462103
   id: https://dl.acm.org/doi/10.1145/3461778.3462103
@@ -926,7 +968,7 @@
   authors:
   - Ahmed Masry
   - Enamul Hoque
-  publisher: CVPR 2021 – Chart Question Answering Workshop
+  publisher: (Chart Question Answering Workshop), in conjunction with the CVPR [ Best Paper Award]
   date: '2021-01-01'
   link: https://www.semanticscholar.org/paper/Integrating-Image-Data-Extraction-and-Table-Parsing-Masry/eb2f1a0e61167cf4afa410473df69d351ba57e0c
   id: https://www.semanticscholar.org/paper/Integrating-Image-Data-Extraction-and-Table-Parsing-Masry/eb2f1a0e61167cf4afa410473df69d351ba57e0c
@@ -985,13 +1027,12 @@
   - type: Blog Post 
     link: 
   
-
 - title: 'Chart-to-Text: Generating Natural Language Descriptions for Charts by Adapting
     the Transformer Model'
   authors:
   - Jason Obeid
   - Enamul Hoque
-  publisher: arXiv
+  publisher: In Proceedings of the International Conference on Natural Language Generation (INLG)
   date: '2020-12-01'
   link: https://aclanthology.org/2020.inlg-1.20.pdf
   id: https://aclanthology.org/2020.inlg-1.20.pdf
@@ -1168,6 +1209,29 @@
   - type: Blog Post 
     link: 
 
+- title: 'MIVA: Multimodal Interactions for Facilitating Visual Analysis with Multiple Coordinated Views'
+  authors:
+  - Imran Chowdhury
+  - Enamul Hoque
+  - Abdul Moeid
+  - Muhammad Ashad Kabir
+  - Md. Sabir Hossain
+  - Mohammad Mainul Islam
+  publisher: In Proceedings of the 24th International Conference Information Visualisation (IV)
+  date: '2020-01-01'
+  link: https://ieeexplore.ieee.org/document/9373232
+  id: https://ieeexplore.ieee.org/document/9373232
+  image: images/publications/miva.png
+  extra-links:
+  - type: PDF
+    link: https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9373232
+  - type: Source  
+    link: 
+  - type: Video
+    link: 
+  - type: Blog Post 
+    link:
+
 - title: 'Utilizing Bidirectional Encoder Representations from Transformers for Answer Selection'
   authors:
   - Md Tahmid Rahman Laskar
@@ -1226,7 +1290,7 @@
   - type: Blog Post 
     link: https://www.yorku.ca/enamulh/vis-search/
 
-- title: 'Applying Pragmatics Principles for Interaction with Visual Analytics'
+- title: Applying Pragmatics Principles for Interaction with Visual Analytics
   authors:
   - Enamul Hoque
   - Vidya Setlur
@@ -1246,3 +1310,44 @@
     link: https://enamulh.github.io/video/VAST2017_105.mp4
   - type: Blog Post 
     link: 
+
+- title: 'Interactive topic hierarchy revision for exploring a collection of online conversations'
+  authors:
+  - Enamul Hoque
+  - Giuseppe Carenini
+  publisher: In Proceedings of the IEEE Conference on Visual Analytics Science and Technology (VAST), pp. 1-10, 2018.
+  date: '2018-01-01'
+  link: https://journals.sagepub.com/doi/10.1177/1473871618757228
+  id: https://doi.org/10.1177/1473871618757228
+  image: images/publications/teaser_1.png
+  extra-links:
+  - type: PDF
+    link: https://journals.sagepub.com/doi/10.1177/1473871618757228
+  - type: Source  
+    link: 
+  - type: Video
+    link: 
+  - type: Blog Post 
+    link:
+
+- title: 'Facilitating Document Reading by Linking Text and Tables'
+  authors:
+  - Dae Hyun Kim
+  - Enamul Hoque
+  - Juho Kim
+  - Maneesh Agrawala
+  publisher: In Proceedings of the 2018 ACM User Interface Software and Technology Symposium (UIST), pp. 423-434, 2018.
+  date: '2018-01-01'
+  link: https://dl.acm.org/doi/10.1145/3242587.3242617
+  id: https://dl.acm.org/doi/10.1145/3242587.3242617
+  image: images/publications/uist2018.png
+  extra-links:
+  - type: PDF
+    link: https://dhkim16.github.io/text-table-ref/pdf/paper.pdf
+  - type: Source  
+    link: https://dhkim16.github.io/text-table-ref/data/dataset-v1_2.zip
+  - type: Video
+    link: https://www.youtube.com/watch?v=kvlIepSfwvI
+  - type: Blog Post 
+    link: https://dhkim16.github.io/text-table-ref/
+
