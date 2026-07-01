@@ -1,6 +1,6 @@
 <!-- ...Paper Sorting... -->
 {% assign papers = site.data.research-output %}
-{% assign papers = papers | sort: "date" %}
+{% assign papers = papers | sort: "date" | reverse %}
 {% assign byyear = papers | group_by_exp: "post", "post.date | date: '%Y'" | sort: "name" %}
 <!-- ...Paper Sorting Ended... -->
 {% assign byyear = papers | group_by_exp: "post", "post.date | date: '%Y'" | sort: "name" | reverse %}
