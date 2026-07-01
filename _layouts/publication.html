@@ -43,9 +43,13 @@ layout: default
 
   </section>
 
-  <!-- Teaser figure -->
-  {% if page.image %}
+  <!-- Teaser figure(s): supports a single `image` or a list of `images` -->
   {% assign fig_width = page.image_width | default: "900px" %}
+  {% if page.images %}
+  {% for img in page.images %}
+  {% include figure.html image=img width=fig_width flat=true %}
+  {% endfor %}
+  {% elsif page.image %}
   {% include figure.html image=page.image width=fig_width flat=true %}
   {% endif %}
 

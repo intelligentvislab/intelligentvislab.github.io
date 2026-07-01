@@ -1,3 +1,70 @@
+- title: 'Lost in Translation: Do LVLM Judges Generalize Across Languages?'
+  authors:
+  - Md Tahmid Rahman Laskar
+  - Mohammed Saidul Islam
+  - Mir Tafseer Nayeem
+  - Amran Bhuiyan
+  - Mizanur Rahman
+  - Shafiq Joty
+  - Enamul Hoque
+  - Jimmy Huang
+  publisher: In Proceedings of the Annual Meeting of the Association for Computational Linguistics (ACL)
+  date: '2026-07-01'
+  link: https://arxiv.org/abs/2604.19405
+  id: https://arxiv.org/abs/2604.19405
+  image: images/publications/Lost_in_Translation.png
+  extra-links:
+  - type: PDF
+    link: https://arxiv.org/pdf/2604.19405
+
+- title: 'Can Human Gaze Supervision Improve VLM Robustness to Misleading Data Visualizations?'
+  authors:
+  - Mir Rayat Imtiaz Hossain
+  - Enamul Hoque
+  - Giuseppe Carenini
+  publisher: In Proceedings of the International Conference on Advanced Visual Interfaces (AVI)
+  date: '2026-06-01'
+  link: https://doi.org/10.1145/3811427.3811466
+  id: https://doi.org/10.1145/3811427.3811466
+  image: images/publications/Human_Gaze_Supervision.jpg
+  extra-links:
+  - type: PDF
+    link: https://doi.org/10.1145/3811427.3811466
+
+- title: 'DATAREEL: Automated Data-Driven Video Story Generation with Animations'
+  authors:
+  - Ridwan Mahbub
+  - Syem Aziz
+  - Mahir Ahmed
+  - Shadikur Rahman
+  - Mizanur Rahman
+  - Shafiq Joty
+  - Enamul Hoque
+  publisher: arXiv preprint
+  date: '2026-04-01'
+  link: https://arxiv.org/abs/2604.25220
+  id: https://arxiv.org/abs/2604.25220
+  image: images/publications/DataReel_agentic_workflow.png
+  extra-links:
+  - type: PDF
+    link: https://arxiv.org/pdf/2604.25220
+
+- title: 'TSFC: A Hierarchical Classification Framework for Multimodal Commercial Contents in Bengali'
+  authors:
+  - Anik Mahmud Shanto
+  - Fahim Shakil Tamim
+  - Sanjida Jamal Priya
+  - Mohammed Moshiul Hoque
+  - Enamul Hoque
+  publisher: 'IEEE Access, Vol. 14, pp. 28411-28434'
+  date: '2026-02-01'
+  link:
+  id:
+  image:
+  extra-links:
+  - type: PDF
+    link:
+
 - title: 'DashFact: Benchmarking Multimodal Agents for Fact-Checking on Interactive Dashboards'
   authors:
   - Anonymous Author
