@@ -1,0 +1,226 @@
+---
+---
+
+@import "variables";
+@import "mixins";
+
+// clip the tiny scrollbar-width overflow created by the full-bleed bands below
+main.layout-publication {
+  overflow-x: hidden;
+}
+
+// stretch a block to the full viewport width while keeping its content
+// aligned to the centered page column
+@mixin full-bleed {
+  margin-left: calc(50% - 50vw);
+  margin-right: calc(50% - 50vw);
+  padding-left: calc((100vw - #{$page}) / 2);
+  padding-right: calc((100vw - #{$page}) / 2);
+  border-radius: 0;
+  box-shadow: none;
+
+  @media (max-width: $page) {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+}
+
+.publication {
+
+  .publication_header {
+    @include full-bleed;
+    background: #ffffff; // white
+    padding-top: 30px;
+    padding-bottom: 30px;
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+
+  .publication_title {
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 15px;
+  }
+
+  .publication_authors {
+    @include flex-center;
+    flex-wrap: wrap;
+    margin: 10px 0;
+
+    .portrait {
+      width: 80px;
+      margin: 8px;
+
+      .portrait_image {
+        width: 70px;
+        height: 70px;
+      }
+
+      .portrait_name {
+        margin-top: 6px;
+        font-size: 0.8rem;
+      }
+    }
+  }
+
+  .publication_meta {
+    @include flex-center;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin: 15px 0;
+
+    .publication_venue,
+    .publication_date {
+      @include inline-flex-center;
+      padding: 5px 12px;
+      border-radius: 999px;
+      font-size: 0.85rem;
+
+      i {
+        margin-right: 6px;
+      }
+    }
+
+    .publication_venue {
+      background: $off-white;
+      border: 1px solid $light-gray;
+      color: $dark-gray;
+    }
+
+    .publication_date {
+      background: $off-white;
+      border: 1px solid $light-gray;
+      color: $dark-gray;
+    }
+  }
+
+  .publication_section {
+    @include full-bleed;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    margin-top: 0;
+    margin-bottom: 0;
+
+    h2 {
+      margin-top: 0;
+      padding-bottom: 8px;
+      border-bottom: 2px solid rgba($black, 0.08);
+    }
+  }
+
+  // alternating light gray / white
+  .publication_section--abstract {
+    background: #ffffff; // white
+  }
+
+  .publication_section--materials {
+    background: #ffffff; // white
+  }
+
+  .publication_section--bibtex {
+    background: #ffffff; // white
+  }
+
+  .publication_abstract {
+    text-align: justify;
+  }
+
+  .publication_materials {
+    @include flex-center;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    gap: 10px;
+
+    .paper_link {
+      border: 1px solid $light-gray;
+      border-radius: 5px;
+      box-shadow: $shadow;
+      transition: background $fast;
+
+      &:hover {
+        background: $off-white;
+      }
+    }
+  }
+
+  .publication_pdf {
+    .pdf_toggle {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      padding: 8px 16px;
+      font-family: $sans;
+      font-size: 0.9rem;
+      color: $white;
+      background: $theme;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      box-shadow: $shadow;
+      transition: filter $fast;
+
+      &:hover {
+        filter: brightness(0.92);
+      }
+    }
+
+    .pdf_embed {
+      display: none;
+      margin-top: 15px;
+
+      &.open {
+        display: block;
+      }
+
+      iframe {
+        width: 100%;
+        height: 80vh;
+        border: 1px solid $light-gray;
+        border-radius: 5px;
+      }
+    }
+  }
+
+  .publication_bibtex_wrap {
+    position: relative;
+
+    .bibtex_copy {
+      position: absolute;
+      top: 10px;
+      right: 10px;
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      padding: 5px 10px;
+      font-family: $sans;
+      font-size: 0.8rem;
+      color: $dark-gray;
+      background: $white;
+      border: 1px solid $light-gray;
+      border-radius: 5px;
+      cursor: pointer;
+      transition: background $fast, color $fast;
+
+      &:hover {
+        background: $off-white;
+      }
+
+      &.copied {
+        color: $green;
+        border-color: $green;
+      }
+    }
+  }
+
+  .publication_bibtex {
+    background: $off-white;
+    border: 1px solid $light-gray;
+    border-radius: 5px;
+    padding: 15px;
+    padding-top: 40px; // leave room for the copy button
+    overflow-x: auto;
+    font-family: $mono;
+    font-size: 0.85rem;
+    white-space: pre;
+  }
+}

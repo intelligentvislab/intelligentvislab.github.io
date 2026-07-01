@@ -21,7 +21,8 @@
   </a>
   <div class="card_text">
     {% if include.heading %}
-    <a href="{{ include.link | relative_url }}" class="card_title">
+    {% assign heading_link = include.heading_link | default: include.link %}
+    <a href="{{ heading_link | relative_url }}" class="card_title">
       {{- include.heading -}}
     </a>
     {% endif %}

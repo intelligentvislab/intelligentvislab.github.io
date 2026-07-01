@@ -2,6 +2,7 @@
 
 # site-wide variables
 title: Intelligent Visualization Lab # title of site, used in tab name and elsewhere
+repository: intelligentvislab/intelligentvislab.github.io # used by jekyll-github-metadata (needed for local builds without a git remote)
 email: enamulh@yorku.ca # default email
 google: NySeLFcAAAAJ # default name to search on Google Scholar
 github: enamulh # default GitHub user/org, without the @
@@ -32,6 +33,11 @@ defaults:
       type: "members"
     values:
       layout: member
+  # markdown files in /_publications
+  - scope:
+      type: "publications"
+    values:
+      layout: publication
   # markdown files in /_posts
   - scope:
       type: "posts"
@@ -41,6 +47,9 @@ defaults:
 collections:
   members:
     output: true
+  publications:
+    output: true
+    permalink: /publications/:name/
 
 # sass settings
 sass:

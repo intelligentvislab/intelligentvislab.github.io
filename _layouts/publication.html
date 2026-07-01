@@ -1,0 +1,129 @@
+---
+# inherits from default layout and builds on top of it
+# this file's contents get inserted into default.html's content
+layout: default
+---
+
+<div class="publication">
+
+  <!-- Header: title, authors, venue/date -->
+  <section class="publication_header">
+
+  <!-- Title -->
+  <h1 class="publication_title">{{ page.title }}</h1>
+
+  <!-- Authors (portrait + name; lab members link to their profile) -->
+  {% if page.authors %}
+  <div class="publication_authors">
+    {%- for author in page.authors -%}
+      {%- assign matched = nil -%}
+      {%- for m in site.members -%}
+        {%- if m.title == author or m.search contains author -%}{%- assign matched = m -%}{%- endif -%}
+      {%- endfor -%}
+      {%- if matched -%}
+        {% include portrait.html name=author link=matched.url image=matched.image mini=true placeholder="images/person-placeholder.svg" %}
+      {%- else -%}
+        {% include portrait.html name=author mini=true placeholder="images/person-placeholder.svg" %}
+      {%- endif -%}
+    {%- endfor -%}
+  </div>
+  {% endif %}
+
+  <!-- Venue / date -->
+  {% if page.publisher or page.date %}
+  <div class="publication_meta">
+    {% if page.publisher %}
+    <span class="publication_venue"><i class="fas fa-book-open"></i> {{ page.publisher }}</span>
+    {% endif %}
+    {% if page.date %}
+    <span class="publication_date"><i class="far fa-calendar-alt"></i> {{ page.date | date: "%Y" }}</span>
+    {% endif %}
+  </div>
+  {% endif %}
+
+  </section>
+
+  <!-- Teaser figure -->
+  {% if page.image %}
+  {% assign fig_width = page.image_width | default: "900px" %}
+  {% include figure.html image=page.image width=fig_width flat=true %}
+  {% endif %}
+
+  <!-- Abstract (only shown when the page has body text) -->
+  {% assign abstract_body = content | strip %}
+  {% if abstract_body != "" %}
+  <section class="publication_section publication_section--abstract">
+    <h2>Abstract</h2>
+    <div class="publication_abstract">
+      {{ content }}
+    </div>
+  </section>
+  {% endif %}
+
+  <!-- Materials -->
+  <section class="publication_section publication_section--materials">
+    <h2>Materials</h2>
+    <div class="publication_materials">
+      {% if page.link %}
+      {% include paper-link.html type="external" link=page.link text="Paper" %}
+      {% endif %}
+      {% if page.extra-links %}
+      {%- for link in page.extra-links -%}
+        {% assign href = link.link | default: "" | strip %}
+        {% if href != "" %}
+        {% include paper-link.html type=link.type link=href text=link.text %}
+        {% endif %}
+      {%- endfor -%}
+      {% endif %}
+    </div>
+  </section>
+
+  <!-- Embedded PDF viewer -->
+  {% assign pdf_url = "" %}
+  {% if page.extra-links %}
+  {%- for link in page.extra-links -%}
+    {% assign lt = link.type | downcase %}
+    {% assign lhref = link.link | default: "" | strip %}
+    {% if lt == "pdf" and lhref != "" %}{% assign pdf_url = lhref %}{% endif %}
+  {%- endfor -%}
+  {% endif %}
+  {% if pdf_url == "" and page.link contains "drive.google.com" %}{% assign pdf_url = page.link %}{% endif %}
+  {% if pdf_url != "" %}
+  {% assign embed_url = pdf_url %}
+  {% if pdf_url contains "drive.google.com" %}
+    {% assign fid = pdf_url | split: "/d/" | last | split: "/" | first %}
+    {% assign embed_url = "https://drive.google.com/file/d/" | append: fid | append: "/preview" %}
+  {% endif %}
+  <section class="publication_section publication_section--pdf">
+    <h2>Read the Paper</h2>
+    <div class="publication_pdf">
+      <button type="button" class="pdf_toggle" data-src="{{ embed_url }}"><i class="fas fa-file-pdf"></i> View PDF</button>
+      <div class="pdf_embed"></div>
+    </div>
+  </section>
+  {% endif %}
+
+  <!-- BibTeX -->
+  {% assign first_last = page.authors[0] | split: " " | last | downcase %}
+  {% assign year = page.date | date: "%Y" %}
+  {% assign authors_bib = page.authors | join: " and " %}
+  <section class="publication_section publication_section--bibtex">
+    <h2>BibTeX</h2>
+    <div class="publication_bibtex_wrap">
+      <button type="button" class="bibtex_copy" aria-label="Copy BibTeX to clipboard"><i class="far fa-copy"></i> Copy</button>
+      <pre class="publication_bibtex"><code>@inproceedings{{ "{" }}{{ first_last }}{{ year }},
+  title     = {{ "{" }}{{ page.title }}},
+  author    = {{ "{" }}{{ authors_bib }}},
+  booktitle = {{ "{" }}{{ page.publisher }}},
+  year      = {{ "{" }}{{ year }}}
+}</code></pre>
+    </div>
+  </section>
+
+  <!-- Back to the full publication list -->
+  {% capture html %}
+  {% include big-link.html icon="fas fa-arrow-left" link="/research/" text="All Publications" %}
+  {% endcapture %}
+  {% include centerer.html html=html %}
+
+</div>

@@ -5,18 +5,18 @@
   date: '2026-06-30'
   link: https://drive.google.com/file/d/12xeEnKGk3UknQqORrETjRoQSpaHL0fOX/view?usp=sharing
   id: https://drive.google.com/file/d/12xeEnKGk3UknQqORrETjRoQSpaHL0fOX/view?usp=sharing
-  image: 
+  image:
   extra-links:
   - type: PDF
     link: https://drive.google.com/file/d/12xeEnKGk3UknQqORrETjRoQSpaHL0fOX/view?usp=sharing
   - type: Source
-    link: 
+    link:
   - type: Video
-    link: 
-  - type: Blog Post 
-    link: 
+    link:
+  - type: Blog Post
+    link:
   - type: Dataset
-    link: 
+    link:
 
 - title: 'DashboardQA: Benchmarking Multimodal Agents for Question Answering on Interactive Dashboards'
   authors:
@@ -1133,7 +1133,7 @@
   - Enamul Hoque
   - Ali Sarvghad
   - Narges Mahyar
-  publisher: In	Proceedings	of The ACM Conference on Human	Factors	in Computing	Systems	(CHI)
+  publisher: In Proceedings of The ACM Conference on Human Factors in Computing Systems (CHI)
   date: '2020-10-01'
   link: https://dl.acm.org/doi/10.1145/3334480.3382964
   id: https://dl.acm.org/doi/epdf/10.1145/3334480.3382964
