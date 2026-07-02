@@ -31,24 +31,6 @@
   - type: PDF
     link: https://doi.org/10.1145/3811427.3811466
 
-- title: 'DATAREEL: Automated Data-Driven Video Story Generation with Animations'
-  authors:
-  - Ridwan Mahbub
-  - Syem Aziz
-  - Mahir Ahmed
-  - Shadikur Rahman
-  - Mizanur Rahman
-  - Shafiq Joty
-  - Enamul Hoque
-  publisher: arXiv preprint
-  date: '2026-04-01'
-  link: https://arxiv.org/abs/2604.25220
-  id: https://arxiv.org/abs/2604.25220
-  image: images/publications/DataReel_agentic_workflow.png
-  extra-links:
-  - type: PDF
-    link: https://arxiv.org/pdf/2604.25220
-
 - title: 'TSFC: A Hierarchical Classification Framework for Multimodal Commercial Contents in Bengali'
   authors:
   - Anik Mahmud Shanto
@@ -63,26 +45,6 @@
   image:
   extra-links:
   - type: PDF
-    link:
-
-- title: 'DashFact: Benchmarking Multimodal Agents for Fact-Checking on Interactive Dashboards'
-  authors:
-  - Anonymous Author
-  publisher: Submitted for review
-  date: '2026-06-30'
-  link: https://drive.google.com/file/d/1WnduAfTi-q2NUkGG8EEUnUWt50nLb-T-/view?usp=sharing
-  id: https://drive.google.com/file/d/1WnduAfTi-q2NUkGG8EEUnUWt50nLb-T-/view?usp=sharing
-  image:
-  extra-links:
-  - type: PDF
-    link: https://drive.google.com/file/d/1WnduAfTi-q2NUkGG8EEUnUWt50nLb-T-/view?usp=sharing
-  - type: Source
-    link:
-  - type: Video
-    link:
-  - type: Blog Post
-    link:
-  - type: Dataset
     link:
 
 - title: 'DashboardQA: Benchmarking Multimodal Agents for Question Answering on Interactive Dashboards'
