@@ -27,3 +27,17 @@
 - date: 2025-07-15
   text: We received an NSERC Discovery Grant titled “Human-AI Interactions for Democratizing Visual Analytics” for a five-year term.
   link: https://www.yorku.ca/laps/newsroom/2025/07/15/six-professors-from-the-school-of-information-technology-receive-nserc-grants/#:~:text=Md%20Enamul%20Hoque%20Prince
+- date: 2026-07-01
+  text: "Our paper Lost in Translation: Do LVLM Judges Generalize Across Languages? accepted at ACL 2026!"
+  link: https://arxiv.org/abs/2604.19405
+- date: 2026-06-01
+  text: Our short paper on whether human gaze supervision can improve VLM robustness to misleading visualizations (with UBC collaborators) accepted at AVI 2026.
+  link: https://doi.org/10.1145/3811427.3811466
+- date: 2026-05-01
+  text: "Tutorial on Multilingual and Multimodal LLMs in the Wild delivered at LREC 2026 in Palma de Mallorca."
+- date: 2025-06-01
+  text: "We received a Mitacs Accelerate grant for StarDoc: Multimodal Document Understanding, in partnership with ServiceNow."
+- date: 2025-09-18
+  text: "AlignVLM: Bridging Vision and Language Latent Spaces accepted at NeurIPS 2025 (with ServiceNow Research and Mila)."
+- date: 2025-12-01
+  text: Prof. Hoque served as Program Chair of the Second Workshop on Bangla Language Processing at AACL 2025.
