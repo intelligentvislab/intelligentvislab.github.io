@@ -10,6 +10,9 @@ twitter: Enamul_Hoque # default Twitter handle, without the @
 #instagram: fakeinstagramhandle # default Instagram handle, without the @
 #youtube: fakeyoutubechannel # default YouTube channel handle
 
+# full URL where the site is hosted (used for absolute links in social/SEO metadata)
+url: "https://intelligentvislab.github.io"
+
 # base directory where site is hosted
 # set to "" if hosting at a custom domain, eg yoursite.com
 baseurl: "/"
@@ -25,7 +28,7 @@ defaults:
   - scope:
       path: ""
     values:
-      description: An easy-to-use, flexible website template for labs, with automatic citations, GitHub tag imports, pre-built components, and more. # description that will show under search engine results
+      description: The Intelligent Visualization Lab at York University develops multimodal AI, visualization, and natural language processing methods to make data interaction more accessible, responsible, and human-centered. # description that will show under search engine results
       background: images/test-tube.jpg # background image in header and footer
       layout: default
   # markdown files in /_members
