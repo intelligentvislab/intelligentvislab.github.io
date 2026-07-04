@@ -29,16 +29,15 @@ title: Home
   }
   .hero h1{
     font:600 1.6rem/1.25 Poppins,system-ui,sans-serif;
-    color:var(--ink);
+    color:#1b1f23;
     text-align:center;
-  color: #1b1f23;
     margin:0 0 10px;
     letter-spacing:.02em;
     text-transform:none;
   }
   .hero p{
     font:400 1.05rem/1.6 Lora,Georgia,serif;
-  color: #4a5058;
+    color:#4a5058;
     max-width:840px;
     margin:0 auto;
     text-align:center;
