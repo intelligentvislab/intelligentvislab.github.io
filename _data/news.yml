@@ -43,3 +43,6 @@
   text: Prof. Hoque served as Program Chair of the Second Workshop on Bangla Language Processing at AACL 2025.
 - date: 2026-07-04
   text: Prof. Hoque's book Large Language Models for Information Visualization is forthcoming from Springer.
+- date: 2026-06-12
+  text: Our ChartQAPro benchmark was featured in Anthropic's Claude Mythos 5 technical report (p. 285) as an evaluation for chart comprehension and reasoning.
+  link: https://www-cdn.anthropic.com/d00db56fa754a1b115b6dd7cb2e3c342ee809620.pdf#page=285
