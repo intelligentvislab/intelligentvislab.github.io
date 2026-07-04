@@ -20,7 +20,7 @@ We are located at _Victor Phillip Dahdaleh Building_.
 
 ## Phone
 
-[(437) 833-1551](tel:+1-437-833-1551)
+[+1 (437) 833-1551](tel:+1-437-833-1551)
 {:.center}
 
 ## Mailing Address
