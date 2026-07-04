@@ -298,7 +298,7 @@ Based at  <a href="https://www.yorku.ca/" target="_blank" rel="noopener noreferr
         </p>
         <div class="theme-layout">
           <div class="theme-media">
-            <img src="/images/inverted.png  alt="Human-centered and responsible AI for data visualization">
+            <img src="/images/inverted.png" alt="Human-centered and responsible AI for data visualization">
           </div>
           <div class="theme-papers">
             <p class="theme-papers-header">Representative papers</p>
@@ -307,7 +307,7 @@ Based at  <a href="https://www.yorku.ca/" target="_blank" rel="noopener noreferr
                 <li><a href="https://arxiv.org/pdf/2508.09716">🏅 The Perils of Chart Deception: How Misleading Visualizations Affect Vision-Language Models (IEEE VIS 2025)</a></li>
                 <li><a href="https://aclanthology.org/2025.emnlp-main.1472.pdf">From Charts to Fair Narratives: Uncovering Geo-Economic Bias in Chart-to-Text (EMNLP 2025)</a></li>
                 <li><a href="https://arxiv.org/pdf/2302.07742">SeeChart: Accessible Visualizations for Blind and Low-Vision Users (IUI 2023)</a></li>
-                <li><a href="https://arxiv.org/pdf/2505.08468?">Judging the Judges: Reliability of VLMs as Chart Reasoning Evaluators (ACL 2025, Industry Track)</a></li>
+                <li><a href="https://arxiv.org/pdf/2505.08468">Judging the Judges: Reliability of VLMs as Chart Reasoning Evaluators (ACL 2025, Industry Track)</a></li>
                 <li><a href="/research/?search=Sneak%20Pique">Sneak Pique: Autocompletion as a Data Discovery Scaffold (UIST 2020)</a></li>
                 <li><a href="https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=8019833">evizeon: Applying Pragmatics Principles for Visual Analytics Interaction (TVCG 2017)</a></li>
               </ul>
@@ -317,23 +317,22 @@ Based at  <a href="https://www.yorku.ca/" target="_blank" rel="noopener noreferr
       </article>
 
     <article class="theme">
-        <h3>Visual & Interactive Document Analytics</h3>
+        <h3>Visual &amp; Interactive Document Analytics</h3>
         <p class="theme-subtitle">
           Developing interfaces and visual analytics techniques that help users read, explore, and interpret text-rich documents.
         </p>
         <div class="theme-layout">
           <div class="theme-media">
-            <img src="/images/3.jpg alt="Visual analytics for large text collections">
+            <img src="/images/3.jpg" alt="Visual analytics for large text collections">
           </div>
           <div class="theme-papers">
             <p class="theme-papers-header">Representative papers</p>
             <div class="theme-papers-list">
               <ul>
-                <li><a href="/research/?search=CommunityPulse">🏅 CommunityPulse: Facilitating Community Input Analysis by Surfacing Hidden Insights, Reflections, and Priorities
-Priorities (DIS 2021)</a></li>
+                <li><a href="/research/?search=CommunityPulse">🏅 CommunityPulse: Facilitating Community Input Analysis by Surfacing Hidden Insights, Reflections, and Priorities (DIS 2021)</a></li>
                 <li><a href="https://dl.acm.org/doi/pdf/10.1145/3242587.3242617">Facilitating Document Reading by Linking Text and Tables (UIST 2018)</a></li>
-                <li><a href="https://ieeexplore.ieee.org/abstract/document/9623269">ConVIScope: Visual Analytics for Exploring Patient Conversation (IEEE Vis 2021)</a></li>
-                <li><a href="https://www.computer.org/csdl/proceedings-article/vis/2020/801400a246/1qROIHocgRG">ClaimViz : Visual Analytics for Identifying and Verifying Factual Claims (IEEE Vis 2020)</a></li>
+                <li><a href="https://ieeexplore.ieee.org/abstract/document/9623269">ConVIScope: Visual Analytics for Exploring Patient Conversation (IEEE VIS 2021)</a></li>
+                <li><a href="https://www.computer.org/csdl/proceedings-article/vis/2020/801400a246/1qROIHocgRG">ClaimViz: Visual Analytics for Identifying and Verifying Factual Claims (IEEE VIS 2020)</a></li>
               </ul>
             </div>
           </div>
