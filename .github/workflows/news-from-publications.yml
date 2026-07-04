@@ -1,0 +1,46 @@
+name: Draft news from new publications
+
+on:
+  push:
+    branches: [main]
+    paths: ["_data/research-output.yml"]
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  pull-requests: write
+
+jobs:
+  draft-news:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Detect new publications and draft news entries
+        id: gen
+        run: |
+          pip install --quiet pyyaml
+          BASE="${{ github.event.before }}"
+          if [ -z "$BASE" ] || [ "$BASE" = "0000000000000000000000000000000000000000" ]; then
+            BASE=$(git rev-parse HEAD^)
+          fi
+          python3 .github/scripts/news_from_publications.py "$BASE"
+
+      - name: Open pull request for review
+        if: steps.gen.outputs.count > 0
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          BRANCH="bot/news-publications-${{ github.run_id }}"
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git checkout -b "$BRANCH"
+          git add _data/news.yml
+          git commit -m "Draft news for newly added publication(s)"
+          git push origin "$BRANCH"
+          gh pr create \
+            --title "News draft: new publication(s)" \
+            --body "Auto-drafted from new entries in \`_data/research-output.yml\`. Review the wording (edit the branch directly if needed), then merge to publish — or close to discard." \
+            --base main --head "$BRANCH"
