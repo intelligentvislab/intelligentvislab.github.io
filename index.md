@@ -111,8 +111,10 @@ title: Home
     }
   }
 
-  .theme-media img{
+  .theme-media img,
+  .theme-media video{
     width:100%;
+    height:auto;
     border-radius:10px;
     display:block;    
   }
@@ -250,7 +252,7 @@ Based at  <a href="https://www.yorku.ca/" target="_blank" rel="noopener noreferr
         </p>
         <div class="theme-layout">
           <div class="theme-media">
-            <img src="/images/chart-tasks.png" alt="Multimodal LLMs for chart and visualization reasoning">
+            <img src="/images/chart-tasks.webp" alt="Multimodal LLMs for chart and visualization reasoning" width="1400" height="1245">
           </div>
           <div class="theme-papers">
             <p class="theme-papers-header">Representative papers</p>
@@ -275,7 +277,9 @@ Based at  <a href="https://www.yorku.ca/" target="_blank" rel="noopener noreferr
         </p>
         <div class="theme-layout">
           <div class="theme-media">
-            <img src="/images/GUIAgent.gif" alt="Agentic AI operating on analytic dashboards and tools">
+            <video autoplay loop muted playsinline preload="metadata" width="1920" height="1080" aria-label="Agentic AI operating on analytic dashboards and tools">
+              <source src="/images/GUIAgent.mp4" type="video/mp4">
+            </video>
           </div>
           <div class="theme-papers">
             <p class="theme-papers-header">Representative papers</p>
@@ -298,7 +302,7 @@ Based at  <a href="https://www.yorku.ca/" target="_blank" rel="noopener noreferr
         </p>
         <div class="theme-layout">
           <div class="theme-media">
-            <img src="/images/inverted.png" alt="Human-centered and responsible AI for data visualization">
+            <img src="/images/inverted.png" alt="Human-centered and responsible AI for data visualization" width="670" height="552" loading="lazy">
           </div>
           <div class="theme-papers">
             <p class="theme-papers-header">Representative papers</p>
@@ -323,7 +327,7 @@ Based at  <a href="https://www.yorku.ca/" target="_blank" rel="noopener noreferr
         </p>
         <div class="theme-layout">
           <div class="theme-media">
-            <img src="/images/3.jpg" alt="Visual analytics for large text collections">
+            <img src="/images/3.jpg" alt="Visual analytics for large text collections" width="1864" height="878" loading="lazy">
           </div>
           <div class="theme-papers">
             <p class="theme-papers-header">Representative papers</p>
@@ -346,7 +350,7 @@ Based at  <a href="https://www.yorku.ca/" target="_blank" rel="noopener noreferr
         </p>
         <div class="theme-layout">
           <div class="theme-media">
-            <img src="/images/eval.png" alt="Language understanding, summarization, and evaluation for analytics">
+            <img src="/images/eval.png" alt="Language understanding, summarization, and evaluation for analytics" width="1324" height="648" loading="lazy">
           </div>
           <div class="theme-papers">
             <p class="theme-papers-header">Representative papers</p>
