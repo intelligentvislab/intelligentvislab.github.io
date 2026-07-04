@@ -1,0 +1,45 @@
+name: Draft news from professor's announcements
+
+on:
+  schedule:
+    - cron: "15 13 * * 1" # Mondays 13:15 UTC (~8-9am Toronto)
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  pull-requests: write
+
+jobs:
+  draft-news:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Scan announcements on the professor's homepage
+        id: gen
+        run: python3 .github/scripts/news_from_announcements.py
+
+      - name: Remember seen announcements (so closed PRs are not re-proposed)
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          if [ -n "$(git status --porcelain .github/data/announcements-seen.txt)" ]; then
+            git add .github/data/announcements-seen.txt
+            git commit -m "Record processed homepage announcements"
+            git push origin main
+          fi
+
+      - name: Open pull request for review
+        if: steps.gen.outputs.count > 0
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          BRANCH="bot/news-announcements-${{ github.run_id }}"
+          git checkout -b "$BRANCH"
+          git add _data/news.yml
+          git commit -m "Draft news from homepage announcement(s)"
+          git push origin "$BRANCH"
+          gh pr create \
+            --title "News draft: professor's homepage announcement(s)" \
+            --body "New item(s) in the Announcements section of https://www.yorku.ca/enamulh/. The wording is copied verbatim — rephrase for the lab site (e.g. first person -> lab voice) by editing the branch, then merge to publish, or close to discard (it will not be re-proposed)." \
+            --base main --head "$BRANCH"
