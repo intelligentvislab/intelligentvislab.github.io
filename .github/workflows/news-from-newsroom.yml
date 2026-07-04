@@ -1,0 +1,37 @@
+name: Draft news from York newsroom
+
+on:
+  schedule:
+    - cron: "0 13 * * 1" # Mondays 13:00 UTC (~8-9am Toronto)
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  pull-requests: write
+
+jobs:
+  draft-news:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Scan newsroom feed for lab mentions
+        id: gen
+        run: python3 .github/scripts/news_from_newsroom.py
+
+      - name: Open pull request for review
+        if: steps.gen.outputs.count > 0
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          BRANCH="bot/news-newsroom-${{ github.run_id }}"
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git checkout -b "$BRANCH"
+          git add _data/news.yml
+          git commit -m "Draft news from York newsroom article(s)"
+          git push origin "$BRANCH"
+          gh pr create \
+            --title "News draft: York newsroom mention(s)" \
+            --body "The LA&PS newsroom published article(s) mentioning the lab. Review the wording (edit the branch directly if needed), then merge to publish — or close to discard." \
+            --base main --head "$BRANCH"
