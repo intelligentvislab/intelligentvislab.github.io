@@ -1,0 +1,18 @@
+# Jekyll build output — GitHub Pages rebuilds from source, never commit this
+_site/
+.jekyll-cache/
+.jekyll-metadata
+.sass-cache/
+
+# OS / editor cruft
+.DS_Store
+Thumbs.db
+debug.log
+
+# Local-only working notes — keep off GitHub and the live site
+HOW_TO_UPDATE.md
+IMPROVEMENTS.md
+Project_Breakdown.docx
+index_orig_content.txt
+research/orignal_content.txt
+blog/orig_template.txt
