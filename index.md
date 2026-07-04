@@ -373,6 +373,7 @@ Based at  <a href="https://www.yorku.ca/" target="_blank" rel="noopener noreferr
         <ul class="news-list">
           {% assign items = site.data.news | default: empty %}
           {% if items and items.size > 0 %}
+            {% assign items = items | sort: "date" | reverse %}
             {% for n in items limit:6 %}
               <li>
                 {% if n.link %}
