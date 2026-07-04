@@ -169,6 +169,19 @@ title: Home
 
   /* ===== NEWS ===== */
   .news-wrap{ padding:0; background:transparent; border:none; box-shadow:none; }
+  .news-footer{
+    text-align:right;
+    font-size:.9rem;
+    margin-top:4px;
+  }
+  .news-footer a{
+    color:var(--brand);
+    text-decoration:none;
+  }
+  .news-footer a:hover{
+    color:var(--brand-ink);
+    text-decoration:underline;
+  }
   .news-list{ list-style:none; margin:0; padding:0; }
   .news-list li{
     background:var(--tint);
@@ -391,6 +404,7 @@ Based at  <a href="https://www.yorku.ca/" target="_blank" rel="noopener noreferr
             </li>
           {% endif %}
         </ul>
+        <div class="news-footer"><a href="/news/">See all news →</a></div>
       </section>
 
       <!--

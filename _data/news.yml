@@ -1,3 +1,15 @@
+# ── Lab news ──────────────────────────────────────────────────────
+# To add news: copy the template below and paste it anywhere in this
+# file (order doesn't matter — the site sorts by date automatically).
+#
+#   - date: 2026-07-04          # required, format YYYY-MM-DD
+#     text: What happened!      # required; wrap in "quotes" if the text contains a colon
+#     link: https://...         # optional — delete this line if there's no link
+#
+# The homepage shows the 6 newest items; ALL items stay visible on
+# the /news/ archive page, so never delete old entries.
+# ──────────────────────────────────────────────────────────────────
+
 - date: 2026-01-05
   text: Our tutorial on MLLM4HAII accepted at EACL 2026!
   link: https://mllm4haii.github.io/
