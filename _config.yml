@@ -61,6 +61,21 @@ sass:
 # syntax highlighting
 highlighter: rouge
 
+# working files that should not be published to the live site
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - README.md
+  - HOW_TO_UPDATE.md
+  - IMPROVEMENTS.md
+  - Project_Breakdown.docx
+  - index_orig_content.txt
+  - debug.log
+  - build.sh
+  - start.sh
+  - research/orignal_content.txt
+  - blog/orig_template.txt
+
 # build settings
 plugins:
   - jekyll-feed
