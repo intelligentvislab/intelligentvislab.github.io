@@ -5,8 +5,8 @@ search:
 role: msc
 group: alum
 image: images/person-placeholder.jpg
-email: asd@yorku.ca
-github: asd
+email:
+github:
 ---
 
 Zehra Shirin is doing MSc. in the department of MAIST. She is working as a Graduate Research Assistant at IVL. 

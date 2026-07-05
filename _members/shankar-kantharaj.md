@@ -5,8 +5,8 @@ search:
 role: msc
 group: alum
 image: images/person-placeholder.jpg
-email: asd@yorku.ca
-github: asd
+email:
+github:
 ---
 
 Shankar Kantharaj is from India. He is working as a Graduate Research Assistant at IVL. 
