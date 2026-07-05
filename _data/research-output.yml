@@ -40,8 +40,8 @@
   - Enamul Hoque
   publisher: 'IEEE Access, Vol. 14, pp. 28411-28434'
   date: '2026-02-01'
-  link:
-  id:
+  link: https://ieeexplore.ieee.org/document/11369232
+  id: https://ieeexplore.ieee.org/document/11369232
   image:
   extra-links:
   - type: PDF
@@ -72,7 +72,7 @@
     link: https://github.com/vis-nlp/DashboardQA
   - type: Video
     link: 
-  - type: Blog Post 
+  - type: Blog Post
     link: 
   - type: Dataset
     link: 
@@ -91,11 +91,11 @@
   extra-links:
   - type: PDF
     link: https://arxiv.org/pdf/2601.04582
-  - type: Source  
+  - type: Source
     link: 
   - type: Video
     link: 
-  - type: Blog Post 
+  - type: Blog Post
     link: 
   - type: Dataset
     link:
@@ -118,11 +118,11 @@
   extra-links:
   - type: PDF
     link: https://arxiv.org/pdf/2510.04023
-  - type: Source  
+  - type: Source
     link: 
   - type: Video
     link: 
-  - type: Blog Post 
+  - type: Blog Post
     link: 
   - type: Dataset
     link:
@@ -136,11 +136,11 @@
   extra-links:
   - type: PDF
     link: 
-  - type: Source  
+  - type: Source
     link: 
   - type: Video
     link: 
-  - type: Blog Post 
+  - type: Blog Post
     link: 
 
 
@@ -159,11 +159,11 @@
   extra-links:
   - type: PDF
     link: https://doi.org/10.1016/j.eswa.2024.125643
-  - type: Source  
+  - type: Source
     link: 
   - type: Video
     link: 
-  - type: Blog Post 
+  - type: Blog Post
     link: 
   - type: Dataset
     link:
@@ -184,11 +184,11 @@
   extra-links:
   - type: PDF
     link: https://doi.org/10.1007/s00521-024-10953-1
-  - type: Source  
+  - type: Source
     link: 
   - type: Video
     link: 
-  - type: Blog Post 
+  - type: Blog Post
     link: 
 
 
@@ -213,11 +213,11 @@
   extra-links:
   - type: PDF
     link: https://aclanthology.org/2025.emnlp-industry.134.pdf
-  - type: Source  
+  - type: Source
     link: 
   - type: Video
     link: 
-  - type: Blog Post 
+  - type: Blog Post
     link: 
 
 
@@ -244,11 +244,11 @@
   extra-links:
   - type: PDF
     link: https://aclanthology.org/2025.emnlp-industry.145.pdf
-  - type: Source  
+  - type: Source
     link: 
   - type: Video
     link: 
-  - type: Blog Post 
+  - type: Blog Post
     link: https://huggingface.co/papers/2511.00903
 
 
@@ -267,11 +267,11 @@
   extra-links:
   - type: PDF
     link: https://aclanthology.org/2025.emnlp-main.1622.pdf
-  - type: Source  
+  - type: Source
     link: https://github.com/vis-nlp/Text2Vis
   - type: Video
     link: 
-  - type: Blog Post 
+  - type: Blog Post
     link: https://huggingface.co/papers/2507.19969
   - type: Dataset
     link:
@@ -309,11 +309,11 @@
   extra-links:
   - type: PDF
     link: https://arxiv.org/pdf/2502.01341
-  - type: Source  
+  - type: Source
     link: 
   - type: Video
     link: 
-  - type: Blog Post 
+  - type: Blog Post
     link: https://huggingface.co/papers/2502.01341
 
 
@@ -326,7 +326,7 @@
   - Mizanur Rahman
   - Mir Tafseer Nayeem
   - Enamul Hoque
-  publisher: IEEE VIS 2025 (Short Paper) [ Best Paper Award]
+  publisher: IEEE VIS 2025, Short Paper (Best Paper Award)
   date: '2025-01-01'
   link: https://ieeevis.org/year/2025/program/paper_1628b4eb-473e-4157-9d19-44990b75efc7.html
   id: https://ieeevis.org/year/2025/program/paper_1628b4eb-473e-4157-9d19-44990b75efc7.html
@@ -334,11 +334,11 @@
   extra-links:
   - type: PDF
     link: https://arxiv.org/pdf/2508.09716
-  - type: Source  
+  - type: Source
     link: https://github.com/vis-nlp/visDeception
   - type: Video
     link: https://www.youtube.com/watch?v=VdSWiJuX_x8
-  - type: Blog Post 
+  - type: Blog Post
     link: 
   - type: Dataset
     link:
@@ -362,11 +362,11 @@
   extra-links:
   - type: PDF
     link: https://aclanthology.org/2025.emnlp-main.1472.pdf
-  - type: Source  
+  - type: Source
     link: 
   - type: Video
     link: 
-  - type: Blog Post 
+  - type: Blog Post
     link: 
   - type: Dataset
     link:
@@ -398,11 +398,11 @@
   extra-links:
   - type: PDF
     link: https://arxiv.org/pdf/2508.09804
-  - type: Source  
+  - type: Source
     link: https://github.com/ServiceNow/BigCharts-R1
   - type: Video
     link: https://www.youtube.com/watch?v=vN_KsGTzh4E
-  - type: Blog Post 
+  - type: Blog Post
     link: 
   - type: Dataset
     link:
@@ -432,11 +432,11 @@
   extra-links:
   - type: PDF
     link: 
-  - type: Source  
+  - type: Source
     link: https://github.com/vis-nlp/ChartQAPro
   - type: Video
     link: 
-  - type: Blog Post 
+  - type: Blog Post
     link: https://huggingface.co/papers/2504.05506   
   - type: Dataset
     link: https://huggingface.co/datasets/ahmed-masry/ChartQAPro
@@ -459,11 +459,11 @@
   extra-links:
   - type: PDF
     link: https://aclanthology.org/2025.acl-long.1238.pdf
-  - type: Source  
+  - type: Source
     link: https://github.com/tahmedge/llm_judge_biomedical_re
   - type: Video
     link: 
-  - type: Blog Post 
+  - type: Blog Post
     link: 
 
 
@@ -488,11 +488,11 @@
   extra-links:
   - type: PDF
     link: https://aclanthology.org/2025.acl-industry.83.pdf
-  - type: Source  
+  - type: Source
     link: https://github.com/tahmedge/chart_lvlm_judge
   - type: Video
     link: 
-  - type: Blog Post 
+  - type: Blog Post
     link: 
 
 - title: 'ChartGemma: Visual Instruction-tuning for Chart Reasoning in the Wild'
@@ -503,19 +503,19 @@
   - Aaryaman Kartha
   - Enamul Hoque
   - Shafiq Joty
-  publisher: ACL 2025 (Industry Track)
+  publisher: COLING 2025 (Industry Track)
   date: '2025-01-01'
   link: https://aclanthology.org/2025.coling-industry.54/
   id: https://aclanthology.org/2025.coling-industry.54/
-  image: images/publications/ChartQAPro.png
+  image: images/publications/coling.png
   extra-links:
   - type: PDF
     link: https://aclanthology.org/2025.coling-industry.54.pdf
-  - type: Source  
+  - type: Source
     link: https://github.com/vis-nlp/ChartGemma
   - type: Video
     link: 
-  - type: Blog Post 
+  - type: Blog Post
     link: 
   - type: Dataset
     link: https://huggingface.co/datasets/ahmed-masry/ChartGemma
@@ -528,14 +528,14 @@
   date: '2025-01-01'
   link: https://doi.org/10.1109/MLSP62443.2025.11204231
   id: https://doi.org/10.1109/MLSP62443.2025.11204231
-  image: https://github.com/AhmedMasryKU/colflor/blob/main/assets/colflor_n32.png?raw=true
+  image: images/publications/colflor.png
   extra-links:
   - type: PDF
     link: https://ieeexplore.ieee.org/document/11204231
-  - type: Source  
+  - type: Source
     link: https://github.com/AhmedMasryKU/colflor
   - type: Video
-  - type: Blog Post 
+  - type: Blog Post
     link: https://huggingface.co/blog/ahmed-masry/colflor
 
 
@@ -552,11 +552,11 @@
   extra-links:
   - type: PDF
     link: https://onlinelibrary.wiley.com/doi/pdf/10.1111/cgf.15266?msockid=044f1d436f1462572b3c080e6e3e6348
-  - type: Source  
+  - type: Source
     link: 
   - type: Video
     link: 
-  - type: Blog Post 
+  - type: Blog Post
     link: 
 
 
@@ -577,11 +577,11 @@
   extra-links:
   - type: PDF
     link: https://aclanthology.org/2024.findings-emnlp.831.pdf
-  - type: Source  
+  - type: Source
     link: 
   - type: Video
     link: 
-  - type: Blog Post 
+  - type: Blog Post
     link: 
 
 
@@ -600,11 +600,11 @@
   extra-links:
   - type: PDF
     link: https://aclanthology.org/2024.emnlp-main.1073.pdf
-  - type: Source  
+  - type: Source
     link: 
   - type: Video
     link: 
-  - type: Blog Post 
+  - type: Blog Post
     link: 
 
 
@@ -625,11 +625,11 @@
   extra-links:
   - type: PDF
     link: https://aclanthology.org/2024.findings-emnlp.191.pdf
-  - type: Source  
+  - type: Source
     link: 
   - type: Video
     link: 
-  - type: Blog Post 
+  - type: Blog Post
     link: 
 
 
@@ -657,11 +657,11 @@
   extra-links:
   - type: PDF
     link: https://aclanthology.org/2024.emnlp-main.764.pdf
-  - type: Source  
+  - type: Source
     link: 
   - type: Video
     link: 
-  - type: Blog Post 
+  - type: Blog Post
     link: 
 
 
@@ -680,11 +680,11 @@
   extra-links:
   - type: PDF
     link: https://aclanthology.org/2024.findings-acl.619.pdf
-  - type: Source  
+  - type: Source
     link: https://github.com/vis-nlp/ChartInstruct/
   - type: Video
     link: 
-  - type: Blog Post 
+  - type: Blog Post
     link: https://huggingface.co/ahmed-masry/ChartInstruct-LLama2
 
 
@@ -704,11 +704,11 @@
   extra-links:
   - type: PDF
     link: https://aclanthology.org/2024.lrec-main.201.pdf
-  - type: Source  
+  - type: Source
     link: 
   - type: Video
     link: 
-  - type: Blog Post 
+  - type: Blog Post
     link: 
 
 
@@ -717,7 +717,7 @@
   - Shadikur Rahman
   - Umme Ayman Koana
   - Enamul Hoque
-  publisher: 
+  publisher: Technical report
   date: '2024-01-01'
   link: https://www.researchgate.net/profile/Shadikur-Rahman/publication/394465408_RefineCode_Enhancing_Code_Quality_Through_Actionable_Code_Review_Recommendations_and_Intelligent_Issue_Resolution/links/689cae781156f345cea07395/RefineCode-Enhancing-Code-Quality-Through-Actionable-Code-Review-Recommendations-and-Intelligent-Issue-Resolution.pdf
   id: https://www.researchgate.net/profile/Shadikur-Rahman/publication/394465408_RefineCode_Enhancing_Code_Quality_Through_Actionable_Code_Review_Recommendations_and_Intelligent_Issue_Resolution/links/689cae781156f345cea07395/RefineCode-Enhancing-Code-Quality-Through-Actionable-Code-Review-Recommendations-and-Intelligent-Issue-Resolution.pdf
@@ -725,11 +725,11 @@
   extra-links: 
   - type: PDF
     link: https://www.researchgate.net/profile/Shadikur-Rahman/publication/394465408_RefineCode_Enhancing_Code_Quality_Through_Actionable_Code_Review_Recommendations_and_Intelligent_Issue_Resolution/links/689cae781156f345cea07395/RefineCode-Enhancing-Code-Quality-Through-Actionable-Code-Review-Recommendations-and-Intelligent-Issue-Resolution.pdf
-  - type: Source  
+  - type: Source
     link: 
   - type: Video
     link: 
-  - type: Blog Post 
+  - type: Blog Post
     link: 
 
 - title: 'Towards a Holistic Evaluation of LLM Generated Code for Exploratory Visual
@@ -745,11 +745,11 @@
   extra-links: 
   - type: PDF
     link: https://www.uw-insight-lab.com/assets/papers/HEAL24-HolisticEval.pdf
-  - type: Source  
+  - type: Source
     link: 
   - type: Video
     link: 
-  - type: Blog Post 
+  - type: Blog Post
     link: 
 
 
@@ -769,11 +769,11 @@
   extra-links:
   - type: PDF
     link: https://aclanthology.org/2023.emnlp-main.906.pdf
-  - type: Source  
+  - type: Source
     link: https://github.com/vis-nlp/UniChart
   - type: Video
     link: https://aclanthology.org/2023.emnlp-main.906.mp4
-  - type: Blog Post 
+  - type: Blog Post
     link: 
 
 
@@ -793,11 +793,11 @@
   extra-links:
   - type: PDF
     link: https://aclanthology.org/2023.findings-emnlp.686.pdf
-  - type: Source  
+  - type: Source
     link: https://github.com/tahmedge/CQSUMDP
   - type: Video
     link: 
-  - type: Blog Post 
+  - type: Blog Post
     link: 
 
 
@@ -815,11 +815,11 @@
   extra-links:
   - type: PDF
     link: https://dl.acm.org/doi/abs/10.1145/3581641.3584099
-  - type: Source  
+  - type: Source
     link: 
   - type: Video
     link: https://www.yorku.ca/enamulh/video/iui23a-sub1109-i8.mp4
-  - type: Blog Post 
+  - type: Blog Post
     link: 
 
 
@@ -839,11 +839,11 @@
   extra-links:
   - type: PDF
     link: https://arxiv.org/pdf/2312.10610
-  - type: Source  
+  - type: Source
     link: 
   - type: Video
     link: 
-  - type: Blog Post 
+  - type: Blog Post
     link: 
 
 
@@ -860,11 +860,11 @@
   extra-links:
   - type: PDF
     link: https://arxiv.org/pdf/2205.03966
-  - type: Source  
+  - type: Source
     link: 
   - type: Video
     link: 
-  - type: Blog Post 
+  - type: Blog Post
     link: 
 
 
@@ -883,11 +883,11 @@
   extra-links:
   - type: PDF
     link: https://ieeexplore.ieee.org/document/9764741
-  - type: Source  
+  - type: Source
     link: https://github.com/eftekhar-hossain/Multimodal-Disaster_IEEE-Access
   - type: Video
     link: 
-  - type: Blog Post 
+  - type: Blog Post
     link: 
   - type: Dataset
     link: https://archive.ics.uci.edu/dataset/456/multimodal+damage+identification+for+humanitarian+computing
@@ -908,11 +908,11 @@
   extra-links:
   - type: PDF
     link: https://aclanthology.org/2022.emnlp-main.811/
-  - type: Source  
+  - type: Source
     link: https://github.com/vis-nlp/OpenCQA
   - type: Video
     link: https://aclanthology.org/2022.emnlp-main.811.mp4
-  - type: Blog Post 
+  - type: Blog Post
     link: https://www.marktechpost.com/2023/01/22/a-new-artificial-intelligence-ai-benchmark-called-opencqa-answers-open-ended-questions-about-charts-using-descriptive-texts/
 
 
@@ -933,11 +933,11 @@
   extra-links:
   - type: PDF
     link: https://aclanthology.org/2022.acl-long.277/
-  - type: Source  
+  - type: Source
     link: https://github.com/vis-nlp/Chart-to-text
   - type: Video
     link: 
-  - type: Blog Post 
+  - type: Blog Post
     link: 
 
 
@@ -958,11 +958,11 @@
   extra-links:
   - type: PDF
     link: https://aclanthology.org/2022.findings-acl.177/
-  - type: Source  
+  - type: Source
     link: https://github.com/vis-nlp/Ahmed-acl-22-fig.jpg
   - type: Video
     link: https://aclanthology.org/2022.findings-acl.177.mp4
-  - type: Blog Post 
+  - type: Blog Post
     link: 
 
 
@@ -981,11 +981,11 @@
   extra-links:
   - type: PDF
     link: https://open.library.ubc.ca/media/stream/pdf/52383/1.0406303/5
-  - type: Source  
+  - type: Source
     link: 
   - type: Video
     link: https://www.yorku.ca/enamulh/video/ConViscope
-  - type: Blog Post 
+  - type: Blog Post
     link: 
 
 
@@ -1004,11 +1004,11 @@
   extra-links:
   - type: PDF
     link: https://dl.acm.org/doi/abs/10.1145/3461778.3462132
-  - type: Source  
+  - type: Source
     link: https://communitypulse.cs.umass.edu/
   - type: Video
     link: https://www.yorku.ca/enamulh/video/CommunityPulse_Video.mp4
-  - type: Blog Post 
+  - type: Blog Post
     link: https://csc.lsu.edu/~mjasim/projects/communitypulse.html
 
 
@@ -1017,7 +1017,7 @@
   authors:
   - Ahmed Masry
   - Enamul Hoque
-  publisher: (Chart Question Answering Workshop), in conjunction with the CVPR [ Best Paper Award]
+  publisher: Chart Question Answering Workshop, in conjunction with CVPR (Best Paper Award)
   date: '2021-01-01'
   link: https://www.semanticscholar.org/paper/Integrating-Image-Data-Extraction-and-Table-Parsing-Masry/eb2f1a0e61167cf4afa410473df69d351ba57e0c
   id: https://www.semanticscholar.org/paper/Integrating-Image-Data-Extraction-and-Table-Parsing-Masry/eb2f1a0e61167cf4afa410473df69d351ba57e0c
@@ -1025,11 +1025,11 @@
   extra-links:
   - type: PDF
     link: https://www.yorku.ca/enamulh/papers/cqaw.pdf
-  - type: Source  
+  - type: Source
     link: 
   - type: Video
     link: 
-  - type: Blog Post 
+  - type: Blog Post
     link: 
 
 - title: Domain Adaptation with Pre-trained Transformers for Query-Focused Abstractive Text Summarization
@@ -1045,11 +1045,11 @@
   extra-links:
   - type: PDF
     link: https://aclanthology.org/2022.cl-2.2.pdf
-  - type: Source  
+  - type: Source
     link: https://github.com/tahmedge/PreQFAS
   - type: Video
     link: 
-  - type: Blog Post 
+  - type: Blog Post
     link: 
 
 - title: Designing and Evaluating Multimodal Interactions for Facilitating Visual
@@ -1069,11 +1069,11 @@
   extra-links:
   - type: PDF
     link: https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9303381
-  - type: Source  
+  - type: Source
     link: https://ieeexplore.ieee.org/document/9303381
   - type: Video
     link: 
-  - type: Blog Post 
+  - type: Blog Post
     link: 
   
 - title: 'Chart-to-Text: Generating Natural Language Descriptions for Charts by Adapting
@@ -1089,11 +1089,11 @@
   extra-links:
   - type: PDF
     link: https://aclanthology.org/2020.inlg-1.20.pdf
-  - type: Source  
+  - type: Source
     link: https://github.com/JasonObeid/Chart2Text
   - type: Video
     link: 
-  - type: Blog Post 
+  - type: Blog Post
     link: 
 
 - title: 'WSL-DS: Weakly Supervised Learning with Distant Supervision for Query Focused
@@ -1108,11 +1108,11 @@
   extra-links:
   - type: PDF
     link: https://aclanthology.org/2020.coling-main.495/
-  - type: Source  
+  - type: Source
     link: https://github.com/tahmedge/WSL-DS-COLING-2020
   - type: Video
     link: 
-  - type: Blog Post 
+  - type: Blog Post
     link: 
 
 - title: Sneak Pique - Exploring Autocompletion as a Data Discovery Scaffold for Supporting Visual Analysis
@@ -1129,11 +1129,11 @@
   extra-links:
   - type: PDF
     link: https://dhkim16.github.io/pdf/sneakpique.pdf
-  - type: Source  
+  - type: Source
     link: 
   - type: Video
     link: https://www.youtube.com/watch?v=n2evJc0BVHg
-  - type: Blog Post 
+  - type: Blog Post
     link: https://medium.com/acm-uist/providing-a-sneak-peek-into-ones-data-through-visual-autocompletion-ce0e5e6fc93
 
 - title: 'ClaimViz: Visual Analytics for Identifying and Verifying Factual Claims'
@@ -1149,11 +1149,11 @@
   extra-links:
   - type: PDF
     link: https://ieeexplore.ieee.org/document/9331280
-  - type: Source  
+  - type: Source
     link: 
   - type: Video
     link: https://aclanthology.org/2020.lrec-1.676/
-  - type: Blog Post 
+  - type: Blog Post
     link: 
 
 - title: 'Towards Understanding Desiderata for Large-Scale Civic Input Analysis'
@@ -1170,11 +1170,11 @@
   extra-links:
   - type: PDF
     link: https://dl.acm.org/doi/pdf/10.1145/3334480.3382964
-  - type: Source  
+  - type: Source
     link: 
   - type: Video
     link: 
-  - type: Blog Post 
+  - type: Blog Post
     link: 
 
 - title: 'Contextualized Embeddings based Transformer Encoder for Sentence Similarity
@@ -1191,11 +1191,11 @@
   extra-links:
   - type: PDF
     link: https://aclanthology.org/2020.lrec-1.676/
-  - type: Source  
+  - type: Source
     link: https://github.com/tahmedge/CETE-LREC
   - type: Video
     link: 
-  - type: Blog Post 
+  - type: Blog Post
     link: 
 
 - title: Answering Questions about Charts and Generating Visual Explanations
@@ -1211,11 +1211,11 @@
   extra-links:
   - type: PDF
     link: https://dl.acm.org/doi/10.1145/3313831.3376467
-  - type: Source  
+  - type: Source
     link: https://dhkim16.github.io/vis-qa/
   - type: Video
     link: https://www.youtube.com/watch?v=l9ZGZpRGjgY
-  - type: Blog Post 
+  - type: Blog Post
     link: 
 
 - title: 'Query Focused Abstractive Summarization via Incorporating Query Relevance
@@ -1232,11 +1232,11 @@
   extra-links:
   - type: PDF
     link: https://link.springer.com/chapter/10.1007/978-3-030-47358-7_35
-  - type: Source  
+  - type: Source
     link: https://github.com/tahmedge/QR-BERTSUM-TL-for-QFAS
   - type: Video
     link: 
-  - type: Blog Post 
+  - type: Blog Post
     link: 
 
 - title: 'ConVisQA: A Natural Language Interface for Visually Exploring Online Conversations'
@@ -1251,11 +1251,11 @@
   extra-links:
   - type: PDF
     link: https://ieeexplore.ieee.org/document/9373300
-  - type: Source  
+  - type: Source
     link: 
   - type: Video
     link: 
-  - type: Blog Post 
+  - type: Blog Post
     link: 
 
 - title: 'MIVA: Multimodal Interactions for Facilitating Visual Analysis with Multiple Coordinated Views'
@@ -1274,11 +1274,11 @@
   extra-links:
   - type: PDF
     link: https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9373232
-  - type: Source  
+  - type: Source
     link: 
   - type: Video
     link: 
-  - type: Blog Post 
+  - type: Blog Post
     link:
 
 - title: 'Utilizing Bidirectional Encoder Representations from Transformers for Answer Selection'
@@ -1294,11 +1294,11 @@
   extra-links:
   - type: PDF
     link: https://link.springer.com/chapter/10.1007/978-3-030-63591-6_63
-  - type: Source  
+  - type: Source
     link: 
   - type: Video
     link: 
-  - type: Blog Post 
+  - type: Blog Post
     link: 
 
 - title: 'Visual Exploration of Topic Controversy in Online Conversations'
@@ -1313,11 +1313,11 @@
   extra-links:
   - type: PDF
     link: https://link.springer.com/chapter/10.1007/978-3-030-30712-7_46
-  - type: Source  
+  - type: Source
     link: 
   - type: Video
     link: 
-  - type: Blog Post 
+  - type: Blog Post
     link: 
 
 - title: 'Searching the Visual Style and Structure of D3 Visualizations'
@@ -1332,11 +1332,11 @@
   extra-links:
   - type: PDF
     link: https://ieeexplore.ieee.org/document/8809832
-  - type: Source  
+  - type: Source
     link: https://www.yorku.ca/enamulh/vis-search/
   - type: Video
     link: https://www.yorku.ca/enamulh/vis-search/video/Vis2019_camera.mp4
-  - type: Blog Post 
+  - type: Blog Post
     link: https://www.yorku.ca/enamulh/vis-search/
 
 - title: Applying Pragmatics Principles for Interaction with Visual Analytics
@@ -1353,11 +1353,11 @@
   extra-links:
   - type: PDF
     link: https://doi.org/gcp7wd
-  - type: Source  
+  - type: Source
     link: 
   - type: Video
     link: https://enamulh.github.io/video/VAST2017_105.mp4
-  - type: Blog Post 
+  - type: Blog Post
     link: 
 
 - title: 'Interactive topic hierarchy revision for exploring a collection of online conversations'
@@ -1372,11 +1372,11 @@
   extra-links:
   - type: PDF
     link: https://journals.sagepub.com/doi/10.1177/1473871618757228
-  - type: Source  
+  - type: Source
     link: 
   - type: Video
     link: 
-  - type: Blog Post 
+  - type: Blog Post
     link:
 
 - title: 'Facilitating Document Reading by Linking Text and Tables'
@@ -1393,10 +1393,10 @@
   extra-links:
   - type: PDF
     link: https://dhkim16.github.io/text-table-ref/pdf/paper.pdf
-  - type: Source  
+  - type: Source
     link: https://dhkim16.github.io/text-table-ref/data/dataset-v1_2.zip
   - type: Video
     link: https://www.youtube.com/watch?v=kvlIepSfwvI
-  - type: Blog Post 
+  - type: Blog Post
     link: https://dhkim16.github.io/text-table-ref/
 

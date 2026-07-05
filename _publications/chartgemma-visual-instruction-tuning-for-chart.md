@@ -7,11 +7,11 @@ authors:
 - Aaryaman Kartha
 - Enamul Hoque
 - Shafiq Joty
-publisher: ACL 2025 (Industry Track)
+publisher: COLING 2025 (Industry Track)
 date: '2025-01-01'
 link: https://aclanthology.org/2025.coling-industry.54/
 id: https://aclanthology.org/2025.coling-industry.54/
-image: images/publications/ChartQAPro.png
+image: images/publications/coling.png
 extra-links:
 - type: PDF
   link: https://aclanthology.org/2025.coling-industry.54.pdf
