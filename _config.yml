@@ -7,8 +7,6 @@ email: enamulh@yorku.ca # default email
 google: NySeLFcAAAAJ # default name to search on Google Scholar
 github: enamulh # default GitHub user/org, without the @
 twitter: Enamul_Hoque # default Twitter handle, without the @
-#instagram: fakeinstagramhandle # default Instagram handle, without the @
-#youtube: fakeyoutubechannel # default YouTube channel handle
 
 # full URL where the site is hosted (used for absolute links in social/SEO metadata)
 url: "https://intelligentvislab.github.io"

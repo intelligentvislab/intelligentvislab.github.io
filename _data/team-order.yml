@@ -1,5 +1,3 @@
-# An example team order. Only necessary if sorting your team alphabetically or
-# by role or group isn't sufficient.
-- anne-chovie
-- upton-goode
-- felix-cited
+# Custom team ordering. Only necessary if sorting your team alphabetically or
+# by role or group isn't sufficient. List member slugs (file names from
+# _members/ without the .md extension), highest priority first.

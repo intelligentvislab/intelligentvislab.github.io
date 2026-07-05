@@ -33,7 +33,6 @@ the work we're doing, please reach out!
 {% include team-list.html role="msc" group="current" %}
 {% include team-list.html role="undergrad" group="current" %}
 {% include team-list.html role="programmer" group="current" %}
-{% include team-list.html role="mascot" group="current" %}
 {% endcapture %}
 
 {% include centerer.html html=html %}
