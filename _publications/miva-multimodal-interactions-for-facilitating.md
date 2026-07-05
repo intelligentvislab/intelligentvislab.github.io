@@ -13,7 +13,7 @@ publisher: In Proceedings of the 24th International Conference Information Visua
 date: '2020-01-01'
 link: https://ieeexplore.ieee.org/document/9373232
 id: https://ieeexplore.ieee.org/document/9373232
-image: images/publications/miva.png
+image:
 extra-links:
 - type: PDF
   link: https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9373232
