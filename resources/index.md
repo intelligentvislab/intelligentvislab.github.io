@@ -1,30 +1,29 @@
 ---
 title: Resources
+description: Benchmarks, datasets, and models for chart understanding and language-based data interaction, released by the Intelligent Visualization Lab at York University.
 ---
 
 # <i class="fas fa-tools"></i>Resources
 
 <!-- section break -->
 
-## Software
+## Benchmarks & Datasets
 
-The following software is primarily developed or maintained by the Intelligent Visualization Lab or 
-by members of the lab in conjunction with others.
+Benchmarks and datasets developed by the Intelligent Visualization Lab and collaborators,
+widely used for evaluating chart understanding and reasoning in multimodal AI systems.
 
 {% capture html %}
-{% include resource-list.html type="software" size="large" %}
+{% include resource-list.html type="benchmark" size="large" %}
 {% endcapture %}
 
 {% include centerer.html html=html %}
 
-{% capture html %}
-{% include resource-list.html type="other" size="medium" %}
-{% endcapture %}
+## Models
 
-{% include centerer.html html=html %}
+Open models for chart comprehension, reasoning, and generation.
 
 {% capture html %}
-{% include resource-list.html type="legacy" size="small" %}
+{% include resource-list.html type="model" size="large" %}
 {% endcapture %}
 
 {% include centerer.html html=html %}
