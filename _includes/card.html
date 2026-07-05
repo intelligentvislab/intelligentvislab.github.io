@@ -13,10 +13,11 @@
     {%- if include.image -%}
     <img
       src="{{ include.image | relative_url }}"
+      loading="lazy"
       onerror="this.src = '{{ placeholder }}'; this.onerror = null;"
     >
     {%- else -%}
-    <img src="{{ placeholder }}">
+    <img src="{{ placeholder }}" loading="lazy">
     {%- endif -%}
   </a>
   <div class="card_text">
