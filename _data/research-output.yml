@@ -42,7 +42,7 @@
   date: '2026-02-01'
   link: https://ieeexplore.ieee.org/document/11369232
   id: https://ieeexplore.ieee.org/document/11369232
-  image:
+  image: images/publications/tsfc-thumb.svg
   extra-links:
   - type: PDF
     link: https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=11369232
@@ -132,7 +132,7 @@
   - Enamul Hoque
   publisher: Springer
   date: '2025-01-01'
-  image:
+  image: images/publications/llm4vis-book-thumb.svg
   extra-links:
   - type: PDF
     link: 
@@ -1207,7 +1207,7 @@
   date: '2020-04-21'
   link: https://doi.org/gj9db4
   id: https://doi.org/gj9db4
-  image: https://dhkim16.github.io/vis-qa/img/qa-examples.png
+  image: images/publications/qa-examples.png
   extra-links:
   - type: PDF
     link: https://dl.acm.org/doi/10.1145/3313831.3376467
@@ -1270,7 +1270,7 @@
   date: '2020-01-01'
   link: https://ieeexplore.ieee.org/document/9373232
   id: https://ieeexplore.ieee.org/document/9373232
-  image:
+  image: images/publications/miva-thumb.svg
   extra-links:
   - type: PDF
     link: https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9373232

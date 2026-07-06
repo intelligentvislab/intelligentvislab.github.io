@@ -4,7 +4,7 @@ authors:
 - Enamul Hoque
 publisher: Springer
 date: '2025-01-01'
-image: null
+image: images/publications/llm4vis-book-thumb.svg
 extra-links:
 - type: PDF
   link: null
