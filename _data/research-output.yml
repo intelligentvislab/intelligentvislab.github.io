@@ -45,7 +45,7 @@
   image:
   extra-links:
   - type: PDF
-    link:
+    link: https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=11369232
 
 - title: 'DashboardQA: Benchmarking Multimodal Agents for Question Answering on Interactive Dashboards'
   authors:
